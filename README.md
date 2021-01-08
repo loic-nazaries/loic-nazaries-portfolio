@@ -60,7 +60,7 @@ Pensez-vous que nous avons des objectifs communs ?
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 // add a title?
 
-![alt text](https://github.com/loic-nazaries/loic-nazaries.github.io/tree/main/images/Completed_EucFace_Rings.jpg "Completed EucFACE Rings")
+[Completed EucFACE Rings](https://github.com/loic-nazaries/loic-nazaries.github.io/tree/main/images/Completed_EucFace_Rings.jpg "Completed EucFACE Rings")
 
 [1]: Griscom, B.W., Adams, J., Ellis, P.W., Houghton, R.A., Lomax, G., Miteva, D.A., Schlesinger, W.H., Shoch, D., Siikamäki, J. V, Smith, P., Woodbury, P., Zganjar, C., Blackman, A., Campari, J., Conant, R.T., Delgado, C., Elias, P., Gopalakrishna, T., Hamsik, M.R., Herrero, M., Kiesecker, J., Landis, E., Laestadius, L., Leavitt, S.M., Minnemeyer, S., Polasky, S., Potapov, P., Putz, F.E., Sanderman, J., Silvius, M., Wollenberg, E., Fargione, J., 2017. Natural climate solutions. Proceedings of the National Academy of Sciences 114, 11645 LP – 11650. doi:10.1073/pnas.1710465114\n
 
