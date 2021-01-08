@@ -17,9 +17,9 @@ Au cours de 15 années de vie dans des pays anglophones, c’est durant mon exp�
 
 Après 13 ans passés dans le domaine des **biostatistiques**, je recherche maintenant un nouveau challenge. Mon expérience, mes compétences transverses et mes connaissances dans la gestion de données me procurent un bon socle pour le poste de **Data Analyst/Data Scientist** que je décline en trois principaux piliers :
 
-- 1) *Data Mining*
-- 2) *Machine Learning*
-- 3) *Data Visualisation* (« *DataViz* »)
+- *Data Mining*
+- *Machine Learning*
+- *Data Visualisation* (« *DataViz* »)
 
 Ainsi, l’extraction et l’interprétation de l’information contenue dans des bases de données produisent une **forte valeur ajoutée** pour valoriser une **aide à la prise de décision** plus rapide et plus intelligente.
 
