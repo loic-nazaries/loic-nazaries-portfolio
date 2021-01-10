@@ -15,6 +15,7 @@ Some exemples of my **data analysis** work :sunglasses:
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
+  - [My Published Scientific Publications (chosen)](/scientific-publications)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
@@ -62,7 +63,7 @@ Les « **lignes** » en circulation sont:
 - *Analysis of Variance*
 - *Database Management System - Business Intelligence*
 - *Machine Learning*
-- *Data Visualisation*
+- *Data Visualisation - Dashboarding*
 
 More to come!
 
