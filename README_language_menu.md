@@ -1,5 +1,7 @@
 # My Data Science Portfolio
 
+Some exemples of my **data analysis** work :sunglasses:
+
 Please choose your (non-programming) language :stuck_out_tongue_winking_eye:
 
 <table>

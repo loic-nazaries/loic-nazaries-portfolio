@@ -10,8 +10,6 @@ Some exemples of my **data analysis** work :sunglasses:
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
-    - [Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.](#note-dans-lavenir-une-section-de-machine-learning-sera-disponible-il-sera-en-autre-possible-de-procéder-à-une-modélisation-temporelle-des-emissions-des-gaz-à-effet-de-serre)
-      - [P.S: application non disponible au moment de la préparation de cette page (10/01/2021).](#ps-application-non-disponible-au-moment-de-la-préparation-de-cette-page-10012021)
   - [My Past Projects](#my-past-projects)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
@@ -23,7 +21,7 @@ Some exemples of my **data analysis** work :sunglasses:
     - [Optimisation de procédés quantitatifs](#optimisation-de-procédés-quantitatifs)
     - [Exploration de l’Écosse](#exploration-de-lécosse)
     - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
-  - [My Biography](#my-biography)
+  - [My Biography](/my_biography.md)
   - [References](#references)
 
 ---
@@ -52,6 +50,29 @@ Pensez-vous que nous avons des objectifs communs ?
 
 ---
 
+## My Data Science Skills
+
+La [**Figure 0**](#Figure0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
+
+Les « **lignes** » en circulation sont:
+
+- *Data Mining - Descriptive & Exploratory Data Analysis*
+- *Data Preparation*
+- *Forecasting*
+- *Analysis of Variance*
+- *Database Management System - Business Intelligence*
+- *Machine Learning*
+- *Data Visualisation*
+
+More to come!
+
+![Metro Map](/images/MetroMap_Data_Analyst_16-10-2020.png "Metro Map")
+**Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
+
+---
+
+---
+
 ## My Current Projects
 
 ---
@@ -61,7 +82,7 @@ Pensez-vous que nous avons des objectifs communs ?
 Une **base de données relationelle** a été construite à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
 [*Data Fallacies to avoid*](../loic-nazaries.github.io/documents/data-fallacies-to-avoid.pdf)).
 
-En particulier, les trois étapes suivantes sont importante dans tout project de «  ***Data Science*** » :
+En particulier, les trois étapes suivantes sont importante dans tout project de « ***Data Science*** » :
 
 1) typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*). Très important, en particulier, pour diminuer l'utilisation de la mémoire vive d'un ordinateur ou serveur
 
@@ -86,7 +107,7 @@ De manière plus générale, il s'agit de préparer les jeux de données pour le
 
 ### Dashboard
 
-Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 4**](#Figure4)).
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 3**](#Figure3)).
 
 Il s'agit d'une application entièrement réglable un fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
 
@@ -110,11 +131,11 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 <td> <img src="../loic-nazaries.github.io/images/streamlit_time_series_screenshot.png" alt="Streamlit Time-Series Analysis" style="width: 500px;"/> </td>
 <td> <img src="../loic-nazaries.github.io/images/streamlit_email_screenshot.png" alt="Streamlit Email Results" style="width: 500px;"/> </td>
 
-Figure 4: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
+**Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
-### Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
+Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
 
-#### P.S: application non disponible au moment de la préparation de cette page (10/01/2021).
+P.S: application non disponible au moment de la préparation de cette page (10/01/2021).
 
 ---
 
@@ -142,13 +163,13 @@ Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loi
 
 **Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 3**](#Figure3)) pour tester l'hypothèse scientifique de départ: 
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#Figure4)) pour tester l'hypothèse scientifique de départ: 
 
 « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
 ![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
-**Figure 3**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
+**Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
 ---
 
@@ -214,38 +235,6 @@ Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques
 ### Écrire une thèse doctorale
 
 C’était une épreuve très demandante et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Au final, j’ai publié cette thèse dont je suis très fier. Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur.
-
----
-
----
-
-## My Biography
-
-C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XXème siècle et au levé du XXIème siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
-
-Première étape, rien de mieux que Clermont-Ferrand (*Université d'Auvergne*), et ses spécialités fromagères. Là, j’ai reçu une bourse du *département de l’éducation française* pour obtenir un diplôme IUT avec option pharmacologie et expérimentation animale. Au moment de choisir mon stage de recherche, j’ai décidé de me spécialiser en cultures cellulaires au *James Hutton Institute* à Aberdeen en Écosse pour pouvoir améliorer mon anglais bien que l’accent aberdonien soit TRÈS difficile à comprendre !
-
-En **2002**, grâce à une bourse de déplacement offerte pour la première année de ma licence (option microbiologie médicale), je suis resté étudier à la *Robert Gordon Universiy* d’Aberdeen.
-
-En **2004**, comme l’accent écossai n’avait plus de secret pour moi, j’ai décidé d’ajuster « *a wee bit* » (traduction: un petit peu) ma carrière de biologiste en pharmacologie et analyses de laboratoires pour commencer une maîtrise en sciences instrumentales et analytiques, option sciences légales (sciences criminologiques). Petite précision: après ceci, je peux vous dire que toutes ces séries TV ne valent rien !
-
-Cette spécialisation était supportée par une bourse de la *Student Awards Agency Scotland* (SAAS). Malheureusement, il n’était pas possible de trouver un stage en criminologie. Je me suis donc dirigé vers la microbiologie de l’environnement, basé au *James Hutton Institute* (Aberdeen, Écosse).
-
-Après avoir visionné le documentaire [***An Inconvenient Truth (2006)***](https://www.youtube.com/watch?v=Bu6SE5TYrCM) dans lequel Al Gore expose les causes et conséquences du réchauffement climatique accéléré par l’Homme, j’ai décidé de lutter contre le changement climatique à ma manière.
-
-En **2007**, j’ai reçu une bourse du *Macaulay Institute Trust Fund* pour commencer mes études doctorales au *James Hutton Institute* (Aberdeen, Écosse) en collaboration avec *University of Warwick* et *University of Aberdeen*. Mes recherches avaient pour but d'examiner l’effet des changements de pratiques forestières (déforestation / afforestation / reforestation) sur les microorganismes en lien avec la production méthane, un puissant gaz à effet de serre plus de 30 fois plus puissant que le dioxide de carbon (CO<sub>2</sub>).
-
-Après cette très bonne expérience, j’ai réalisé que je n’avais toujours pas réussi à ralentir la progression de cette « maladie » qu’est le changement climatique… En **2011**, j’ai donc trouvé un poste de *Research Scientist* (chercheur associé) au *Hawkesbury Institute of Environnent*, dépendant de la *Western Sydney University* (Australie). Là-bas (« *The Land Down Under* »), j'ai pu travailler sur de nombreuses thématiques en lien avec l'exploration des effets du changement climatique telles que le réchauffement atmosphérique, l'augmentation de l'intensité et de la fréquence des pluies, ainsi que l'application de fertiliseurs naturels ou synthétiques. En particulier, j'ai mesuré ces effets sur les émissions des gaz à effet de serre.
-
-Durant six ans j’ai essayé de mettre fin à cette maladie de la Terre. Je peux dire sans aucun doute qu’il y a toujours du boulot à faire…
-
-J'ai aussi participé à des études pour améliorer les rendements de blé des cultivateurs de graines grâce à une étude financée par le gouvernement australien et le ministère du *Department of Primary Industry* et le consortium des agriculteurs australiens du *Grain Research and Development Corporation*.
-
-J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tel que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9).
-
-Mon voyage académique m’a donné la chance de collaborer et visiter de nombreux pays (et villes) au Royaume Uni, USA, Nouvelle-Zélande, Australie, Asie, et Europe évidement. Cette aventure a apporté beaucoup de richesse à mon profil. En particulier, rencontrer des gens de culture parfois très différentes ; enrichir mes compétences professionnelles ; ou encore découvrir des façons différentes d’aborder un sujet de recherche grâce à de nombreuses collaborations internationales et conférences.
-
-Maintenant que je suis revenu en France, la boucle est-elle bloquée ?
 
 ---
 
