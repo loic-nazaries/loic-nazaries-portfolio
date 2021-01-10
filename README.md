@@ -1,11 +1,33 @@
+
 # My Data Science Portfolio
+
 Contact: [loicnazaries@yahoo.fr](loicnazaries@yahoo.fr "email contact")
 
 ---
 
 ---
 
-# Table of contents
+## Table of contents
+
+- [My Data Science Portfolio](#my-data-science-portfolio)
+  - [Table of contents](#table-of-contents)
+  - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My Current Projects](#my-current-projects)
+    - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
+    - [Dashboard](#dashboard)
+  - [My Past Projects](#my-past-projects)
+    - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
+    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
+    - [Modélisation géographique](#modélisation-géographique)
+    - [Coopération internationale](#coopération-internationale)
+  - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
+    - [Maître de thèse](#maître-de-thèse)
+    - [Revue littéraire](#revue-littéraire)
+    - [Optimisation de procédés quantitatifs](#optimisation-de-procédés-quantitatifs)
+    - [Exploration de l’Écosse](#exploration-de-lécosse)
+    - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
+  - [My Biography](#my-biography)
+  - [References](#references)
 
 ---
 
@@ -13,19 +35,19 @@ Contact: [loicnazaries@yahoo.fr](loicnazaries@yahoo.fr "email contact")
 
 ## My « Elevator Pitch »
 
-Au cours de 15 années de vie dans des pays anglophones, c’est durant mon expérience dans la recherche académique que je me suis découvert une vraie passion pour la « **Data** » et les **analyses statistiques**. Ce qui me stimule le plus, c'est de pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « **Dashboard** ».
+C’est au cours de mes études doctorales que je me suis découvert une vraie passion pour la « ***Data*** » et les **analyses statistiques**. Ce qui me stimule le plus, c'est de pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « ***Dashboard*** ».
 
-Après 13 ans passés dans le domaine des **biostatistiques**, je recherche maintenant un nouveau challenge. Mon expérience, mes compétences transverses et mes connaissances dans la gestion de données me procurent un bon socle pour le poste de **Data Analyst/Data Scientist** que je décline en trois principaux piliers :
+Après 13 années passées dans le domaine des **biostatistiques**, je recherche maintenant un nouveau challenge. Mon expérience, mes compétences transverses et mes connaissances dans la gestion de données me procurent un bon socle pour le poste de **Data Analyst/Data Scientist** que je décline en trois principaux piliers :
 
 - *Data Mining*
 - *Machine Learning*
 - *Data Visualisation* (« *DataViz* »)
 
-Ainsi, l’extraction et l’interprétation de l’information contenue dans des bases de données produisent une **forte valeur ajoutée** pour valoriser une **aide à la prise de décision** plus rapide et plus intelligente.
+Ainsi, l’extraction et l’interprétation de l’information contenue dans des bases de données produisent une **forte valeur ajoutée** aux données permettant de valoriser une **aide à la prise de décision** plus rapide et plus intelligente.
 
 Je recherche une entreprise prête à me donner une chance de m’épanouir professionnellement, de libérer mon potentiel au sein d'une équipe dynamique et soudée et dans un environnement riche en expériences professionnelles. Je veux aussi faire profiter mes qualités humaines telles que la pédagogie, l’adaptabilité ou encore l’humilité.
 
-Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en **Recherche Opérationnelle** et [**DataOps**](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812).
+Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle) et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812).
 
 Pensez-vous que nous avons des objectifs communs ?
 
@@ -39,6 +61,34 @@ Pensez-vous que nous avons des objectifs communs ?
 
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
+J'ai construit une base de données relationelle à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, j'ai uniformisé les données et les ai "nettoyé" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
+[*Data Fallacies to avoid*](../loic-nazaries.github.io/documents/data-fallacies-to-avoid.pdf)).
+
+En particulier, j'ai concentré mon travail sur les étapes suivantes:
+
+- typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*)
+- imputation des valeurs manquantes
+
+<table><tr>
+<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_raw_heatmap.png" alt="BEFORE Transformation" style="width: 250px;"/> </td>
+<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_clean_heatmap.png" alt="AFTER Data Transformation" style="width: 250px;"/> </td>
+</tr></table>
+
+**Figure 1**: 
+
+- transformation des variables pour obtenir une distribution dite "normale"
+
+![N2O Data Transformation](../loic-nazaries.github.io/images/n2o_flux_distrib_violinplots.png "N2O Data Transformation")
+
+**Figure 2**:
+
+De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (*machine learning*)
+
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée pour tester l'hypothèse scientifique de départ:  « Quel est l'effet de l'augmentation du dioxide de carbone (CO2) dans l'atmosphère sur les émissions des gaz à effet de serre? »
+
+![N2O Data Transformation](../loic-nazaries.github.io/images/GHG fluxes (new_gaps).jpg "N2O Data Transformation")
+
+**Figure 3**:
 
 ---
 
@@ -54,9 +104,8 @@ Pensez-vous que nous avons des objectifs communs ?
 
 ### Modélisation des émissions des gaz à effet de serre
 
-
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
-<img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg" 
+<img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 // add a title?
 
@@ -66,22 +115,27 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ---
 
-### Élaboration d'un indicateur de performance (« *KPI* »)
-Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, etc.). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.	
-Au terme de mes analyses, j’ai défini un indicateur de performance qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres mots, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir :	
-        Nazaries et al., 2019. Response of soil nutrient multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. En préparation.
+### Élaboration d'un indicateur multiple de performance (« *KPI* »)
+
+Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, etc.). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.
+
+Au terme de mes analyses, j’ai défini un indicateur de performance qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres mots, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir :
+
+[1]: Nazaries et al., 2019. Response of soil nutrient multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. En préparation.
 
 ---
 
-### Travail de modélisation
-J’ai complété une étude décrivant les étapes de modélisation nécessaire pour prédire la répartition géographique de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.	
-Grâce au sponsor du gouvernement écossais, une grande base de données a été formée après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, etc.) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des méthodes statistiques pointues. Voir la référence suivante :	
+### Modélisation géographique
+
+J’ai complété une étude décrivant les étapes de modélisation nécessaire pour prédire la répartition géographique de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.
+Grâce au sponsor du gouvernement écossais, une grande base de données a été formée après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, etc.) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des méthodes statistiques pointues. Voir la référence suivante :
           Nazaries, L., et al., 2018. Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. Journal of Soil Biology and Biochemistry. doi:10.1016/J.SOILBIO.2018.08.014. Notamment, j’ai rendu publique notre base de données sur le site figshare.com pour permettre à d’autres équipes d’utiliser mes données pour leurs propres études.
 
 ---
 
 ### Coopération internationale
-Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et USA, j’ai mis en place une série de protocoles afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu la responsabilité de former les collaborateurs et de coordonner les équipes pour garantir les délivrables.	
+
+Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et USA, j’ai mis en place une série de protocoles afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu la responsabilité de former les collaborateurs et de coordonner les équipes pour garantir les délivrables.
 Une fois les données générées, je les ai agrégé et préparé : enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un rapport de mission. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des problèmes administratifs, techniques et humains. Un des articles issu de cette collaboration est le suivant :
           Martins, C.. S.C., Nazaries, L., et al., 2017. Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. Journal of Functional Ecology. doi:10.1111/1365-2435.12928.
 
@@ -94,17 +148,20 @@ Une fois les données générées, je les ai agrégé et préparé : enregistrem
 ---
 
 ### Maître de thèse
+
 J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues dans la définition et la construction de leur projet de recherche : identification des lacunes scientifiques ; mise en place des protocoles ; formation technique et littéraire ; analyse des données et écriture de leur manuscrit de thèse. Le plus gratifiant a été quand j’ai assisté à leur cérémonie de remise des diplômes.
 
 ---
 
 ### Revue littéraire
-J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO2). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :	
+
+J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO2). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :
           Nazaries, L. et al., 2013. Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:10.1111/1462-2920.12149.
 
 ---
 
 ### Optimisation de procédés quantitatifs
+
 Ou, Surmonter une difficulté.
 
 J’ai été confronté à une situation frustrante au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle (approche Taguchi) qui m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie mais j’ai su l’adapté à ma technologie génétique.
@@ -112,11 +169,13 @@ J’ai été confronté à une situation frustrante au cours de laquelle un syst
 ---
 
 ### Exploration de l’Écosse
+
 Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques pour la mesure de flux de méthane dans l’atmosphère. J’ai dû sélectionner des sites aux quatre coins de l’Écosse afin d’avoir des conditions variées. J’avais aussi la charge de préparer toute la logistique, trouver des collaborateurs disponibles sur plusieurs jours, et ce, durant les quatre saisons de l’année, et pendant trois ans. C’était un projet très difficile et demandant qui m’a permis d’apprendre beaucoup, autant au niveau technique et professionnel qu’au niveau personnel et humain.
 
 ---
 
 ### Écrire une thèse doctorale
+
 C’était une épreuve très demandante et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Au final, j’ai publié cette thèse dont je suis très fier. Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur.
 
 ---
@@ -124,7 +183,6 @@ C’était une épreuve très demandante et difficile. On m’a donné un thème
 ---
 
 ## My Biography
-(if you speak French & avec une touche d'humour)
 
 C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XXème siècle et au levé du XXIème siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
 
@@ -152,4 +210,8 @@ Mon voyage académique m’a donné la chance de collaborer et visiter de nombre
 
 Maintenant que je suis revenu en France, la boucle est-elle bloquée ?
 
+---
 
+---
+
+## References
