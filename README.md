@@ -15,7 +15,8 @@ Contact: [loicnazaries@yahoo.fr](loicnazaries@yahoo.fr "email contact")
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
-          - [Note: application non disponible au moment de la préparation de cette page (10/01/2021).](#note-application-non-disponible-au-moment-de-la-préparation-de-cette-page-10012021)
+    - [Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.](#note-dans-lavenir-une-section-de-machine-learning-sera-disponible-il-sera-en-autre-possible-de-procéder-à-une-modélisation-temporelle-des-emissions-des-gaz-à-effet-de-serre)
+      - [P.S: application non disponible au moment de la préparation de cette page (10/01/2021).](#ps-application-non-disponible-au-moment-de-la-préparation-de-cette-page-10012021)
   - [My Past Projects](#my-past-projects)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
@@ -114,21 +115,21 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - analyses statistiques de type « REML » (*restriction likelyhood*)
 - send results to the user by email
 
-![Web App Login](../loic-nazaries.github.io/images/streamlit_login_screenshot.png "Streamlit Login") | ![Variable Selection](../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png "Streamlit Variable Selection")
+<!-- ![Web App Login](../loic-nazaries.github.io/images/streamlit_login_screenshot.png "Streamlit Login") | ![Variable Selection](../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png "Streamlit Variable Selection") -->
 
-<!-- <table><tr>
+<table><tr>
 <td> <img src="../loic-nazaries.github.io/images/streamlit_login_screenshot.png" alt="Streamlit Login" style="width: 500px;"/> </td>
 <td> <img src="../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png" alt="Streamlit Variable Selection" style="width: 500px;"/> </td>
-</tr></table> -->
+</tr></table>
 
 <td> <img src="../loic-nazaries.github.io/images/streamlit_time_series_screenshot.png" alt="Streamlit Time-Series Analysis" style="width: 500px;"/> </td>
 <td> <img src="../loic-nazaries.github.io/images/streamlit_email_screenshot.png" alt="Streamlit Email Results" style="width: 500px;"/> </td>
 
 Figure 4: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
-Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
+### Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
 
-###### Note: application non disponible au moment de la préparation de cette page (10/01/2021).
+#### P.S: application non disponible au moment de la préparation de cette page (10/01/2021).
 
 ---
 
