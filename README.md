@@ -1,16 +1,11 @@
-
 # My Data Science Portfolio
 
-Contact: [loicnazaries@yahoo.fr](loicnazaries@yahoo.fr "email contact")
-
----
+Some exemples of my **data analysis** work :sunglasses:
 
 ---
 
 ## Table of contents
 
-- [My Data Science Portfolio](#my-data-science-portfolio)
-  - [Table of contents](#table-of-contents)
   - [My « Elevator Pitch »](#my--elevator-pitch-)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
@@ -81,25 +76,17 @@ En particulier, les trois étapes suivantes sont importante dans tout project de
 
 3) transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#Figure2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
 
-![N2O Data Transformations](../loic-nazaries.github.io/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
+![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
-**Figure 2**: Mathematical transformation of nitrous oxide (N2O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « normal distribution » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a symetrical distribution and thus avoid (left- or right-handed) tails.
+**Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « normal distribution » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a symetrical distribution and thus avoid (left- or right-handed) tails.
 
 De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (« *machine learning* »)
-
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 3**](#Figure3)) pour tester l'hypothèse scientifique de départ: 
-
-« Quel est l'effet de l'augmentation du dioxide de carbone (CO2) dans l'atmosphère sur les émissions des gaz à effet de serre? »
-
-![Monthly GHG Emissions](../loic-nazaries.github.io/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
-
-**Figure 3**: Greenhouse gas (GHG) emissions for méthane (CH4 flux - panel a), nitrous oxide (N2O flux - panel b) and carbon dioxide (CO2 flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO2 concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d). 
 
 ---
 
 ### Dashboard
 
-Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée avec le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 4**](#Figure4)).
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 4**](#Figure4)).
 
 Il s'agit d'une application entièrement réglable un fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
 
@@ -114,8 +101,6 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - analyses de corrélation
 - analyses statistiques de type « REML » (*restriction likelyhood*)
 - send results to the user by email
-
-<!-- ![Web App Login](../loic-nazaries.github.io/images/streamlit_login_screenshot.png "Streamlit Login") | ![Variable Selection](../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png "Streamlit Variable Selection") -->
 
 <table><tr>
 <td> <img src="../loic-nazaries.github.io/images/streamlit_login_screenshot.png" alt="Streamlit Login" style="width: 500px;"/> </td>
@@ -141,17 +126,29 @@ Figure 4: Screenshots of various steps and options available to the user on the 
 
 ### Modélisation des émissions des gaz à effet de serre
 
+Projet:
+
+Analyse des émissions de gaz à effet de serre dans des conditions de concentrations atmosphériques en CO<sub>2</sub> élevées.
+
+Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_site_presentation.md) pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
 <img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
 alt="EucFACE Travelling View" width="240" height="180" border="10" /></a>
 
-Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_presentation.md)).
+Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_site_presentation.md)).
 
-![EucFACE Canopy View](../loic-nazaries.github.io/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
+![EucFACE Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
 
-**Picture 1**: Canopy view from Ring 6 at the EucFACE Site.
+**Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-[1]: Griscom, B.W., Adams, J., Ellis, P.W., Houghton, R.A., Lomax, G., Miteva, D.A., Schlesinger, W.H., Shoch, D., Siikamäki, J. V, Smith, P., Woodbury, P., Zganjar, C., Blackman, A., Campari, J., Conant, R.T., Delgado, C., Elias, P., Gopalakrishna, T., Hamsik, M.R., Herrero, M., Kiesecker, J., Landis, E., Laestadius, L., Leavitt, S.M., Minnemeyer, S., Polasky, S., Potapov, P., Putz, F.E., Sanderman, J., Silvius, M., Wollenberg, E., Fargione, J., 2017. Natural climate solutions. Proceedings of the National Academy of Sciences 114, 11645 LP – 11650. doi:10.1073/pnas.1710465114\n
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 3**](#Figure3)) pour tester l'hypothèse scientifique de départ: 
+
+« Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
+
+![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
+
+**Figure 3**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
 ---
 
@@ -195,7 +192,7 @@ J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues
 
 ### Revue littéraire
 
-J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO2). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :
+J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :
           Nazaries, L. et al., 2013. Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:10.1111/1462-2920.12149.
 
 ---
@@ -236,7 +233,7 @@ Cette spécialisation était supportée par une bourse de la *Student Awards Age
 
 Après avoir visionné le documentaire [***An Inconvenient Truth (2006)***](https://www.youtube.com/watch?v=Bu6SE5TYrCM) dans lequel Al Gore expose les causes et conséquences du réchauffement climatique accéléré par l’Homme, j’ai décidé de lutter contre le changement climatique à ma manière.
 
-En **2007**, j’ai reçu une bourse du *Macaulay Institute Trust Fund* pour commencer mes études doctorales au *James Hutton Institute* (Aberdeen, Écosse) en collaboration avec *University of Warwick* et *University of Aberdeen*. Mes recherches avaient pour but d'examiner l’effet des changements de pratiques forestières (déforestation / afforestation / reforestation) sur les microorganismes en lien avec la production méthane, un puissant gaz à effet de serre plus de 30 fois plus puissant que le dioxide de carbon (CO2).
+En **2007**, j’ai reçu une bourse du *Macaulay Institute Trust Fund* pour commencer mes études doctorales au *James Hutton Institute* (Aberdeen, Écosse) en collaboration avec *University of Warwick* et *University of Aberdeen*. Mes recherches avaient pour but d'examiner l’effet des changements de pratiques forestières (déforestation / afforestation / reforestation) sur les microorganismes en lien avec la production méthane, un puissant gaz à effet de serre plus de 30 fois plus puissant que le dioxide de carbon (CO<sub>2</sub>).
 
 Après cette très bonne expérience, j’ai réalisé que je n’avais toujours pas réussi à ralentir la progression de cette « maladie » qu’est le changement climatique… En **2011**, j’ai donc trouvé un poste de *Research Scientist* (chercheur associé) au *Hawkesbury Institute of Environnent*, dépendant de la *Western Sydney University* (Australie). Là-bas (« *The Land Down Under* »), j'ai pu travailler sur de nombreuses thématiques en lien avec l'exploration des effets du changement climatique telles que le réchauffement atmosphérique, l'augmentation de l'intensité et de la fréquence des pluies, ainsi que l'application de fertiliseurs naturels ou synthétiques. En particulier, j'ai mesuré ces effets sur les émissions des gaz à effet de serre.
 
