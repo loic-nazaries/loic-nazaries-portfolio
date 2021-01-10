@@ -15,6 +15,7 @@ Contact: [loicnazaries@yahoo.fr](loicnazaries@yahoo.fr "email contact")
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
+          - [Note: application non disponible au moment de la préparation de cette page (10/01/2021).](#note-application-non-disponible-au-moment-de-la-préparation-de-cette-page-10012021)
   - [My Past Projects](#my-past-projects)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
@@ -61,38 +62,73 @@ Pensez-vous que nous avons des objectifs communs ?
 
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
-J'ai construit une base de données relationelle à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, j'ai uniformisé les données et les ai "nettoyé" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
+Une **base de données relationelle** a été construite à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
 [*Data Fallacies to avoid*](../loic-nazaries.github.io/documents/data-fallacies-to-avoid.pdf)).
 
-En particulier, j'ai concentré mon travail sur les étapes suivantes:
+En particulier, les trois étapes suivantes sont importante dans tout project de «  ***Data Science*** » :
 
-- typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*)
-- imputation des valeurs manquantes
+1) typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*). Très important, en particulier, pour diminuer l'utilisation de la mémoire vive d'un ordinateur ou serveur
+
+2) remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#Figure1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
 <table><tr>
 <td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_raw_heatmap.png" alt="BEFORE Transformation" style="width: 250px;"/> </td>
 <td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_clean_heatmap.png" alt="AFTER Data Transformation" style="width: 250px;"/> </td>
 </tr></table>
 
-**Figure 1**: 
+**Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
 
-- transformation des variables pour obtenir une distribution dite "normale"
+3) transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#Figure2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
 
-![N2O Data Transformation](../loic-nazaries.github.io/images/n2o_flux_distrib_violinplots.png "N2O Data Transformation")
+![N2O Data Transformations](../loic-nazaries.github.io/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
-**Figure 2**:
+**Figure 2**: Mathematical transformation of nitrous oxide (N2O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « normal distribution » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a symetrical distribution and thus avoid (left- or right-handed) tails.
 
-De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (*machine learning*)
+De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (« *machine learning* »)
 
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée pour tester l'hypothèse scientifique de départ:  « Quel est l'effet de l'augmentation du dioxide de carbone (CO2) dans l'atmosphère sur les émissions des gaz à effet de serre? »
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 3**](#Figure3)) pour tester l'hypothèse scientifique de départ: 
 
-![N2O Data Transformation](../loic-nazaries.github.io/images/GHG fluxes (new_gaps).jpg "N2O Data Transformation")
+« Quel est l'effet de l'augmentation du dioxide de carbone (CO2) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
-**Figure 3**:
+![Monthly GHG Emissions](../loic-nazaries.github.io/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
+
+**Figure 3**: Greenhouse gas (GHG) emissions for méthane (CH4 flux - panel a), nitrous oxide (N2O flux - panel b) and carbon dioxide (CO2 flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO2 concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d). 
 
 ---
 
 ### Dashboard
+
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée avec le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 4**](#Figure4)).
+
+Il s'agit d'une application entièrement réglable un fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
+
+- téléchargement du fichier de données (format .csv ou .pkl)
+- sélection des variables à inclure dans l'analyse
+- typage des variables
+- choix des variables dépendantes et indépendantes
+- « *dummification* » possible des variables
+- génération d'un résumé statistique (moyenne, ecart-type, kurtosis/skewness, percentage des valeurs manquantes, *etc.*)
+- agrégation des données par groupe (date, traitement, annéé, *etc.*)
+- analyses univariées et bivariées
+- analyses de corrélation
+- analyses statistiques de type « REML » (*restriction likelyhood*)
+- send results to the user by email
+
+![Web App Login](../loic-nazaries.github.io/images/streamlit_login_screenshot.png "Streamlit Login") | ![Variable Selection](../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png "Streamlit Variable Selection")
+
+<!-- <table><tr>
+<td> <img src="../loic-nazaries.github.io/images/streamlit_login_screenshot.png" alt="Streamlit Login" style="width: 500px;"/> </td>
+<td> <img src="../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png" alt="Streamlit Variable Selection" style="width: 500px;"/> </td>
+</tr></table> -->
+
+<td> <img src="../loic-nazaries.github.io/images/streamlit_time_series_screenshot.png" alt="Streamlit Time-Series Analysis" style="width: 500px;"/> </td>
+<td> <img src="../loic-nazaries.github.io/images/streamlit_email_screenshot.png" alt="Streamlit Email Results" style="width: 500px;"/> </td>
+
+Figure 4: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
+
+Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
+
+###### Note: application non disponible au moment de la préparation de cette page (10/01/2021).
 
 ---
 
@@ -106,10 +142,13 @@ Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée pour
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
 <img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-// add a title?
+alt="EucFACE Travelling View" width="240" height="180" border="10" /></a>
 
-![Completed EucFACE Rings](../loic-nazaries.github.io/images/Completed_EucFace_Rings.jpg "Completed EucFACE Rings")
+Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_presentation.md)).
+
+![EucFACE Canopy View](../loic-nazaries.github.io/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
+
+**Picture 1**: Canopy view from Ring 6 at the EucFACE Site.
 
 [1]: Griscom, B.W., Adams, J., Ellis, P.W., Houghton, R.A., Lomax, G., Miteva, D.A., Schlesinger, W.H., Shoch, D., Siikamäki, J. V, Smith, P., Woodbury, P., Zganjar, C., Blackman, A., Campari, J., Conant, R.T., Delgado, C., Elias, P., Gopalakrishna, T., Hamsik, M.R., Herrero, M., Kiesecker, J., Landis, E., Laestadius, L., Leavitt, S.M., Minnemeyer, S., Polasky, S., Potapov, P., Putz, F.E., Sanderman, J., Silvius, M., Wollenberg, E., Fargione, J., 2017. Natural climate solutions. Proceedings of the National Academy of Sciences 114, 11645 LP – 11650. doi:10.1073/pnas.1710465114\n
 
