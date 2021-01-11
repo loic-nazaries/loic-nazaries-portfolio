@@ -1,6 +1,6 @@
 # My Data Science Portfolio
 
-Some exemples of my **data analysis** work :sunglasses:
+Some exemples of my **data analysis** work
 
 ---
 
