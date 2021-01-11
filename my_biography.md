@@ -12,7 +12,7 @@ En **2004**, comme l’accent écossai n’avait plus de secret pour moi, j’ai
 
 Cette spécialisation était supportée par une bourse de la *Student Awards Agency Scotland* (SAAS). Malheureusement, il n’était pas possible de trouver un stage en criminologie. Je me suis donc dirigé vers la microbiologie de l’environnement, basé au *James Hutton Institute* (Aberdeen, Écosse).
 
-Après avoir visionné le documentaire [***An Inconvenient Truth (2006)***](https://www.youtube.com/watch?v=Bu6SE5TYrCM) dans lequel Al Gore expose les causes et conséquences du réchauffement climatique accéléré par l’Homme, j’ai décidé de lutter contre le changement climatique à ma manière.
+Après avoir visionné le documentaire [***An Inconvenient Truth (2006)***](https://www.youtube.com/watch?v=Bu6SE5TYrCM "An Inconvenient Truth - Trailer YouYube.com") dans lequel Al Gore expose les causes et conséquences du réchauffement climatique accéléré par l’Homme, j’ai décidé de lutter contre le changement climatique à ma manière.
 
 En **2007**, j’ai reçu une bourse du *Macaulay Institute Trust Fund* pour commencer mes études doctorales au *James Hutton Institute* (Aberdeen, Écosse) en collaboration avec *University of Warwick* et *University of Aberdeen*. Mes recherches avaient pour but d'examiner l’effet des changements de pratiques forestières (déforestation / afforestation / reforestation) sur les microorganismes en lien avec la production méthane, un puissant gaz à effet de serre plus de 30 fois plus puissant que le dioxide de carbon (CO<sub>2</sub>).
 
@@ -22,7 +22,7 @@ Durant six ans j’ai essayé de mettre fin à cette maladie de la Terre. Je peu
 
 J'ai aussi participé à des études pour améliorer les rendements de blé des cultivateurs de graines grâce à une étude financée par le gouvernement australien et le ministère du *Department of Primary Industry* et le consortium des agriculteurs australiens du *Grain Research and Development Corporation*.
 
-J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tels que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9) and [***Global Change Biology***](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14154).
+J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tels que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9 "Jiang et al. 2020 - Nature") and [***Global Change Biology***](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14154 "Fang et al. 2018 - Global Change Biology").
 
 Mon voyage académique m’a donné la chance de collaborer et visiter de nombreux pays (et villes) au Royaume Uni, USA, Nouvelle-Zélande, Australie, Asie, et Europe évidement. Cette aventure a apporté beaucoup de richesse à mon profil. En particulier, rencontrer des gens de culture parfois très différentes ; enrichir mes compétences professionnelles ; ou encore découvrir des façons différentes d’aborder un sujet de recherche grâce à de nombreuses collaborations internationales et conférences.
 

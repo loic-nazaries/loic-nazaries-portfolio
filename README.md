@@ -4,7 +4,9 @@ Some exemples of my **data analysis** work.
 
 <!-- You can also check my **LinkedIn** account!
 
-[![LinkedIn Account](/images/linkedin.png)](https://www.linkedin.com/in/loic-nazaries) -->
+[![Linkedin Account](/images/linkedin.png)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com")
+
+[![Linkedin Account](/images/linkedin.png =50%x)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com") -->
 
 ---
 
@@ -16,18 +18,17 @@ Some exemples of my **data analysis** work.
     - [Dashboard](#dashboard)
   - [My Past Projects](#my-past-projects)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
-    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
+    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance-kpi)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
-  - [My Published Scientific Papers](/published_work.md)
+  - [My Scientific Publications](/scientific-publications.md)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
     - [Optimisation de procédés quantitatifs](#optimisation-de-procédés-quantitatifs)
-    - [Exploration de l’Écosse](#exploration-de-lécosse)
+    - [Exploration de l’Écosse](#exploration-de-l'écosse)
     - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
   - [My Biography](/my_biography.md)
-  - [References](#references)
 
 ---
 
@@ -47,7 +48,7 @@ Ainsi, l’extraction et l’interprétation de l’information contenue dans de
 
 Je recherche une entreprise prête à me donner une chance de m’épanouir professionnellement, de libérer mon potentiel au sein d'une équipe dynamique et soudée et dans un environnement riche en expériences professionnelles. Je veux aussi faire profiter mes qualités humaines telles que la pédagogie, l’adaptabilité ou encore l’humilité.
 
-Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle) et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812).
+Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
 
 Pensez-vous que nous avons des objectifs communs ?
 
@@ -86,7 +87,7 @@ More to come!
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
 Une **base de données relationelle** a été construite à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
-[*Data Fallacies to avoid*](../loic-nazaries.github.io/documents/data-fallacies-to-avoid.pdf)).
+[*Data Fallacies to avoid*](/documents/data-fallacies-to-avoid.pdf)).
 
 En particulier, les trois étapes suivantes sont importante dans tout project de « ***Data Science*** » :
 
@@ -112,7 +113,7 @@ De manière plus générale, il s'agit de préparer les jeux de données pour le
 
 ### Dashboard
 
-Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/).
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit](https://www.streamlit.io/ "Streamlit.io") et déployée sur [Heroku.com](https://www.heroku.com/ "Heroku.com"). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/ "Greenhouse Gas Estimation Portal App").
 
 Il s'agit d'une application entièrement réglable un fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
 
@@ -159,7 +160,7 @@ Analyse des émissions de gaz à effet de serre dans des conditions de concentra
 
 Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_site_presentation.md) pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
 
-[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
+[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o "EucFACE Crane Shot - YouTube.com")
 
 **Video 1**: Moving up a ring at the EucFACE site.
 

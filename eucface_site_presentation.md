@@ -23,7 +23,7 @@ Analysis of greenhouse gas (GHG) emissions under elevated atmospheric CO<sub>2</
 Greenhouse gas (GHG) emissions associated
 with human activities are well known to be
 the major contributors to climate change
-worldwide as reported by the Intergovernmental Panel on Climate Change ([IPCC, 2013](http://www.climatechange2013.org/images/report/WG1AR5_ALL_FINAL.pdf)).
+worldwide as reported by the Intergovernmental Panel on Climate Change ([IPCC, 2013](http://www.climatechange2013.org/images/report/WG1AR5_ALL_FINAL.pdf "IPCC Report, 2013")).
 These include:
 
 - carbon dioxide (CO<sub>2</sub>)
@@ -98,7 +98,7 @@ and was ramped periodically for six months
 (+30 ppm every 4-5 weeks) until February 2013
 (540 ppm).
 
-[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
+[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o "EucFACE Crane Shot - YouTube.com")
 
 **Video 1**: Moving up a ring at the EucFACE site.
 
