@@ -102,7 +102,7 @@ and was ramped periodically for six months
 
 **Video 1**: Moving up a ring at the EucFACE site.
 
-![EucFACE Bird's Eye View](/images/EucFACE.jpg "EucFACE Bird's Eye View" =50%x)
+![EucFACE Bird's Eye View](/images/EucFACE.jpg "EucFACE Bird's Eye View")
 
 **Picture 1**: Bird's eye view of the 6 rings at EucFACE Site.
 
@@ -218,9 +218,9 @@ reported as negative represent net sinks
 
 #### Illustration of the headspace volume sampling method
 
-| Air Sampling Chamber                                                       | Sampling Headspace Volume through a Sampling Port                                                                                                            |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber" =50%x) | ![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port" =50%x) |
+| Air Sampling Chamber                                                 | Sampling Headspace Volume through a Sampling Port                                                                                                      |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber") | ![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port") |
 
 ---
 

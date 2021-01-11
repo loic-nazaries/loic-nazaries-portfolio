@@ -2,9 +2,9 @@
 
 Some exemples of my **data analysis** work.
 
-You can also check my **LinkedIn** account!
+<!-- You can also check my **LinkedIn** account!
 
-[![LinkedIn Account](/images/linkedin.png =50%x)](https://www.linkedin.com/in/loic-nazaries)
+[![LinkedIn Account](/images/linkedin.png)](https://www.linkedin.com/in/loic-nazaries) -->
 
 ---
 
@@ -171,7 +171,7 @@ Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**
 
 « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
-![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions" =50%x)
+![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
 **Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
