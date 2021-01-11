@@ -1,6 +1,6 @@
 # My Biography
 
-C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XXème siècle et au levé du XXIème siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
+C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XX<sup>ème</sup> siècle et au levé du XXI<sup>ème</sup> siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
 
 Première étape, rien de mieux que Clermont-Ferrand (*Université d'Auvergne*), et ses spécialités fromagères. Là, j’ai reçu une bourse du *département de l’éducation française* pour obtenir un diplôme IUT avec option pharmacologie et expérimentation animale. Au moment de choisir mon stage de recherche, j’ai décidé de me spécialiser en cultures cellulaires au *James Hutton Institute* à Aberdeen en Écosse pour pouvoir améliorer mon anglais bien que l’accent aberdonien soit TRÈS difficile à comprendre !
 
@@ -20,7 +20,7 @@ Durant six ans j’ai essayé de mettre fin à cette maladie de la Terre. Je peu
 
 J'ai aussi participé à des études pour améliorer les rendements de blé des cultivateurs de graines grâce à une étude financée par le gouvernement australien et le ministère du *Department of Primary Industry* et le consortium des agriculteurs australiens du *Grain Research and Development Corporation*.
 
-J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tel que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9).
+J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tels que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9) and [***Global Change Biology](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14154).
 
 Mon voyage académique m’a donné la chance de collaborer et visiter de nombreux pays (et villes) au Royaume Uni, USA, Nouvelle-Zélande, Australie, Asie, et Europe évidement. Cette aventure a apporté beaucoup de richesse à mon profil. En particulier, rencontrer des gens de culture parfois très différentes ; enrichir mes compétences professionnelles ; ou encore découvrir des façons différentes d’aborder un sujet de recherche grâce à de nombreuses collaborations internationales et conférences.
 
