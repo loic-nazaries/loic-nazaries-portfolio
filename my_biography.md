@@ -1,6 +1,6 @@
 # My Biography
 
-![Profile Picture](/images/profile_picture.jpg "Profile Picture" =25%x)
+![Profile Picture](/images/profile_picture.jpg "Profile Picture")
 
 C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XX<sup>ème</sup> siècle et au levé du XXI<sup>ème</sup> siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
 
