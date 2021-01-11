@@ -98,13 +98,11 @@ and was ramped periodically for six months
 (+30 ppm every 4-5 weeks) until February 2013
 (540 ppm).
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
-<img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
-alt="EucFACE Travelling View" width="240" height="180" border="10" /></a>
+[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
 
-Video 1: Moving up a ring at the EucFACE site.
+**Video 1**: Moving up a ring at the EucFACE site.
 
-![EucFACE Bird's Eye View](/images/EucFACE.jpg "EucFACE Bird's Eye View")
+![EucFACE Bird's Eye View](/images/EucFACE.jpg "EucFACE Bird's Eye View" =50%x)
 
 **Picture 1**: Bird's eye view of the 6 rings at EucFACE Site.
 
@@ -220,9 +218,9 @@ reported as negative represent net sinks
 
 #### Illustration of the headspace volume sampling method
 
-| Air Sampling Chamber                                                 | Sampling Headspace Volume through a Sampling Port                                                                                                      |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber") | ![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port") |
+| Air Sampling Chamber                                                       | Sampling Headspace Volume through a Sampling Port                                                                                                            |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber" =50%x) | ![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port" =50%x) |
 
 ---
 

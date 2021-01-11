@@ -8,7 +8,6 @@ Martins, **Nazaries**, Delgado-Baquerizo, Mitchell, Grinyer, Macdonald, Anderson
 
 Henaka Arachchi M.P.N.K.a, Karunaratne S.B.b, c, Fang Y.a, Minasny Bb, **Nazaries** L.d, Sarker J.R.a, e, Weng Z.f, g, Van Zwieten L.f, Singh B.K.d, h, Singh B.P, 2021. Mid-infrared spectroscopy for rapid characterisation of soil chemical and biological properties on long-term field trial sites. ***(In preparation)***.
 
-
 Jiang, M., Medlyn, B.E., Drake, J.E., Duursma, R.A., Anderson, I.C., Barton, C.V.M., Boer, M.M., Carrillo, Y., Castañeda-Gómez, L., Collins, L., Crous, K.Y., De Kauwe, M.G., dos Santos, B.M., Emmerson, K.M., Facey, S.L., Gherlenda, A.N., Gimeno, T.E., Hasegawa, S., Johnson, S.N., Kännaste, A., Macdonald, C.A., Mahmud, K., Moore, B.D., **Nazaries, L.**, Neilson, E.H.J., Nielsen, U.N., Niinemets, Ü., Noh, N.J., Ochoa-Hueso, R., Pathare, V.S., Pendall, E., Pihlblad, J., Piñeiro, J., Powell, J.R., Power, S.A., Reich, P.B., Renchon, A.A., Riegler, M., Rinnan, R., Rymer, P.D., Salomón, R.L., Singh, B.K., Smith, B., Tjoelker, M.G., Walker, J.K.M., Wujeska-Klause, A., Yang, J., Zaehle, S., Ellsworth, D.S., 2020. The fate of carbon in a mature forest under carbon dioxide enrichment. *Nature* 580, 227–231. doi:10.1038/s41586-020-2128-9
 
 Fang, Y., Singh, B.P., **Nazaries, L.**, Keith, A., Tavakkoli, E., Wilson, N., Singh, B., 2019. Interactive carbon priming, microbial response and biochar persistence in a Vertisol with varied inputs of biochar and labile organic matter. *European Journal of Soil Science* 70, 960–974. doi:10.1111/ejss.12808

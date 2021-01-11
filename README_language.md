@@ -6,21 +6,8 @@ Please choose your (non-programming) language :stuck_out_tongue_winking_eye:
 
 Note: seulement disponible en francais au moment de la préparation de cette page (10/01/2021).
 
-<table>
-  <tr>
-    <td>
-      <a href="portfolio_francais.md">
-        <img src="images/drapeau-france.jpg" alt="version_francaise" />
-      </a>
-    </td>
-    <td>
-      <a href="portfolio_english.md">
-        <img src="images/union-flag-union-jack-vinyl-flooring-multicolour.jpg" alt="english_version">
-      </a>
-    </td>
-  </tr>
-</table>
+| Version Française                                                                                    | English Version                                                                               |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [![Version française](/images/drapeau_france.jpg "Version française" =60%x)](/portfolio_francais.md) | [![English Version](/images/union_jack_flag.jpg "English Version" =60%x)](/portfolio_english) |
 
-<!-- ![Version francaise](/images/drapeau-france.jpg "Version francaise") | ![English Version](/images/union-flag-union-jack-vinyl-flooring-multicolour.jpg "English Version") -->
-
-![Metro Map](/images/MetroMap_Data_Analyst_16-10-2020.png "Metro Map")
+[![Metro Map](/images/MetroMap_Data_Analyst_16-10-2020.png "Click Me!")](/metro_map.md)

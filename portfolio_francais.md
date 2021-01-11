@@ -1,6 +1,6 @@
 # My Data Science Portfolio
 
-Some exemples of my **data analysis** work
+Quelques examples de mon travail d'**analyse de données**.
 
 ---
 
@@ -89,10 +89,9 @@ En particulier, les trois étapes suivantes sont importante dans tout project de
 
 2) remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#Figure1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-<table><tr>
-<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_raw_heatmap.png" alt="BEFORE Transformation" style="width: 250px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_clean_heatmap.png" alt="AFTER Data Transformation" style="width: 250px;"/> </td>
-</tr></table>
+| Before Imputation                                                                                                          | After Imputation                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
 **Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
 
@@ -124,13 +123,14 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - analyses statistiques de type « REML » (*restriction likelyhood*)
 - send results to the user by email
 
-<table><tr>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_login_screenshot.png" alt="Streamlit Login" style="width: 500px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png" alt="Streamlit Variable Selection" style="width: 500px;"/> </td>
-</tr></table>
+Des captures d'ecran sont disponibles dans la ([**Figure 3**](#Figure3)).
+Elles reflètent certaines des options disponibles à l'utilisateur.
 
-<td> <img src="../loic-nazaries.github.io/images/streamlit_time_series_screenshot.png" alt="Streamlit Time-Series Analysis" style="width: 500px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_email_screenshot.png" alt="Streamlit Email Results" style="width: 500px;"/> </td>
+| Login to GHG Estimation Portal                                                                                     | Variable Selection                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| ![Login Screenshot](/images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
+| Time-Series Analysis                                                                                               | Email Option                                                                                                      |
+| ![Time-Series Analysis Screenshot](/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](/images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
@@ -154,17 +154,15 @@ Analyse des émissions de gaz à effet de serre dans des conditions de concentra
 
 Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_site_presentation.md) pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
-<img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
-alt="EucFACE Travelling View" width="240" height="180" border="10" /></a>
+[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
 
-Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_site_presentation.md)).
+**Video 1**: Moving up a ring at the EucFACE site.
 
 ![EucFACE Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
 
 **Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#Figure4)) pour tester l'hypothèse scientifique de départ: 
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#Figure4)) pour tester l'hypothèse scientifique de départ:
 
 « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 

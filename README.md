@@ -1,12 +1,16 @@
 # My Data Science Portfolio
 
-Some exemples of my **data analysis** work
+Some exemples of my **data analysis** work.
+
+You can also check my **LinkedIn** account!
+
+[![LinkedIn Account](/images/linkedin.png =50%x)](https://www.linkedin.com/in/loic-nazaries)
 
 ---
 
 ## Table of contents
 
-  - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My « Elevator Pitch »](#my-elevator-pitch)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
@@ -121,7 +125,7 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - agrégation des données par groupe (date, traitement, annéé, *etc.*)
 - analyses univariées et bivariées
 - analyses de corrélation
-- analyses statistiques de type « REML » (*restriction likelyhood*)
+- analyses statistiques de type « REML » (*restriction likelihood*)
 - send results to the user by email
 
 Des captures d'ecran sont disponibles dans la ([**Figure 3**](#Figure3)).
@@ -157,7 +161,7 @@ Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_s
 
 [![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
 
-Video 1: Moving up a ring at the EucFACE site.
+**Video 1**: Moving up a ring at the EucFACE site.
 
 ![EucFACE Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
 
@@ -167,7 +171,7 @@ Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**
 
 « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
-![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
+![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions" =50%x)
 
 **Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 

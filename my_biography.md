@@ -1,5 +1,7 @@
 # My Biography
 
+![Profile Picture](/images/profile_picture.jpg "Profile Picture" =25%x)
+
 C’est à l’âge de 10 ans, en CM2, que j’ai décidé de devenir un biologiste. C’était après la dissection d’un cœur de vache… En l’an **2000**, au crépuscule du XX<sup>ème</sup> siècle et au levé du XXI<sup>ème</sup> siècle, j’ai décidé de quitter Bordeaux et le cocon familial pour commencer mon « voyage » académique autour du monde.
 
 Première étape, rien de mieux que Clermont-Ferrand (*Université d'Auvergne*), et ses spécialités fromagères. Là, j’ai reçu une bourse du *département de l’éducation française* pour obtenir un diplôme IUT avec option pharmacologie et expérimentation animale. Au moment de choisir mon stage de recherche, j’ai décidé de me spécialiser en cultures cellulaires au *James Hutton Institute* à Aberdeen en Écosse pour pouvoir améliorer mon anglais bien que l’accent aberdonien soit TRÈS difficile à comprendre !
