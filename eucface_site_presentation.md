@@ -220,11 +220,9 @@ reported as negative represent net sinks
 
 #### Illustration of the headspace volume sampling method
 
-Air Sampling Chamber
-![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber")
-
-Sampling Headspace Volume using a Siringe and a Sampling Port
-![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port")
+| Air Sampling Chamber                                                 | Sampling Headspace Volume through a Sampling Port                                                                                                      |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Air Sampling Chamber](/images/DSC00926.jpg "Air Sampling Chamber") | ![Sampling Headspace Volume using a Siringe and a Sampling Port](/images/DSC01216.jpg "Sampling Headspace Volume using a Siringe and a Sampling Port") |
 
 ---
 
