@@ -68,6 +68,7 @@ Les « **lignes** » en circulation sont:
 More to come!
 
 ![Metro Map](/images/MetroMap_Data_Analyst_16-10-2020.png "Metro Map")
+
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
 
 ---
@@ -89,14 +90,13 @@ En particulier, les trois étapes suivantes sont importante dans tout project de
 
 2) remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#Figure1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-<table><tr>
-<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_raw_heatmap.png" alt="BEFORE Transformation" style="width: 250px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/ghg_flux_data_missing_data_clean_heatmap.png" alt="AFTER Data Transformation" style="width: 250px;"/> </td>
-</tr></table>
+![Missing Values BEFORE Transformation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Transformation")
+|
+![Missing Values BEFORE Transformation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Transformation")
 
-**Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
+**Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*top*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*bottom*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
 
-3) transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#Figure2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
+1) transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#Figure2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
 
 ![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
@@ -108,7 +108,7 @@ De manière plus générale, il s'agit de préparer les jeux de données pour le
 
 ### Dashboard
 
-Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/). Des captures d'ecran sont disponible dans la ([**Figure 3**](#Figure3)).
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit.io](https://www.streamlit.io/) et déployée sur [Heroku.com](https://www.heroku.com/). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/).
 
 Il s'agit d'une application entièrement réglable un fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
 
@@ -124,13 +124,16 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - analyses statistiques de type « REML » (*restriction likelyhood*)
 - send results to the user by email
 
-<table><tr>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_login_screenshot.png" alt="Streamlit Login" style="width: 500px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_vars_selection_screenshot.png" alt="Streamlit Variable Selection" style="width: 500px;"/> </td>
-</tr></table>
+Des captures d'ecran sont disponibles dans la ([**Figure 3**](#Figure3)).
+Elles reflètent certaines des options disponibles à l'utilisateur.
 
-<td> <img src="../loic-nazaries.github.io/images/streamlit_time_series_screenshot.png" alt="Streamlit Time-Series Analysis" style="width: 500px;"/> </td>
-<td> <img src="../loic-nazaries.github.io/images/streamlit_email_screenshot.png" alt="Streamlit Email Results" style="width: 500px;"/> </td>
+![Login Screenshot](/images/streamlit_login_screenshot.png "Login Screenshot")
+
+![Variable Selection Screenshot](/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot")
+
+![Time-Series Analysis Screenshot](/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot")
+
+![Email Option Screenshot](/images/streamlit_email_screenshot.png "Email Option Screenshot")
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
@@ -154,9 +157,7 @@ Analyse des émissions de gaz à effet de serre dans des conditions de concentra
 
 Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_site_presentation.md) pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=K8RTVdijc0o" target="_blank">
-<img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg"
-alt="EucFACE Travelling View" width="240" height="180" border="10" /></a>
+[![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
 
 Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_site_presentation.md)).
 
