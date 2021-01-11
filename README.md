@@ -15,7 +15,7 @@ Some exemples of my **data analysis** work :sunglasses:
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
-  - [My Published Scientific Publications (chosen)](/scientific-publications)
+  - [My Published Scientific Papers](/published_work.md)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)

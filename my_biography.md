@@ -20,7 +20,7 @@ Durant six ans j’ai essayé de mettre fin à cette maladie de la Terre. Je peu
 
 J'ai aussi participé à des études pour améliorer les rendements de blé des cultivateurs de graines grâce à une étude financée par le gouvernement australien et le ministère du *Department of Primary Industry* et le consortium des agriculteurs australiens du *Grain Research and Development Corporation*.
 
-J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tels que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9) and [***Global Change Biology](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14154).
+J'ai gardé mes contacts académiques et continu de contribuer à des analyses de données et à écrire des publications scientifiques dans des journaux internationaux de renommés tels que [***Nature***](https://www.nature.com/articles/s41586-020-2128-9) and [***Global Change Biology***](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14154).
 
 Mon voyage académique m’a donné la chance de collaborer et visiter de nombreux pays (et villes) au Royaume Uni, USA, Nouvelle-Zélande, Australie, Asie, et Europe évidement. Cette aventure a apporté beaucoup de richesse à mon profil. En particulier, rencontrer des gens de culture parfois très différentes ; enrichir mes compétences professionnelles ; ou encore découvrir des façons différentes d’aborder un sujet de recherche grâce à de nombreuses collaborations internationales et conférences.
 
