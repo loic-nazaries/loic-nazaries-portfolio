@@ -90,9 +90,13 @@ En particulier, les trois étapes suivantes sont importante dans tout project de
 
 2) remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#Figure1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-![Missing Values BEFORE Transformation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Transformation")
-|
-![Missing Values BEFORE Transformation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Transformation")
+![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation")
+
+![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation")
+
+| Before Imputation                                                                                                          | After Imputation                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
 **Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*top*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*bottom*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
 
@@ -127,13 +131,11 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 Des captures d'ecran sont disponibles dans la ([**Figure 3**](#Figure3)).
 Elles reflètent certaines des options disponibles à l'utilisateur.
 
-![Login Screenshot](/images/streamlit_login_screenshot.png "Login Screenshot")
-
-![Variable Selection Screenshot](/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot")
-
-![Time-Series Analysis Screenshot](/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot")
-
-![Email Option Screenshot](/images/streamlit_email_screenshot.png "Email Option Screenshot")
+| Login to GHG Estimation Portal                                                                                     | Variable Selection                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| ![Login Screenshot](/images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
+| Time-Series Analysis                                                                                               | Email Option                                                                                                      |
+| ![Time-Series Analysis Screenshot](/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](/images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
