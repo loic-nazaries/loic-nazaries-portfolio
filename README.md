@@ -159,7 +159,7 @@ Voir la section [EucFACE Site Presentation](../loic-nazaries.github.io/eucface_s
 
 [![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o)
 
-Video 1: Moving up a ring at the EucFACE site (see [EucFACE Presentation](../loic-nazaries.github.io/eucface_site_presentation.md)).
+Video 1: Moving up a ring at the EucFACE site.
 
 ![EucFACE Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
 
@@ -237,9 +237,3 @@ Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques
 ### Écrire une thèse doctorale
 
 C’était une épreuve très demandante et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Au final, j’ai publié cette thèse dont je suis très fier. Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur.
-
----
-
----
-
-## References
