@@ -7,7 +7,7 @@ Quelques examples de mon travail d'**analyse de données**.
 Table of contents
 
 - [My Data Science Portfolio](#my-data-science-portfolio)
-  - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My Elevator Pitch](#my-elevator-pitch)
   - [My Data Science Skills](#my-data-science-skills)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
@@ -29,7 +29,7 @@ Table of contents
 
 ---
 
-## My « Elevator Pitch »
+## My Elevator Pitch
 
 Doué d'une grande appétance pour les **statistiques**, l'analyse exploratoire de données et le « **machine learning** », j'aime pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « ***Dashboard*** ». Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
 
@@ -37,7 +37,7 @@ Je crois en l’apprentissage par la pratique et, dans un futur proche, je souha
 
 Pensez-vous que nous avons des objectifs communs ?
 
-Jetez un coup d'oeil à ma [Biographie](/my_biography).
+Jetez un coup d'oeil à ma [Biographie](/my_biography.md).
 
 ---
 
