@@ -12,23 +12,24 @@ Some exemples of my **data analysis** work.
 
 ## Table of contents
 
-  - [My « Elevator Pitch »](#my-elevator-pitch)
+- [My Data Science Portfolio](#my-data-science-portfolio)
+  - [Table of contents](#table-of-contents)
+  - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My Data Science Skills](#my-data-science-skills)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
   - [My Past Projects](#my-past-projects)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
-    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance-kpi)
+    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
-  - [My Scientific Publications](/scientific_publications.md)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
     - [Optimisation de procédés quantitatifs](#optimisation-de-procédés-quantitatifs)
-    - [Exploration de l’Écosse](#exploration-de-l'écosse)
+    - [Exploration de l’Écosse](#exploration-de-lécosse)
     - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
-  - [My Biography](/my_biography.md)
 
 ---
 
