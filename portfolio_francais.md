@@ -4,9 +4,11 @@ Quelques examples de mon travail d'**analyse de données**.
 
 ---
 
-## Table of contents
+Table of contents
 
+- [My Data Science Portfolio](#my-data-science-portfolio)
   - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My Data Science Skills](#my-data-science-skills)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Dashboard](#dashboard)
@@ -15,14 +17,12 @@ Quelques examples de mon travail d'**analyse de données**.
     - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
-  - [My Published Scientific Publications (chosen)](/scientific-publications)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
     - [Optimisation de procédés quantitatifs](#optimisation-de-procédés-quantitatifs)
     - [Exploration de l’Écosse](#exploration-de-lécosse)
     - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
-  - [My Biography](/my_biography.md)
   - [References](#references)
 
 ---

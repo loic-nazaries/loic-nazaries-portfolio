@@ -10,10 +10,9 @@ Some exemples of my **data analysis** work.
 
 ---
 
-## Table of contents
+Table of contents
 
 - [My Data Science Portfolio](#my-data-science-portfolio)
-  - [Table of contents](#table-of-contents)
   - [My « Elevator Pitch »](#my--elevator-pitch-)
   - [My Data Science Skills](#my-data-science-skills)
   - [My Current Projects](#my-current-projects)
