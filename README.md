@@ -1,19 +1,13 @@
 # My Data Science Portfolio
 
-Some exemples of my **data analysis** work.
-
-<!-- You can also check my **LinkedIn** account!
-
-[![Linkedin Account](/images/linkedin.png)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com")
-
-[![Linkedin Account](/images/linkedin.png =50%x)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com") -->
+Quelques examples de mon travail d'**analyse de données**.
 
 ---
 
 Table of contents
 
 - [My Data Science Portfolio](#my-data-science-portfolio)
-  - [My « Elevator Pitch »](#my--elevator-pitch-)
+  - [My « Résumé »](#my--résumé-)
   - [My Data Science Skills](#my-data-science-skills)
   - [My Current Projects](#my-current-projects)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
@@ -34,19 +28,9 @@ Table of contents
 
 ---
 
-## My « Elevator Pitch »
+## My « Résumé »
 
-C’est au cours de mes études doctorales que je me suis découvert une vraie passion pour la « ***Data*** » et les **analyses statistiques**. Ce qui me stimule le plus, c'est de pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « ***Dashboard*** ».
-
-Après 13 années passées dans le domaine des **biostatistiques**, je recherche maintenant un nouveau challenge. Mon expérience, mes compétences transverses et mes connaissances dans la gestion de données me procurent un bon socle pour le poste de **Data Analyst/Data Scientist** que je décline en trois principaux piliers :
-
-- *Data Mining*
-- *Machine Learning*
-- *Data Visualisation* (« *DataViz* »)
-
-Ainsi, l’extraction et l’interprétation de l’information contenue dans des bases de données produisent une **forte valeur ajoutée** aux données permettant de valoriser une **aide à la prise de décision** plus rapide et plus intelligente.
-
-Je recherche une entreprise prête à me donner une chance de m’épanouir professionnellement, de libérer mon potentiel au sein d'une équipe dynamique et soudée et dans un environnement riche en expériences professionnelles. Je veux aussi faire profiter mes qualités humaines telles que la pédagogie, l’adaptabilité ou encore l’humilité.
+Doué d'une grande appétance pour les **statistiques**, l'analyse exploratoire de données et le « **machine learning** », j'aime pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « ***Dashboard*** ». Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
 
 Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
 
