@@ -4,7 +4,7 @@ Some exemples of my **data analysis** work :sunglasses:
 
 Please choose your (non-programming) language :stuck_out_tongue_winking_eye:
 
-Note: seulement disponible en francais au moment de la préparation de cette page (10/01/2021).
+Note: seulement disponible en francais au moment de la préparation de cette page (14/01/2021).
 
 | Version Française                                                                              | English Version                                                                         |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -14,12 +14,10 @@ Note: seulement disponible en francais au moment de la préparation de cette pag
 
 Please check out below the "Metro Map" of my Data Skills !
 
-[![Metro Map](/images/MetroMap_Data_Analyst_16-10-2020.png "Click Me!")](/metro_map.md)
+[![Metro Map Data Science](/images/MetroMap_Data_Analyst_16-10-2020.png "Click Me!")](/metro_map.md)
 
 ---
 
-You can also check my **LinkedIn** account!
-
-[![Linkedin Account](/images/linkedin.png)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com")
+You can also check out my **LinkedIn** account!
 
 [![Linkedin Account](/images/linkedin.png =50%x)](https://www.linkedin.com/in/loic-nazaries "Loïc Nazaries - Linkedin.com")
