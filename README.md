@@ -45,7 +45,7 @@ Jetez un coup d'oeil à ma [Biographie](/my_biography.md).
 
 ## My Data Science Skills
 
-La [**Figure 0**](#Figure0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
+La [**Figure 0**](#figure-0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
 
 Les « **lignes** » en circulation sont:
 
@@ -78,21 +78,21 @@ Une **base de données relationelle** a été construite à partir de fichiers d
 
 En particulier, les trois étapes suivantes sont importante dans tout project de « ***Data Science*** » :
 
-1) typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*). Très important, en particulier, pour diminuer l'utilisation de la mémoire vive d'un ordinateur ou serveur
+1. Typage des variables (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*). Très important, en particulier, pour diminuer l'utilisation de la mémoire vive d'un ordinateur ou serveur
 
-2) remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#Figure1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
+2. Remplacement (ou *imputation*) des valeurs manquantes ([**Figure 1**](#figure-1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-| Before Imputation                                                                                                          | After Imputation                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
+    | Before Imputation                                                                                                          | After Imputation                                                                                                            |
+    | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+    | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
-**Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*top*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*bottom*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
+    **Figure 1**:  The replacement of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*top*), it was replaced by the "mean" value of the other replicated samples. The remaining missing values (*bottom*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
 
-1) transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#Figure2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
+3. Transformation des variables pour obtenir une distribution dite « normale » ([**Figure 2**](#figure-2)). Le but est donc de diminuer le nombre de valeurs dite « extrêmes », c'est-à-dire des valeurs très éloignées de la valeur moyenne.
 
-![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
+    ![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
-**Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « normal distribution » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a symetrical distribution and thus avoid (left- or right-handed) tails.
+    **Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « normal distribution » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a symetrical distribution and thus avoid (left- or right-handed) tails.
 
 De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (« *machine learning* »)
 
@@ -116,7 +116,7 @@ Il s'agit d'une application entièrement réglable un fois que l'utilisateur a c
 - analyses statistiques de type « REML » (*restriction likelihood*)
 - send results to the user by email
 
-Des captures d'ecran sont disponibles dans la ([**Figure 3**](#Figure3)).
+Des captures d'ecran sont disponibles dans la ([**Figure 3**](#figure-3)).
 Elles reflètent certaines des options disponibles à l'utilisateur.
 
 | Login to GHG Estimation Portal                                                                                     | Variable Selection                                                                                                |
@@ -141,8 +141,6 @@ P.S: application non disponible au moment de la préparation de cette page (10/0
 
 ### Modélisation des émissions des gaz à effet de serre
 
-Projet:
-
 Analyse des émissions de gaz à effet de serre dans des conditions de concentrations atmosphériques en CO<sub>2</sub> élevées.
 
 Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md) pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
@@ -155,7 +153,7 @@ Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md) pour 
 
 **Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#Figure4)) pour tester l'hypothèse scientifique de départ: 
+Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#figure-4)) pour tester l'hypothèse scientifique de départ:
 
 « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
@@ -163,24 +161,22 @@ Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**
 
 **Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
+Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries *et al.*, 2021 - In print").
+
 ---
 
 ### Élaboration d'un indicateur multiple de performance (« *KPI* »)
 
 Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, etc.). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.
 
-Au terme de mes analyses, j’ai défini un indicateur de performance qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres mots, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir :
-
-[1]: Nazaries et al., 2019. Response of soil nutrient multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. En préparation.
+Au terme de mes analyses, j’ai défini un indicateur de performance qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres mots, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](scientific_publications.md "Nazaries *et al.*, 2021 - Agriculture, Ecosystems and Environment").
 
 ---
 
 ### Modélisation géographique
 
 J’ai complété une étude décrivant les étapes de modélisation nécessaire pour prédire la répartition géographique de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.
-Grâce au sponsor du gouvernement écossais, une grande base de données a été formée après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, etc.) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des méthodes statistiques pointues. Voir la référence suivante :
-
-Nazaries, L., et al., 2018. Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. Journal of Soil Biology and Biochemistry. doi:10.1016/J.SOILBIO.2018.08.014.
+Grâce au sponsor du gouvernement écossais, une grande base de données a été formée après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, etc.) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des méthodes statistiques pointues. Voir la publication [Nazaries *et al.*, 2018](/documents/scientific_publications/Nazaries_et_al_2018.pdf "Nazaries *et al.*, 2018 - Soil Biology and Biochemistry").
 
 Notamment, j’ai rendu publique notre base de données sur le site figshare.com pour permettre à d’autres équipes d’utiliser mes données pour leurs propres études.
 
@@ -189,9 +185,7 @@ Notamment, j’ai rendu publique notre base de données sur le site figshare.com
 ### Coopération internationale
 
 Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et USA, j’ai mis en place une série de protocoles afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu la responsabilité de former les collaborateurs et de coordonner les équipes pour garantir les délivrables.
-Une fois les données générées, je les ai agrégé et préparé : enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un rapport de mission. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des problèmes administratifs, techniques et humains. Un des articles issu de cette collaboration est le suivant :
-
-Martins, C.S.C., Nazaries, L., et al., 2017. Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. Journal of Functional Ecology. doi:10.1111/1365-2435.12928.
+Une fois les données générées, je les ai agrégé et préparé : enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un rapport de mission. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des problèmes administratifs, techniques et humains. Un des articles issu de cette collaboration est [Martins, Nazaries *et al.*, 2017](/documents/scientific_publications/Martins_et_al_2017.pdf).
 
 ---
 
@@ -209,8 +203,7 @@ J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues
 
 ### Revue littéraire
 
-J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :
-          Nazaries, L. et al., 2013. Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:10.1111/1462-2920.12149.
+J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique (voir [Nazaries *et al.*, 2013](/documents/scientific_publications/Nazaries_et_al_2013b.pdf "Nazaries *et al. 2013 - Environmental Microbiology")). Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:<https://10.1111/1462-2920.12149>.
 
 ---
 
@@ -232,7 +225,8 @@ Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques
 
 C’était une épreuve très demandante et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Au final, j’ai publié cette thèse dont je suis très fier. Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur.
 
-
 ---
 
-### [Mes publications scientifiques](/scientific_publications.md)
+### Mes publications scientifiques
+
+Click [here](/scientific_publications.md) to access the publication list.

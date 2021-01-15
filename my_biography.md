@@ -26,4 +26,4 @@ J'ai gardé mes contacts académiques et continu de contribuer à des analyses d
 
 Mon voyage académique m’a donné la chance de collaborer et visiter de nombreux pays (et villes) au Royaume Uni, USA, Nouvelle-Zélande, Australie, Asie, et Europe évidement. Cette aventure a apporté beaucoup de richesse à mon profil. En particulier, rencontrer des gens de culture parfois très différentes ; enrichir mes compétences professionnelles ; ou encore découvrir des façons différentes d’aborder un sujet de recherche grâce à de nombreuses collaborations internationales et conférences.
 
-Maintenant que je suis revenu en France, la boucle est-elle bloquée ?
+Maintenant que je suis revenu en France, la boucle est-elle bouclée ?
