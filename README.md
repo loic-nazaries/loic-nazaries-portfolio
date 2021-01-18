@@ -215,7 +215,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 ### Créer un environnement virtuel avec Conda
 
-Ici, la gestion des librairies Python nécessaires au projet data sont gérées par [**Conda**](https://docs.conda.io/en/latest/ "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
+Ici, la gestion des librairies Python nécessaires au projet data sont gérées grâce à [**Conda**](https://docs.conda.io/en/latest/ "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
 
 La difference avec un le module "venv" est que la version de Python (par example version 2.7 *vs.* 3.9.1) est aussi installée.
 
