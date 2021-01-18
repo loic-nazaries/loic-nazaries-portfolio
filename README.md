@@ -13,6 +13,7 @@ Table des matières
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Tableau de bord](#tableau-de-bord)
   - [Mes projets passés](#mes-projets-passés)
+    - [Modélisation d'une base de données](#modélisation-dune-base-de-données)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
     - [Élaboration d'un indicateur multiple de performance (KPI)](#élaboration-dun-indicateur-multiple-de-performance-kpi)
     - [Modélisation géographique](#modélisation-géographique)
@@ -65,7 +66,7 @@ Les « **lignes** » en circulation sont:
 
 More to come!
 
-[![Metro Map Data Science](/images/MetroMap_Data_Analyst_16-10-2020.png "Click Me!")](/metro_map.md)
+[![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](/metro_map.md)
 
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
 
@@ -79,7 +80,7 @@ More to come!
 
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
-Une **base de données relationelle** a été construite à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
+Une **base de données relationnelle** a été construite à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
 [*Data Fallacies to avoid*](/documents/data-fallacies-to-avoid.pdf)).
 
 En particulier, les trois étapes suivantes sont importante dans tout project de « ***Data Science*** » :
@@ -145,6 +146,30 @@ P.S: application non disponible au moment de la préparation de cette page (10/0
 
 ---
 
+### Modélisation d'une base de données
+
+UML structure ([**Figure 4**](#figure-4))
+
+![UML Structure](/documents/RDBMS_UML.html "RDBMS UML - EucFACE")
+
+**Figure 4**: Diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
+
+Modèle conceptuel des données ([**Figure 5**](#figure-5))
+
+![MCD](/images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
+
+**Figure 5**: Modèle conceptuel des données de la base de données relationnelle du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
+
+Modèle de la base de données ([**Figure 6**](#figure-6))
+
+La base de données du projet "EucFACE" a été implémentée avec le logiciel **[PostgreSQL](https://www.postgresql.org/ "PostgreSQL")** (version 12.5).
+
+![SGBDR Model](/images/RDBMS_model.png "RDBMS Model - EucfACE")
+
+**Figure 6**: Diagramme du système de gestion de base de données relationnelle (SGBDR) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
+
+---
+
 ### Modélisation des émissions des gaz à effet de serre
 
 Analyse des émissions de gaz à effet de serre dans des conditions de concentrations atmosphériques en CO<sub>2</sub> élevées.
@@ -153,19 +178,19 @@ Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md) pour 
 
 [![Inside a ring at EucFACE](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o "EucFACE Crane Shot - YouTube.com")
 
-**Video 1**: Moving up a ring at the EucFACE site.
+**Vidéo 1**: Moving up a ring at the EucFACE site.
 
 ![EucFACE Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE Canopy View")
 
-**Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
+**Photo 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#figure-4)) pour tester l'hypothèse scientifique de départ:
+Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 7**](#figure-7)) pour tester l'hypothèse scientifique de départ:
 
 > « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
 ![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
-**Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
+**Figure 7**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
 Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries *et al.*, 2021 - Functional Ecology").
 
