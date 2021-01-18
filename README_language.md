@@ -4,7 +4,7 @@ Some exemples of my **data analysis** work :sunglasses:
 
 Please choose your (non-programming) language :stuck_out_tongue_winking_eye:
 
-Note: seulement disponible en francais au moment de la préparation de cette page (14/01/2021).
+Note: seulement disponible en français au moment de la préparation de cette page (14/01/2021).
 
 | Version Française                                                                              | English Version                                                                         |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |

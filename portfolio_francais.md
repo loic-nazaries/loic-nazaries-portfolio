@@ -186,7 +186,7 @@ Au terme de mes analyses, j’ai défini un indicateur de performance qui révè
 
 J’ai complété une étude décrivant les étapes de modélisation nécessaire pour prédire la répartition géographique de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.
 Grâce au sponsor du gouvernement écossais, une grande base de données a été formée après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, etc.) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des méthodes statistiques pointues. Voir la référence suivante :
-          Nazaries, L., et al., 2018. Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. Journal of Soil Biology and Biochemistry. doi:10.1016/J.SOILBIO.2018.08.014. Notamment, j’ai rendu publique notre base de données sur le site figshare.com pour permettre à d’autres équipes d’utiliser mes données pour leurs propres études.
+>Nazaries, L., et al., 2018. Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. Journal of Soil Biology and Biochemistry. doi:10.1016/J.SOILBIO.2018.08.014. Notamment, j’ai rendu publique notre base de données sur le site figshare.com pour permettre à d’autres équipes d’utiliser mes données pour leurs propres études.
 
 ---
 
@@ -194,7 +194,7 @@ Grâce au sponsor du gouvernement écossais, une grande base de données a été
 
 Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et USA, j’ai mis en place une série de protocoles afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu la responsabilité de former les collaborateurs et de coordonner les équipes pour garantir les délivrables.
 Une fois les données générées, je les ai agrégé et préparé : enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un rapport de mission. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des problèmes administratifs, techniques et humains. Un des articles issu de cette collaboration est le suivant :
-          Martins, C.. S.C., Nazaries, L., et al., 2017. Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. Journal of Functional Ecology. doi:10.1111/1365-2435.12928.
+>Martins, C.. S.C., Nazaries, L., et al., 2017. Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. Journal of Functional Ecology. doi:10.1111/1365-2435.12928.
 
 ---
 
@@ -213,7 +213,7 @@ J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues
 ### Revue littéraire
 
 J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai dû décrire l’origine des bactéries responsables du cycle du méthane entre l’atmosphère et le sol ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique :
-          Nazaries, L. et al., 2013. Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:10.1111/1462-2920.12149.
+>Nazaries, L. et al., 2013. Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. Journal of Environmental Microbiology. doi:10.1111/1462-2920.12149.
 
 ---
 

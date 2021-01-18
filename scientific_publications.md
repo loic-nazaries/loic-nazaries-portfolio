@@ -2,9 +2,9 @@
 
 ## Journal Articles
 
-Martins, **Nazaries**, Delgado-Baquerizo, Mitchell, Grinyer, Macdonald, Anderson, Singh, 2021. Rainfall frequency and soil water availability regulate CH<sub>4</sub>, N<sub>2</sub>O and CO<sub>2</sub> emissions from a native forest exposed to elevated CO<sub>2</sub>. ***(In review).***
-
 Henaka Arachchi M.P.N.K.a, Karunaratne S.B.b, c, Fang Y.a, Minasny Bb, **Nazaries** L.d, Sarker J.R.a, e, Weng Z.f, g, Van Zwieten L.f, Singh B.K.d, h, Singh B.P, 2021. Mid-infrared spectroscopy for rapid characterisation of soil chemical and biological properties on long-term field trial sites. ***(In preparation)***.
+
+Martins, **Nazaries**, Delgado-Baquerizo, Mitchell, Grinyer, Macdonald, Anderson, Singh, 2021. Rainfall frequency and soil water availability regulate CH<sub>4</sub>, N<sub>2</sub>O and CO<sub>2</sub> emissions from a native forest exposed to elevated CO<sub>2</sub>. ***(In review - Functional Ecology).***
 
 **Nazaries, L.**, Singh, B.P., Sarker, J.R., Fang, Y., Klein, M., Singh, B.K., 2021. The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206>
 

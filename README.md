@@ -4,19 +4,25 @@ Quelques examples de mon travail d'**analyse de données**.
 
 ---
 
-Table of contents
+Table des matières
 
 - [My Data Science Portfolio](#my-data-science-portfolio)
-  - [My Elevator Pitch](#my-elevator-pitch)
-  - [My Data Science Skills](#my-data-science-skills)
-  - [My Current Projects](#my-current-projects)
+  - [Mon *Elevator Pitch*](#mon-elevator-pitch)
+  - [Mes compétances en science des données](#mes-compétances-en-science-des-données)
+  - [Mes projets actuels](#mes-projets-actuels)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
-    - [Dashboard](#dashboard)
-  - [My Past Projects](#my-past-projects)
+    - [Tableau de bord](#tableau-de-bord)
+  - [Mes projets passés](#mes-projets-passés)
     - [Modélisation des émissions des gaz à effet de serre](#modélisation-des-émissions-des-gaz-à-effet-de-serre)
-    - [Élaboration d'un indicateur multiple de performance (« *KPI* »)](#élaboration-dun-indicateur-multiple-de-performance--kpi-)
+    - [Élaboration d'un indicateur multiple de performance (KPI)](#élaboration-dun-indicateur-multiple-de-performance-kpi)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
+  - [Mes *Scripts/Gists*](#mes-scriptsgists)
+    - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
+    - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
+    - [Créer un dépôt de projet avec GitHub](#créer-un-dépôt-de-projet-avec-github)
+    - [Déployer une application web avec Heroku](#déployer-une-application-web-avec-heroku)
+    - [Pipeline d'un projet de *Data Science*](#pipeline-dun-projet-de-data-science)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
@@ -29,7 +35,7 @@ Table of contents
 
 ---
 
-## My Elevator Pitch
+## Mon *Elevator Pitch*
 
 Doué d'une grande appétance pour les **statistiques**, l'analyse exploratoire de données et le « **machine learning** », j'aime pouvoir jongler avec des données et en distiller des informations utiles pour ensuite les retranscrire, notamment, sous la forme de supports visuels simples et impactant de type « ***Dashboard*** ». Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
 
@@ -43,7 +49,7 @@ Jetez un coup d'oeil à ma [Biographie](/my_biography.md).
 
 ---
 
-## My Data Science Skills
+## Mes compétances en science des données
 
 La [**Figure 0**](#figure-0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
 
@@ -67,7 +73,7 @@ More to come!
 
 ---
 
-## My Current Projects
+## Mes projets actuels
 
 ---
 
@@ -98,7 +104,7 @@ De manière plus générale, il s'agit de préparer les jeux de données pour le
 
 ---
 
-### Dashboard
+### Tableau de bord
 
 Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « Greenhouse Gas Estimation Portal » a été codé avec la librairie Python [Streamlit](https://www.streamlit.io/ "Streamlit.io") et déployée sur [Heroku.com](https://www.heroku.com/ "Heroku.com"). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/ "Greenhouse Gas Estimation Portal App").
 
@@ -135,7 +141,7 @@ P.S: application non disponible au moment de la préparation de cette page (10/0
 
 ---
 
-## My Past Projects
+## Mes projets passés
 
 ---
 
@@ -153,19 +159,19 @@ Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md) pour 
 
 **Picture 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Ensuite, une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#figure-4)) pour tester l'hypothèse scientifique de départ:
+Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 4**](#figure-4)) pour tester l'hypothèse scientifique de départ:
 
-« Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
+> « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
 ![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
 **Figure 4**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
-Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries *et al.*, 2021 - In print").
+Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries *et al.*, 2021 - Functional Ecology").
 
 ---
 
-### Élaboration d'un indicateur multiple de performance (« *KPI* »)
+### Élaboration d'un indicateur multiple de performance (KPI)
 
 Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, etc.). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.
 
@@ -186,6 +192,52 @@ Notamment, j’ai rendu publique notre base de données sur le site figshare.com
 
 Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et USA, j’ai mis en place une série de protocoles afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu la responsabilité de former les collaborateurs et de coordonner les équipes pour garantir les délivrables.
 Une fois les données générées, je les ai agrégé et préparé : enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un rapport de mission. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des problèmes administratifs, techniques et humains. Un des articles issu de cette collaboration est [Martins, Nazaries *et al.*, 2017](/documents/scientific_publications/Martins_et_al_2017.pdf).
+
+---
+
+---
+
+## Mes *Scripts/Gists*
+
+---
+
+### Créer un environnement virtuel avec Python
+
+Dans tout projet data, il est important de pouvoir créer un **environnement technique** reproductible par une autre personne ou sur un autre ordinateur. Ceci signifie que le langage de programmation (Python, par example) et la version des librairies utilisées lors de l'ecriture d'un script doivent être établis dès le début du projet.
+
+Pour cette raison, il est courant de créer un **environnement virtuel** qui va contenir toutes ces données ainsi que la structure des dossiers contenant les fichiers essentiels au projet.
+
+Voici donc un **script**, ou ***gist***, qui détaille les differents étapes de la création d'un environnement virtuel avec Python. Dans ce cas précis, le module "**venv**" de **Python** est utilisé.
+
+Le *gist* est disponible sur ce [ici](/documents/scripts_gists/create_a_virtual_environment_with_python.md "Create a Virtual Environment with Python - GitHub Pages") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - GitHub Gist").
+
+---
+
+### Créer un environnement virtuel avec Conda
+
+Ici, la gestion des librairies Python nécessaires au projet data sont gérées par [**Conda**](https://docs.conda.io/en/latest/ "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
+
+La difference avec un le module "venv" est que la version de Python (par example version 2.7 *vs.* 3.9.1) est aussi installée.
+
+Le *gist* est disponible sur ce [ici](/documents/scripts_gists/create_a_virtual_environment_with_conda.md "Create a Virtual Environment with Conda - GitHub Pages") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - GitHub Gist").
+
+---
+
+### Créer un dépôt de projet avec GitHub
+
+Bientôt !
+
+---
+
+### Déployer une application web avec Heroku
+
+Bientôt !
+
+---
+
+### Pipeline d'un projet de *Data Science*
+
+Bientôt!
 
 ---
 
@@ -229,4 +281,4 @@ C’était une épreuve très demandante et difficile. On m’a donné un thème
 
 ### Mes publications scientifiques
 
-Click [here](/scientific_publications.md) to access the publication list.
+Cliqué [ici](/scientific_publications.md) pour accéder à la liste des publications.
