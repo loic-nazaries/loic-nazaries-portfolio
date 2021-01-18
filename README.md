@@ -148,25 +148,21 @@ P.S: application non disponible au moment de la préparation de cette page (10/0
 
 ### Modélisation d'une base de données
 
-UML structure ([**Figure 4**](#figure-4))
+Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML  et les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
 
-![UML Structure](/documents/RDBMS_UML.html "RDBMS UML - EucFACE")
-
-**Figure 4**: Diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
-
-Modèle conceptuel des données ([**Figure 5**](#figure-5))
+Modèle conceptuel des données ([**Figure 4**](#figure-4))
 
 ![MCD](/images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
 
-**Figure 5**: Modèle conceptuel des données de la base de données relationnelle du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
+**Figure 4**: Modèle conceptuel des données de la base de données relationnelle du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
 
-Modèle de la base de données ([**Figure 6**](#figure-6))
+Modèle de la base de données ([**Figure 5**](#figure-5))
 
 La base de données du projet "EucFACE" a été implémentée avec le logiciel **[PostgreSQL](https://www.postgresql.org/ "PostgreSQL")** (version 12.5).
 
 ![SGBDR Model](/images/RDBMS_model.png "RDBMS Model - EucfACE")
 
-**Figure 6**: Diagramme du système de gestion de base de données relationnelle (SGBDR) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
+**Figure 5**: Diagramme du système de gestion de base de données relationnelle (SGBDR) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre)".
 
 ---
 
@@ -184,13 +180,13 @@ Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md) pour 
 
 **Photo 1**: Canopy view from Ring 1 at the EucFACE Site.
 
-Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 7**](#figure-7)) pour tester l'hypothèse scientifique de départ:
+Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 6**](#figure-6)) pour tester l'hypothèse scientifique de départ:
 
 > « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
 ![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
-**Figure 7**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
+**Figure 6**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated. There is already a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
 Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries *et al.*, 2021 - Functional Ecology").
 
