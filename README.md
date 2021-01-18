@@ -209,7 +209,7 @@ Pour cette raison, il est courant de créer un **environnement virtuel** qui va 
 
 Voici donc un **script**, ou ***gist***, qui détaille les differents étapes de la création d'un environnement virtuel avec Python. Dans ce cas précis, le module "**venv**" de **Python** est utilisé.
 
-Le *gist* est disponible sur ce [ici](/documents/scripts_gists/create_a_virtual_environment_with_python.md "Create a Virtual Environment with Python - GitHub Pages") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - GitHub Gist").
+Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_python.html "Create a Virtual Environment with Python - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - Markdown Version").
 
 ---
 
@@ -219,7 +219,7 @@ Ici, la gestion des librairies Python nécessaires au projet data sont gérées 
 
 La difference avec un le module "venv" est que la version de Python (par example version 2.7 *vs.* 3.9.1) est aussi installée.
 
-Le *gist* est disponible sur ce [ici](/documents/scripts_gists/create_a_virtual_environment_with_conda.md "Create a Virtual Environment with Conda - GitHub Pages") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - GitHub Gist").
+Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_conda.html "Create a Virtual Environment with Conda - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - Markdown Version").
 
 ---
 
