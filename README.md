@@ -70,7 +70,7 @@ Les « **lignes** » en circulation sont:
 
 More to come!
 
-[![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/metro_map.md) "Metro Map Data Science")
+[![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/metro_map.md "Metro Map Data Science")
 
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
 
