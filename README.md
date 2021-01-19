@@ -48,7 +48,7 @@ Je crois en l’apprentissage par la pratique et, dans un futur proche, je souha
 
 Pensez-vous que nous avons des objectifs communs ?
 
-Jetez un coup d'oeil à ma biographie [ici](/ma_biographie.md "Ma biographie").
+Jetez un coup d'oeil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
 
 ---
 
@@ -158,7 +158,7 @@ Note: le projet *EucFACE* est presenté brièvement [ici](#modélisation-des-ém
 
 Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[tableau de bord](#tableau-de-bord "tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
 
-Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivement, le **modèle conceptuel des données** (**MCD**) et le **modèle physique des données** (**MPD**) de la base de données relationnelle EucFACE. Sa structure de type  « **flocon de neige** ».
+Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivement, le **modèle conceptuel des données** (**MCD**) et le **modèle physique des données** (**MPD**) de la base de données relationnelle EucFACE. Sa structure est de type  « **flocon de neige** ».
 
 #### Modèle conceptuel des données (MCD)
 
@@ -178,7 +178,7 @@ Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivem
 
 Analyse des émissions de **gaz à effet de serre** dans des conditions de concentrations atmosphériques en CO<sub>2</sub> élevées. En résumé, cela mimique les conditions de **changement climatique** prévues pour l'année 2100.
 
-Voir la section [EucFACE Site Presentation](/eucface_site_presentation.md "EucFACE Site Presentation") pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
+Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/eucface_site_presentation.md "EucFACE Site Presentation") pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
 
 [![Inside a ring at the EucFACE site](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o "EucFACE Crane Shot - YouTube.com")
 
@@ -198,7 +198,7 @@ Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 6*
 
 There is a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
-Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientific_publications.md "[Martins, Nazaries et al., 2021 - Functional Ecology - In Review").
+Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "[Martins, Nazaries et al., 2021 - Functional Ecology - In Review").
 
 ---
 
@@ -206,7 +206,7 @@ Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](/scientifi
 
 Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, *etc.*). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.
 
-Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (« **KPI** » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](scientific_publications.md "Nazaries et al., 2021 - Agriculture, Ecosystems and Environment").
+Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (« **KPI** » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "Nazaries et al., 2021 - Agriculture, Ecosystems and Environment - In Print").
 > The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206 ">
 
 ![KPI Visualisation](/images/KPI_all_sites.png "KPI Visualisation")
@@ -326,4 +326,4 @@ C’était une épreuve très demandante et difficile. On m’a donné un thème
 
 ### Mes publications scientifiques
 
-Cliqué [ici](/scientific_publications.md "Mes publications scientifiques") pour accéder à la liste des publications.
+Cliqué [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "Mes publications scientifiques") pour accéder à la liste des publications.
