@@ -1,4 +1,4 @@
-# My Bio
+# Ma biographie
 
 ![Profile Picture](/images/profile_picture.jpg "Profile Picture")
 
