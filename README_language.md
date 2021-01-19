@@ -14,7 +14,7 @@ Note: seulement disponible en français au moment de la préparation de cette pa
 
 Please check out below the "Metro Map" of my Data Skills !
 
-[![Metro Map Data Science](/images/MetroMap_Data_Analyst_16-10-2020.png "Click Me!")](/metro_map.md)
+[![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](/metro_map.md)
 
 ---
 
