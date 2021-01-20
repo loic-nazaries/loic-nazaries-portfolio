@@ -1,6 +1,6 @@
 # My Data Science Portfolio
 
-Quelques examples de mon travail d'**analyse de données**.
+Quelques exemples de mon travail d'**analyse de données**.
 
 ---
 
@@ -8,7 +8,7 @@ Table des matières
 
 - [My Data Science Portfolio](#my-data-science-portfolio)
   - [Mon *Elevator Pitch*](#mon-elevator-pitch)
-  - [Mes compétances en science des données](#mes-compétances-en-science-des-données)
+  - [Mes compétences en science des données](#mes-compétences-en-science-des-données)
   - [Mes projets actuels](#mes-projets-actuels)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Tableau de bord](#tableau-de-bord)
@@ -40,7 +40,7 @@ Table des matières
 
 ## Mon *Elevator Pitch*
 
-Doué d'une grande appétance pour les **statistiques**, l'analyse exploratoire de données et l'**apprentissage automatique** (« ***machine learning*** »),  le cycle de vie entier de la *data* me passionne, depuis la modélisation d'une base de données à son utilisation dans le domaine de l'**informatique décisionnelle** (« ***Business Intelligence*** ») en passant par la création de supports visuels simples et impactant comme les **tableaux de bord** (« ***Dashboards*** »).
+Doué d'une grande appétence pour les **statistiques**, l'analyse exploratoire de données et l'**apprentissage automatique** (« ***machine learning*** »),  le cycle de vie entier de la *data* me passionne, depuis la modélisation d'une base de données à son utilisation dans le domaine de l'**informatique décisionnelle** (« ***Business Intelligence*** ») en passant par la création de supports visuels simples et impactant comme les **tableaux de bord** (« ***Dashboards*** »).
 
 Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
 
@@ -48,13 +48,13 @@ Je crois en l’apprentissage par la pratique et, dans un futur proche, je souha
 
 Pensez-vous que nous avons des objectifs communs ?
 
-Jetez un coup d'oeil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
+Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
 
 ---
 
 ---
 
-## Mes compétances en science des données
+## Mes compétences en science des données
 
 La [**Figure 0**](#figure-0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
 
@@ -84,10 +84,10 @@ More to come!
 
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
-Une **base de données relationnelle** de type  « **flocon de neige** » a été modélisée à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
+Une **base de données relationnelle** de type  « **flocon de neige** » a été modélisée à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionnalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
 [*Data Fallacies to avoid*](/documents/data-fallacies-to-avoid.pdf "Data Fallacies to avoid")).
 
-En particulier, les trois étapes suivantes sont importante dans tout project de « ***Data Science*** » :
+En particulier, les trois étapes suivantes sont importantes dans tout projet de « ***Data Science*** » :
 
 1. **Typage des variables** (*category*, *integers*/*floats*, *strings*, *booleans*, *dates*). Très important, en particulier, pour diminuer l'utilisation de la mémoire vive d'un ordinateur ou serveur
 
@@ -111,7 +111,7 @@ De manière plus générale, il s'agit de préparer les jeux de données pour le
 
 ### Tableau de bord
 
-Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serrre sous différentes conditions. Cette **application web** appelée « ***Greenhouse Gas Estimation Portal*** » a été codé avec la librairie Python [Streamlit](https://www.streamlit.io/ "Streamlit.io") et déployée sur [Heroku.com](https://www.heroku.com/ "Heroku.com"). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/ "Greenhouse Gas Estimation Portal App").
+Un tableau de bord (« *dashboard* ») interactif a été construit pour observer et tester les émissions des gaz à effet de serre sous différentes conditions. Cette **application web** appelée « ***Greenhouse Gas Estimation Portal*** » a été codé avec la librairie Python [Streamlit](https://www.streamlit.io/ "Streamlit.io") et déployée sur [Heroku.com](https://www.heroku.com/ "Heroku.com"). L'application peut être accédée par le [lien suivant](https://exam-piscine-heroku-redone.herokuapp.com/ "Greenhouse Gas Estimation Portal App").
 
 Il s'agit d'une application entièrement réglable une fois que l'utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:
 
@@ -120,14 +120,14 @@ Il s'agit d'une application entièrement réglable une fois que l'utilisateur a 
 - typage des variables
 - choix des variables dépendantes et indépendantes
 - « *dummification* » possible des variables
-- génération d'un résumé statistique (moyenne, ecart-type, kurtosis/skewness, percentage des valeurs manquantes, *etc.*)
-- agrégation des données par groupe (date, traitement, annéé, *etc.*)
+- génération d'un résumé statistique (moyenne, écart-type, kurtosis/skewness, pourcentage des valeurs manquantes, *etc.*)
+- agrégation des données par groupe (date, traitement, année, *etc.*)
 - analyses univariées et bivariées
 - analyses de corrélation
 - analyses statistiques de type « REML » (*restriction likelihood*)
-- envoie des resultats à l'utilisateur par *email*
+- envoie des résultats à l'utilisateur par *email*
 
-Des captures d'ecran sont disponibles dans la ([**Figure 3**](#figure-3)).
+Des captures d'écran sont disponibles dans la ([**Figure 3**](#figure-3)).
 Elles reflètent certaines des options disponibles à l'utilisateur.
 
 | Login to GHG Estimation Portal                                                                                     | Variable Selection                                                                                                |
@@ -138,7 +138,7 @@ Elles reflètent certaines des options disponibles à l'utilisateur.
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
-Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des emissions des gaz à effet de serre.
+Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des émissions des gaz à effet de serre.
 
 **EDIT**: application non disponible au moment de la préparation de cette page (10/01/2021).
 
@@ -154,7 +154,7 @@ Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera 
 
 Un **système de gestion de base de données relationnelle** (SGBDR) a été construit pour le projet « ***EucFACE*** ». La base de données a été implémentée avec le logiciel **[PostgreSQL](https://www.postgresql.org/ "PostgreSQL")** (version 12.5) et **pgAdmin4**.
 
-Note: le projet *EucFACE* est presenté brièvement [ici](#modélisation-des-émissions-des-gaz-à-effet-de-serre "EucFACE project").
+Note: le projet *EucFACE* est présenté brièvement [ici](#modélisation-des-émissions-des-gaz-à-effet-de-serre "EucFACE project").
 
 Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[tableau de bord](#tableau-de-bord "tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
 
@@ -168,7 +168,7 @@ Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivem
 
 #### Modèle physique des données (MPD)
 
-![MPD_EucFACEl](/images/RDBMS_model.png "Modèle physique des données -  EucfACE")
+![MPD_EucFACEl](/images/RDBMS_model.png "Modèle physique des données - EucfACE")
 
 **Figure 5**: Diagramme du système de gestion de base de données relationnelle (**SGBDR**) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
@@ -178,7 +178,7 @@ Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivem
 
 Analyse des émissions de **gaz à effet de serre** dans des conditions de concentrations atmosphériques en CO<sub>2</sub> élevées. En résumé, cela mimique les conditions de **changement climatique** prévues pour l'année 2100.
 
-Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/eucface_site_presentation.md "EucFACE Site Presentation") pour une description détailléé du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les réferences bibliographiques principales.
+Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/eucface_site_presentation.md "EucFACE Site Presentation") pour une description détaillée du projet, incluant l'hypothèse scientifique testée, matériel et méthodes et les références bibliographiques principales.
 
 [![Inside a ring at the EucFACE site](http://img.youtube.com/vi/K8RTVdijc0o/0.jpg)](http://www.youtube.com/watch?v=K8RTVdijc0o "EucFACE Crane Shot - YouTube.com")
 
@@ -234,7 +234,7 @@ J’ai rendu publique (***open source***) ma base de données sur le site [figsh
 ### Coopération internationale
 
 Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et États-Unis, j’ai mis en place une série de **protocoles** afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu à charge la **formation** des collaborateurs et la **coordination** des équipes pour garantir les délivrables.
-Une fois les données générées, je les ai soumi à une **analyse descriptive** complète qui inclue: **agrégation et préparation ; enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration**. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un **rapport de mission**. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. **Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des ***challenges*** administratifs, techniques et humains**. Un des articles issu de cette collaboration est [Martins, Nazaries *et al.*, 2017](/documents/scientific_publications/Martins_et_al_2017.pdf "Martins, Nazaries et al. 2017 - Functional Ecology").
+Une fois les données générées, je les ai soumis à une **analyse descriptive** complète qui inclue: **agrégation et préparation ; enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration**. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un **rapport de mission**. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. **Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des ***challenges*** administratifs, techniques et humains**. Un des articles issus de cette collaboration est [Martins, Nazaries *et al.*, 2017](/documents/scientific_publications/Martins_et_al_2017.pdf "Martins, Nazaries et al. 2017 - Functional Ecology").
 > Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. *Functional Ecology* 31, 2356–2368. doi:<https://doi.org/10.1111/1365-2435.12928>.
 
 ---
@@ -247,11 +247,11 @@ Une fois les données générées, je les ai soumi à une **analyse descriptive*
 
 ### Créer un environnement virtuel avec Python
 
-Dans tout **projet data**, il est important de pouvoir créer un **environnement technique** reproductible par une autre personne ou sur un autre ordinateur. Ceci signifie que le langage de programmation (Python, par example) et la version des librairies utilisées lors de l'ecriture d'un script doivent être établis dès le début du projet.
+Dans tout **projet data**, il est important de pouvoir créer un **environnement technique** reproductible par une autre personne ou sur un autre ordinateur. Ceci signifie que le langage de programmation (Python, par exemple) et la version des librairies utilisées lors de l'écriture d'un script doivent être établis dès le début du projet.
 
 Pour cette raison, il est courant de créer un **environnement virtuel** qui va contenir toutes ces données ainsi que la structure des dossiers contenant les fichiers essentiels au projet.
 
-Voici donc un **script**, ou ***gist***, qui détaille les differents étapes de la création d'un **environnement virtuel** avec le module "**venv**" de **Python**.
+Voici donc un **script**, ou ***gist***, qui détaille les différents étapes de la création d'un **environnement virtuel** avec le module "**venv**" de **Python**.
 
 Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_python.html "Create a Virtual Environment with Python - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - Markdown Version").
 
@@ -261,7 +261,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 Ici, la gestion des **librairies Python** nécessaires au **projet data** sont gérées grâce à [**Conda**](https://docs.conda.io "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
 
-La difference avec un le module "venv" de Python est que la version de Python (par example version 2.7 *vs.* 3.9.1) est aussi installée.
+La différence avec un le module "venv" de Python est que la version de Python (par exemple version 2.7 *vs.* 3.9.1) est aussi installée.
 
 Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_conda.html "Create a Virtual Environment with Conda - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - Markdown Version").
 
@@ -308,7 +308,7 @@ J’ai recherché sur internet des centaines d’études et d’articles en rapp
 
 Ou, Surmonter une difficulté.
 
-J’ai été confronté à une **situation frustrante** au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle appartenant aux méthodes [***Taguchi***](https://en.wikipedia.org/wiki/Taguchi_methods "Taguchi Methods"). L'utilisation d'une *loss function* spécifique m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie pour améliorer la qualité des produits de confection ; mais j’ai su l’adapté à ma technologie génétique.
+J’ai été confronté à une **situation frustrante** au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle appartenant aux méthodes [***Taguchi***](https://en.wikipedia.org/wiki/Taguchi_methods "Taguchi Methods"). L'utilisation d'une ***loss function*** spécifique m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie pour améliorer la qualité des produits de confection ; mais j’ai su l’adapté à ma technologie génétique.
 
 ---
 
@@ -320,7 +320,7 @@ Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques
 
 ### Écrire une thèse doctorale
 
-C’était une épreuve très demandante et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Au final, j’ai publié cette thèse dont je suis très fier. **Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur**.
+C’était une épreuve très demandant et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Finalement, j’ai publié cette thèse dont je suis très fier. **Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur**.
 
 ---
 
