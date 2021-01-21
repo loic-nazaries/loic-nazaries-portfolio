@@ -156,7 +156,7 @@ Un **système de gestion de base de données relationnelle** (SGBDR) a été con
 
 Note: le projet *EucFACE* est présenté brièvement [ici](#modélisation-des-émissions-des-gaz-à-effet-de-serre "EucFACE project").
 
-Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[tableau de bord](#tableau-de-bord "tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
+Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[Tableau de bord](#tableau-de-bord "Tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
 
 Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivement, le **modèle conceptuel des données** (**MCD**) et le **modèle physique des données** (**MPD**) de la base de données relationnelle EucFACE. Sa structure est de type  « **flocon de neige** ».
 
@@ -207,7 +207,7 @@ Ces travaux ont été publiés par [Martins, Nazaries *et al.*, 2021](https://gi
 Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, *etc.*). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.
 
 Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (« **KPI** » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "Nazaries et al., 2021 - Agriculture, Ecosystems and Environment - In Print").
-> The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206 ">
+> The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206>.
 
 ![KPI Visualisation](/images/KPI_all_sites.png "KPI Visualisation")
 ![Modelling KPI](images/Modelling_KPI.png "Modelling KPI")
@@ -220,6 +220,7 @@ Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (
 
 J’ai complété une étude décrivant les étapes de modélisation nécessaire pour **prédire la répartition géographique** de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.
 Grâce au sponsor du gouvernement écossais, une grande base de données a été construite après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, *etc.*) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des **méthodes statistiques** pointues. Voir la publication [Nazaries *et al.*, 2018](/documents/scientific_publications/Nazaries_et_al_2018.pdf "Nazaries et al., 2018 - Soil Biology and Biochemistry").
+> Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. *Soil Biology and Biochemistry*. doi:<https://doi.org/10.1016/J.SOILBIO.2018.08.014>.
 
 | Geographical Modelling                                               | Microbial Community Clusters                                        |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -310,6 +311,8 @@ Ou, Surmonter une difficulté.
 
 J’ai été confronté à une **situation frustrante** au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle appartenant aux méthodes [***Taguchi***](https://en.wikipedia.org/wiki/Taguchi_methods "Taguchi Methods"). L'utilisation d'une ***loss function*** spécifique m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie pour améliorer la qualité des produits de confection ; mais j’ai su l’adapté à ma technologie génétique.
 
+Les méthodes Taguchi sont applicables à tout procédés quantitatifs. Si vous cherchez à optimiser une méthode de détection génétique appelée *qPCR*, j'ai préparé une [présentation](/documents/taguchi_optimisation_qpcr.ppsx "qPCR Optimisation with the Taguchi Methods") qui pourrait vous intéresser.
+
 ---
 
 ### Exploration de l’Écosse
@@ -321,6 +324,7 @@ Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques
 ### Écrire une thèse doctorale
 
 C’était une épreuve très demandant et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Finalement, j’ai publié cette thèse dont je suis très fier. **Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur**.
+> Nazaries, L., 2011. Impact of land-use changes on the methanotrophic community structure. Thesis University of Warwick.
 
 ---
 
