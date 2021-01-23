@@ -271,6 +271,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 ### Créer un dépôt de projet avec GitHub
 
 Bientôt !
+Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur GitHub Gist.
 
 ---
 
