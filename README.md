@@ -1,8 +1,9 @@
 # My Data Science Portfolio
 
-![GitHub](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io)
-
 Quelques exemples de mon travail d'**analyse de données**.
+
+![GitHub License](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io "GitHub License")
+![GitHub Release (latest by date)](https://img.shields.io/github/v/release/loic-nazaries/loic-nazaries.github.io "GitHub Release (latest by date)")
 
 ---
 
@@ -75,6 +76,31 @@ More to come!
 [![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/metro_map.md "Metro Map Data Science")
 
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
+
+[![Version](https://img.shields.io/badge/conda-4.9.2-orange)](https://docs.conda.io/en/latest/ "conda.io")
+[![Version](https://img.shields.io/badge/python-3.9.1-orange)](https://www.python.org/ "python.org")
+[![Version](https://img.shields.io/badge/yaml-0.2.5-orange)](https://yaml.org/ "YAML")
+[![Version](https://img.shields.io/badge/git-2.30.0-orange)](https://yaml.org/ "Git")
+[![Markdown Syntax](https://img.shields.io/badge/markdown-syntax-orange)](https://daringfireball.net/projects/markdown/ "Markdown Syntax")
+
+[![Version](https://img.shields.io/badge/heroku-7.47.7-green)](https://dashboard.heroku.com/apps "heroku.com")
+[![Version](https://img.shields.io/badge/streamlit-0.73.1-green)](https://docs.streamlit.io/en/stable/ "streamlit.io")
+[![Version](https://img.shields.io/badge/jupyterlab-3.0-green)](https://jupyterlab.readthedocs.io/en/stable/ "jupyterlab.io")
+[![Version](https://img.shields.io/badge/postgresql-12.5-green)](https://www.postgresql.org/ "postgresql.org")
+
+<!--
+To be added: Talend / Alteryx / SAS / Tableau / Snowflake / MongoDB  / voila / binder 
+-->
+
+<!--
+Python libs: sqlite 3..33.0 / seaborn 0..11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git
+-->
+
+[![Version](https://img.shields.io/badge/microsoft--visual--studio--code-1.52.1-yellow "Version")](https://code.visualstudio.com/)
+[![Version](https://img.shields.io/badge/microsoft--office--professional--plus-2019-yellow "Version")](https://code.visualstudio.com/)
+
+[![GitHub Repositories](https://img.shields.io/badge/github-repositories%20-blue)](https://github.com/loic-nazaries?tab=repositories "GitHub Repositories")
+[![LinkedIn Profile](https://img.shields.io/badge/linkedin-profile-blue)](https://www.linkedin.com/in/loic-nazaries/ "LinkedIn Profile")
 
 ---
 
