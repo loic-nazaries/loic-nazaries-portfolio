@@ -1,5 +1,7 @@
 # My Data Science Portfolio
 
+![GitHub](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io)
+
 Quelques exemples de mon travail d'**analyse de données**.
 
 ---
