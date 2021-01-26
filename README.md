@@ -81,6 +81,7 @@ More to come!
 [![Version](https://img.shields.io/badge/python-3.9.1-orange)](https://www.python.org/ "python.org")
 [![Version](https://img.shields.io/badge/yaml-0.2.5-orange)](https://yaml.org/ "YAML")
 [![Version](https://img.shields.io/badge/git-2.30.0-orange)](https://yaml.org/ "Git")
+[![Version](https://img.shields.io/badge/chocolatey-0.10.15-orange)](https://chocolatey.org/ "chocolatey.org")
 [![Markdown Syntax](https://img.shields.io/badge/markdown-syntax-orange)](https://daringfireball.net/projects/markdown/ "Markdown Syntax")
 
 [![Version](https://img.shields.io/badge/heroku-7.47.7-green)](https://dashboard.heroku.com/apps "heroku.com")
