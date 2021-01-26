@@ -111,6 +111,8 @@ Python libs: sqlite 3..33.0 / seaborn 0..11.1 / scipy 1.5.2 / pandas 1.1.5 / num
 [![GitHub Repositories](https://img.shields.io/badge/github-repositories%20-blue)](https://github.com/loic-nazaries?tab=repositories "GitHub Repositories")
 [![LinkedIn Profile](https://img.shields.io/badge/linkedin-profile-blue)](https://www.linkedin.com/in/loic-nazaries/ "LinkedIn Profile")
 
+<!-- Add link to CV -->
+
 ---
 
 ---
