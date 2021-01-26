@@ -1,9 +1,16 @@
 # My Data Science Portfolio
 
-Quelques exemples de mon travail d'**analyse de données**.
+![GitHub license](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io "GitHub License")
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/loic-nazaries/loic-nazaries.github.io "GitHub Release (latest by date)")
+![Languages](https://img.shields.io/github/languages/count/loic-nazaries/loic-nazaries.github.io "Markdown")
+[![Markdown Syntax](https://img.shields.io/badge/markdown-syntax-orange)](https://daringfireball.net/projects/markdown/ "Markdown Syntax")
 
-![GitHub License](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io "GitHub License")
-![GitHub Release (latest by date)](https://img.shields.io/github/v/release/loic-nazaries/loic-nazaries.github.io "GitHub Release (latest by date)")
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/loic-nazaries/loic-nazaries.github.io)
+![GitHub repo size](https://img.shields.io/github/repo-size/loic-nazaries/loic-nazaries.github.io)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/loic-nazaries/loic-nazaries.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/loic-nazaries/loic-nazaries.github.io)
+
+Quelques exemples de mon travail d'**analyse de données**.
 
 ---
 
@@ -23,6 +30,7 @@ Table des matières
     - [Élaboration d'un indicateur clé de performance (KPI)](#élaboration-dun-indicateur-clé-de-performance-kpi)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
+  - [Mes jeux et bases de données](#mes-jeux-et-bases-de-données)
   - [Mes *Scripts/Gists*](#mes-scriptsgists)
     - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
     - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
@@ -271,6 +279,12 @@ Une fois les données générées, je les ai soumis à une **analyse descriptive
 
 ---
 
+## Mes jeux et bases de données
+
+Bientôt !
+
+<!-- Links to GitHub repositories -->
+
 ## Mes *Scripts/Gists*
 
 ---
@@ -300,6 +314,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 ### Créer un dépôt de projet avec GitHub
 
 Bientôt !
+
 Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur GitHub Gist.
 
 ---
