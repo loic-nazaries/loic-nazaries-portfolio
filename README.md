@@ -87,7 +87,8 @@ More to come!
 
 [![Version](https://img.shields.io/badge/conda-4.9.2-orange)](https://docs.conda.io/en/latest/ "conda.io")
 [![Version](https://img.shields.io/badge/python-3.9.1-orange)](https://www.python.org/ "python.org")
-[![Version](https://img.shields.io/badge/yaml-0.2.5-orange)](https://yaml.org/ "YAML")
+[![SQL Syntax](https://img.shields.io/badge/sql-syntax-orange)](https://www.dummies.com/programming/sql/what-is-sql/ "SQL Syntax")
+[![Version](https://img.shields.io/badge/yaml-0.2.5-orange)](https://yaml.org/ "YAML Syntax")
 [![Version](https://img.shields.io/badge/git-2.30.0-orange)](https://yaml.org/ "Git")
 [![Version](https://img.shields.io/badge/chocolatey-0.10.15-orange)](https://chocolatey.org/ "chocolatey.org")
 [![Markdown Syntax](https://img.shields.io/badge/markdown-syntax-orange)](https://daringfireball.net/projects/markdown/ "Markdown Syntax")
