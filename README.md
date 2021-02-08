@@ -137,13 +137,13 @@ En particulier, les trois étapes suivantes sont importantes dans tout projet de
     | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
     | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
-    **Figure 1**:  The replacement (or **imputation**) of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the **"mean" value** of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerfull machine learning approaches (not detailed here).
+    **Figure 1**:  The replacement (or **imputation**) of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the **"mean" value** of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerful machine learning approaches (not detailed here).
 
 3. Transformation des variables pour obtenir une distribution dite « **normale** » ([**Figure 2**](#figure-2)). Le but est donc de diminuer le nombre de **valeurs « extrêmes »**, c'est-à-dire des valeurs *très* éloignées de la valeur moyenne.
 
     ![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
-    **Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « **normal distribution** » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a **symetrical distribution** and thus avoid (left- or right-handed) tails.
+    **Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « **normal distribution** » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a **symmetrical distribution** and thus avoid (left- or right-handed) tails.
 
 De manière plus générale, il s'agit de préparer les jeux de données pour les étapes d'analyses statistiques et de modélisation (« *machine learning* »)
 
@@ -234,7 +234,7 @@ Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 6*
 
 ![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
-**Figure 6**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmospherique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated.
+**Figure 6**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmosphérique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated.
 
 There is a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).
 
