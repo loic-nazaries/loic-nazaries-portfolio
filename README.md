@@ -37,6 +37,7 @@ Table des matières
     - [Créer un dépôt de projet avec GitHub](#créer-un-dépôt-de-projet-avec-github)
     - [Déployer une application web avec Heroku](#déployer-une-application-web-avec-heroku)
     - [Pipeline d'un projet de *Data Science*](#pipeline-dun-projet-de-data-science)
+  - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
@@ -288,6 +289,10 @@ Bientôt !
 
 <!-- Links to GitHub repositories -->
 
+---
+
+---
+
 ## Mes *Scripts/Gists*
 
 ---
@@ -331,6 +336,21 @@ Bientôt !
 ### Pipeline d'un projet de *Data Science*
 
 Bientôt!
+
+---
+
+---
+
+## Autres exemples de *Data Viz*
+
+---
+
+<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+![IMDB Dashboard](/documents/IMDB-project.png "IMDB Budget Project")
+<!-- <iframe width="600" height="450" src=" -->
+<https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B>
+<!-- " frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
 ---
 
