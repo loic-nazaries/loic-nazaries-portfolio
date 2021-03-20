@@ -12,6 +12,8 @@
 
 Quelques exemples de mon travail d'**analyse de données**.
 
+&nbsp;
+
 ---
 
 Table des matières
@@ -38,6 +40,7 @@ Table des matières
     - [Déployer une application web avec Heroku](#déployer-une-application-web-avec-heroku)
     - [Pipeline d'un projet de *Data Science*](#pipeline-dun-projet-de-data-science)
   - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
+    - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
@@ -345,12 +348,15 @@ Bientôt!
 
 ---
 
+### Google BigQuery & Google Data Studio
+
 <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-![IMDB Dashboard](/documents/IMDB-project.png "IMDB Budget Project")
-<!-- <iframe width="600" height="450" src=" -->
+![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
+
 <https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B>
-<!-- " frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+Click [here](https://datastudio.google.com/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39 "IMDB Budget Project") to go to Data Studio Dashboard.
 
 ---
 
