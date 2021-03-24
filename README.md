@@ -10,9 +10,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/loic-nazaries/loic-nazaries.github.io)
 ![GitHub last commit](https://img.shields.io/github/last-commit/loic-nazaries/loic-nazaries.github.io)
 
-Quelques exemples de mon travail d'**analyse de données**.
-
 &nbsp;
+
+Quelques exemples de mon travail d'**analyse de données**.
 
 ---
 
@@ -32,15 +32,16 @@ Table des matières
     - [Élaboration d'un indicateur clé de performance (KPI)](#élaboration-dun-indicateur-clé-de-performance-kpi)
     - [Modélisation géographique](#modélisation-géographique)
     - [Coopération internationale](#coopération-internationale)
-  - [Mes jeux et bases de données](#mes-jeux-et-bases-de-données)
+  - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
+    - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
   - [Mes *Scripts/Gists*](#mes-scriptsgists)
     - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
     - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
     - [Créer un dépôt de projet avec GitHub](#créer-un-dépôt-de-projet-avec-github)
     - [Déployer une application web avec Heroku](#déployer-une-application-web-avec-heroku)
     - [Pipeline d'un projet de *Data Science*](#pipeline-dun-projet-de-data-science)
-  - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
-    - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
+    - [Préparer un *dashboard* avec Google BigQuery et Google Data Studio](#préparer-un-dashboard-avec-google-bigquery-et-google-data-studio)
+  - [Mes jeux et bases de données](#mes-jeux-et-bases-de-données)
   - [Autres réalisations professionnelles](#autres-réalisations-professionnelles)
     - [Maître de thèse](#maître-de-thèse)
     - [Revue littéraire](#revue-littéraire)
@@ -212,7 +213,7 @@ Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivem
 
 #### Modèle physique des données (MPD)
 
-![MPD_EucFACEl](/images/RDBMS_model.png "Modèle physique des données - EucfACE")
+![MPD_EucFACEl](/images/RDBMS_model.png "Modèle physique des données - EucFACE")
 
 **Figure 5**: Diagramme du système de gestion de base de données relationnelle (**SGBDR**) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
@@ -286,11 +287,32 @@ Une fois les données générées, je les ai soumis à une **analyse descriptive
 
 ---
 
-## Mes jeux et bases de données
+## Autres exemples de *Data Viz*
 
-Bientôt !
+---
 
-<!-- Links to GitHub repositories -->
+### Google BigQuery & Google Data Studio
+
+Dans ce projet, le *dashboard* décrit le coût des budgets investis dans la production de films dans chaque pays.
+
+Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. Par contre, les USA est le pays avec le plus gros budget pour le cinéma.
+
+NOTE: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:
+[IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
+
+![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
+
+Click [here](https://datastudio.google.com/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39 "IMDB Budget Project") to access the interactive Dashboard on Data Studio.
+
+Méthodologie:
+
+- Créer une instance d'ETL avec **Google BigQuery** depuis la console de **[Google Cloud Platform](https://console.cloud.google.com)**.
+- Importer le fichier .csv depuis Kaggle.com.
+- Connecter la source de données à l'instance d'ETL en utilisant le **data connector** BigQuery.
+- Formuler une requête SQL.
+- Créer un rapport (*dashboard*) avec **Data Studio**.
+
+Le gist de ce projet est disponible dans la section [Mes *Scripts/Gists*](#mes-scriptsgists).
 
 ---
 
@@ -314,7 +336,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 ### Créer un environnement virtuel avec Conda
 
-Ici, la gestion des **librairies Python** nécessaires au **projet data** sont gérées grâce à [**Conda**](https://docs.conda.io "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
+Ici, contrairement au module standard de Python (*venv*), la gestion des **librairies Python** nécessaires au **projet data** sont gérées grâce à [**Conda**](https://docs.conda.io "Conda documentation"). Il s'agit du même principe de création d'un **environment virtuel**.
 
 La différence avec un le module "venv" de Python est que la version de Python (par exemple version 2.7 *vs.* 3.9.1) est aussi installée.
 
@@ -326,7 +348,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 Bientôt !
 
-Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur GitHub Gist.
+Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a repository with Git - Markdown Version
 
 ---
 
@@ -342,21 +364,25 @@ Bientôt!
 
 ---
 
+### Préparer un *dashboard* avec Google BigQuery et Google Data Studio
+
+Google a mis à disposition un outil de procession de données de type **Big Data** appelé **Google BigQuery**. Grâce à leur plateforme **Google Cloud Platform**, il est possible de mettre en place un pipeline de gestion et d'utilisation de données. De plus, il est possible d'utiliser **Google Data Studio** ***gratuitement(!)*** pour préparer des *dashboard* interactif ainsi que de le partager avec d'autres collaborateurs.
+
+Voici donc un script, ou gist, qui détaille les différents étapes de la création d'un tel *workflow*.
+
+NOTE: le script présenté a besoin d'être édité pour bien organiser les différents étapes. Cela sera bientôt fait.
+
+Le *gist* est disponible [ici](/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html "Create an ETL process with Google BigQuery and Google Data Studio - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version").
+
 ---
 
-## Autres exemples de *Data Viz*
-
 ---
 
-### Google BigQuery & Google Data Studio
+## Mes jeux et bases de données
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B" frameborder="0" style="border:0" allowfullscreen></iframe>
+Bientôt !
 
-![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
-
-<https://datastudio.google.com/embed/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39/page/tTY6B>
-
-Click [here](https://datastudio.google.com/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39 "IMDB Budget Project") to go to Data Studio Dashboard.
+<!-- Links to GitHub repositories -->
 
 ---
 
