@@ -12,6 +12,12 @@
 
 &nbsp;
 
+<!-- Étape 1
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+Étape 2
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="loic-nazaries"><a class="LI-simple-link" href='https://fr.linkedin.com/in/loic-nazaries/fr-fr?trk=profile-badge'>Loïc Nazaries</a></div> -->
+
 Quelques exemples de mon travail d'**analyse de données**.
 
 ---
