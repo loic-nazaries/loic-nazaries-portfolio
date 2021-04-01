@@ -303,7 +303,7 @@ Dans ce projet, le *dashboard* décrit le coût des budgets investis dans la pro
 
 Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. Par contre, les USA est le pays avec le plus gros budget pour le cinéma.
 
-NOTE: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:
+**NOTE**: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:
 [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
 
 ![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
