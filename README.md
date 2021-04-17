@@ -1,4 +1,26 @@
-# My Data Science Portfolio
+# Welcome to Loïc Nazaries' Data Science Portfolio
+
+![photo_id](./images/photo_id.jpg "Le BG")
+
+---
+
+---
+
+## Mon *Elevator Pitch*
+
+Doué d'une grande appétence pour les **statistiques**, l'analyse exploratoire de données et l'**apprentissage automatique** (« ***machine learning*** »),  le cycle de vie entier de la *data* me passionne, depuis la modélisation d'une base de données à son utilisation dans le domaine de l'**informatique décisionnelle** (« ***Business Intelligence*** ») en passant par la création de supports visuels simples et impactant comme les **tableaux de bord** (« ***Dashboards*** »).
+
+Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
+
+Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
+
+Pensez-vous que nous avons des objectifs communs ?
+
+Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
+
+---
+
+---
 
 ![GitHub license](https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io "GitHub License")
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/loic-nazaries/loic-nazaries.github.io "GitHub Release (latest by date)")
@@ -18,14 +40,15 @@
 Étape 2
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="loic-nazaries"><a class="LI-simple-link" href='https://fr.linkedin.com/in/loic-nazaries/fr-fr?trk=profile-badge'>Loïc Nazaries</a></div> -->
 
-Quelques exemples de mon travail d'**analyse de données**.
+# Quelques exemples de mon travail d'**analyse de données**.
 
 ---
 
 Table des matières
 
-- [My Data Science Portfolio](#my-data-science-portfolio)
+- [Welcome to Loïc Nazaries' Data Science Portfolio](#welcome-to-loïc-nazaries-data-science-portfolio)
   - [Mon *Elevator Pitch*](#mon-elevator-pitch)
+- [Quelques exemples de mon travail d'**analyse de données**.](#quelques-exemples-de-mon-travail-danalyse-de-données)
   - [Mes compétences en science des données](#mes-compétences-en-science-des-données)
   - [Mes projets actuels](#mes-projets-actuels)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
@@ -55,22 +78,6 @@ Table des matières
     - [Exploration de l’Écosse](#exploration-de-lécosse)
     - [Écrire une thèse doctorale](#écrire-une-thèse-doctorale)
     - [Mes publications scientifiques](#mes-publications-scientifiques)
-
----
-
----
-
-## Mon *Elevator Pitch*
-
-Doué d'une grande appétence pour les **statistiques**, l'analyse exploratoire de données et l'**apprentissage automatique** (« ***machine learning*** »),  le cycle de vie entier de la *data* me passionne, depuis la modélisation d'une base de données à son utilisation dans le domaine de l'**informatique décisionnelle** (« ***Business Intelligence*** ») en passant par la création de supports visuels simples et impactant comme les **tableaux de bord** (« ***Dashboards*** »).
-
-Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
-
-Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
-
-Pensez-vous que nous avons des objectifs communs ?
-
-Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
 
 ---
 
