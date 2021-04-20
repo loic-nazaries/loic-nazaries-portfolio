@@ -1,6 +1,6 @@
 # Welcome to Loïc Nazaries' Data Science Portfolio
 
-![photo_id](./images/photo_id.jpg "Le BG")
+<!-- ![photo_id](./images/photo_id.jpg "Le BG") -->
 
 ---
 
@@ -12,7 +12,7 @@ Doué d'une grande appétence pour les **statistiques**, l'analyse exploratoire 
 
 Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « ***Data Science*** ».
 
-Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite accéder à un poste de Data Scientist spécialisé en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
+Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite me spécialiser en [**Recherche Opérationnelle**](https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle "Recherche Opérationnelle - Wikipedia.org") et [***DataOps***](https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812 "DataOps - Medium.com").
 
 Pensez-vous que nous avons des objectifs communs ?
 
@@ -40,7 +40,7 @@ Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loi
 Étape 2
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="loic-nazaries"><a class="LI-simple-link" href='https://fr.linkedin.com/in/loic-nazaries/fr-fr?trk=profile-badge'>Loïc Nazaries</a></div> -->
 
-# Quelques exemples de mon travail d'**analyse de données**.
+## Quelques exemples de mon travail d'**analyse de données**
 
 ---
 
@@ -48,7 +48,7 @@ Table des matières
 
 - [Welcome to Loïc Nazaries' Data Science Portfolio](#welcome-to-loïc-nazaries-data-science-portfolio)
   - [Mon *Elevator Pitch*](#mon-elevator-pitch)
-- [Quelques exemples de mon travail d'**analyse de données**.](#quelques-exemples-de-mon-travail-danalyse-de-données)
+  - [Quelques exemples de mon travail d'**analyse de données**](#quelques-exemples-de-mon-travail-danalyse-de-données)
   - [Mes compétences en science des données](#mes-compétences-en-science-des-données)
   - [Mes projets actuels](#mes-projets-actuels)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
@@ -130,7 +130,7 @@ Python libs: sqlite 3..33.0 / seaborn 0..11.1 / scipy 1.5.2 / pandas 1.1.5 / num
 [![GitHub Repositories](https://img.shields.io/badge/github-repositories%20-blue)](https://github.com/loic-nazaries?tab=repositories "GitHub Repositories")
 [![LinkedIn Profile](https://img.shields.io/badge/linkedin-profile-blue)](https://www.linkedin.com/in/loic-nazaries/ "LinkedIn Profile")
 
-Mon *[Curriculum Vitae](/documents/CV_Nazaries.L_Data_Analyst.pdf)*.
+Mon *[Curriculum Vitae](/documents/CV_Nazaries.L_consultant_data_fr.pdf)*.
 
 ---
 
@@ -361,7 +361,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 Bientôt !
 
-Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a repository with Git - Markdown Version
+Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](<https://gist.github.com/loic-nazaries> "Create a repository with Git - Markdown Version
 
 ---
 
