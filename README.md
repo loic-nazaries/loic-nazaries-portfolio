@@ -63,6 +63,7 @@ Table des matières
     - [Coopération internationale](#coopération-internationale)
   - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
     - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
+    - [Tableau Visuals](#tableau-visuals)
   - [Mes *Scripts/Gists*](#mes-scriptsgists)
     - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
     - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
@@ -326,6 +327,16 @@ Méthodologie:
 - Créer un rapport (*dashboard*) avec **Data Studio**.
 
 Le gist de ce projet est disponible dans la section [Mes *Scripts/Gists*](#mes-scriptsgists).
+
+---
+
+### Tableau Visuals
+
+Il s'agit là d'une collection de graphiques mettant en avant les conséquences (ou plutôt le manque de conséquences) d'une élévation de la concentration atmosphérique en CO<sub>2</sub> sur les émissions des gaz à effet de serre méthane (CH<sub>4</sub>), dioxide de carbone (CO<sub>2</sub>) et N<sub>2</sub>O. Ces émissions ont une origine microbiennes et ont un impact majeur sur la balance du réchauffement climatique.  
+
+Les correlations de ces gaz avec la température de l'air et l'humidité et température du soil sont aussi explorées car ces variables environnementales jouent un rôle crucial sur les émissions des gaz à effet de serre. Les variations saisonnières et annuelles de ces émissions sont aussi observées.
+
+Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/documents/tableau_visuals.pptx "Tableau Visuals").
 
 ---
 
