@@ -63,7 +63,7 @@ Table des matières
     - [Coopération internationale](#coopération-internationale)
   - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
     - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
-    - [Tableau Visuals](#tableau-visuals)
+    - [Tableau Visuals & Dashboard](#tableau-visuals--dashboard)
   - [Mes *Scripts/Gists*](#mes-scriptsgists)
     - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
     - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
@@ -307,7 +307,7 @@ Une fois les données générées, je les ai soumis à une **analyse descriptive
 
 ### Google BigQuery & Google Data Studio
 
-Dans ce projet, le *dashboard* décrit le coût des budgets investis dans la production de films dans chaque pays.
+Dans ce projet, le ***dashboard*** décrit le coût des budgets investis dans la production de films dans chaque pays.
 
 Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. Par contre, les USA est le pays avec le plus gros budget pour le cinéma.
 
@@ -330,13 +330,17 @@ Le gist de ce projet est disponible dans la section [Mes *Scripts/Gists*](#mes-s
 
 ---
 
-### Tableau Visuals
+### Tableau Visuals & Dashboard
 
 Il s'agit là d'une collection de graphiques mettant en avant les conséquences (ou plutôt le manque de conséquences) d'une élévation de la concentration atmosphérique en CO<sub>2</sub> sur les émissions des gaz à effet de serre méthane (CH<sub>4</sub>), dioxide de carbone (CO<sub>2</sub>) et N<sub>2</sub>O. Ces émissions ont une origine microbiennes et ont un impact majeur sur la balance du réchauffement climatique.  
 
-Les correlations de ces gaz avec la température de l'air et l'humidité et température du soil sont aussi explorées car ces variables environnementales jouent un rôle crucial sur les émissions des gaz à effet de serre. Les variations saisonnières et annuelles de ces émissions sont aussi observées.
+Les correlations de ces gaz avec la température de l'air, l'humidité du sol et la température du soil sont aussi explorées car ces variables environnementales jouent un rôle crucial sur les émissions des gaz à effet de serre. Les variations saisonnières et annuelles de ces émissions sont aussi observées.
 
-Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/documents/tableau_visuals.pptx "Tableau Visuals").
+Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/documents/tableau_visuals.pptx "Tableau Visuals"). Ci-dessous se trouve un aperçu de ces graphes avec, en particulier, un **tableau de bord** créé avec le logiciel **Tableau**.
+
+![Tableau Dashboard](/images/tableau_dashboard.png "Tableau Dashboard")
+
+Le fichier sous le format "Tableau Packaged Workbook"(lecture du fichier avec Tableau Reader) est disponible [ici](/documents/tableau_visuals.twbx "Tableau File").
 
 ---
 
