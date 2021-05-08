@@ -64,6 +64,7 @@ Table des matières
   - [Autres exemples de *Data Viz*](#autres-exemples-de-data-viz)
     - [Google BigQuery & Google Data Studio](#google-bigquery--google-data-studio)
     - [Tableau Visuals & Dashboard](#tableau-visuals--dashboard)
+    - [Alteryx Designer Workflow](#alteryx-designer-workflow)
   - [Mes *Scripts/Gists*](#mes-scriptsgists)
     - [Créer un environnement virtuel avec Python](#créer-un-environnement-virtuel-avec-python)
     - [Créer un environnement virtuel avec Conda](#créer-un-environnement-virtuel-avec-conda)
@@ -316,8 +317,6 @@ Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. 
 
 ![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
 
-Click [here](https://datastudio.google.com/reporting/c7ab2275-1e48-4d2a-99b7-46091bedde39 "IMDB Budget Project") to access the interactive Dashboard on Data Studio.
-
 Méthodologie:
 
 - Créer une instance d'ETL avec **Google BigQuery** depuis la console de **[Google Cloud Platform](https://console.cloud.google.com)**.
@@ -340,7 +339,13 @@ Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/
 
 ![Tableau Dashboard](/images/tableau_dashboard.png "Tableau Dashboard")
 
-Le fichier sous le format "Tableau Packaged Workbook"(lecture du fichier avec Tableau Reader) est disponible [ici](/documents/tableau_visuals.twbx "Tableau File").
+Le fichier sous le format "Tableau Packaged Workbook" (lecture du fichier avec Tableau Reader) est disponible [ici](/documents/tableau_visuals.twbx "Tableau File").
+
+---
+
+### Alteryx Designer Workflow
+
+Bientôt !
 
 ---
 
@@ -376,7 +381,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 Bientôt !
 
-Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](<https://gist.github.com/loic-nazaries> "Create a repository with Git - Markdown Version
+[//]: <Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a repository with Git - Markdown Version").>
 
 ---
 
@@ -400,7 +405,7 @@ Voici donc un script, ou gist, qui détaille les différents étapes de la créa
 
 NOTE: le script présenté a besoin d'être édité pour bien organiser les différents étapes. Cela sera bientôt fait.
 
-Le *gist* est disponible [ici](/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html "Create an ETL process with Google BigQuery and Google Data Studio - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version").
+Le *gist* est disponible [ici](/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html "Create an ETL process with Google BigQuery and Google Data Studio - HTML Version") ainsi que sur mon [GitHub Gist](https://gist.github.com/loic-nazaries "Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version") (bientôt!).
 
 ---
 
