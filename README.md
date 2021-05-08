@@ -337,7 +337,7 @@ Les correlations de ces gaz avec la température de l'air, l'humidité du sol et
 
 Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/documents/tableau_visuals.pptx "Tableau Visuals"). Ci-dessous se trouve un aperçu de ces graphes avec, en particulier, un **tableau de bord** créé avec le logiciel **Tableau**.
 
-![Tableau Dashboard](/images/tableau_dashboard.png "Tableau Dashboard")
+![Tableau Dashboard](./images/tableau_dashboard.png "Tableau Dashboard")
 
 Le fichier sous le format "Tableau Packaged Workbook" (lecture du fichier avec Tableau Reader) est disponible [ici](/documents/tableau_visuals.twbx "Tableau File").
 
