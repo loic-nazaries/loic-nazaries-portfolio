@@ -1,0 +1,782 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title><link href='https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
+
+@include-when-export url(https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+
+/* =========== */
+
+/* pt-serif-regular - latin */
+/* pt-serif-italic - latin */
+/* pt-serif-700 - latin */
+/* pt-serif-700italic - latin */
+:root {
+	--active-file-bg-color: #dadada;
+	--active-file-bg-color: rgba(32, 43, 51, 0.63);
+	--active-file-text-color: white;
+	--bg-color: #f3f2ee;
+	--text-color: #1f0909;
+	--control-text-color: #444;
+	--rawblock-edit-panel-bd: #e5e5e5;
+
+	--select-text-bg-color: rgba(32, 43, 51, 0.63);
+  --select-text-font-color: white;
+}
+
+pre {
+	--select-text-bg-color: #36284e;
+	--select-text-font-color: #fff;
+}
+
+html {
+	font-size: 16px;
+}
+
+html, body {
+	background-color: #f3f2ee;
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+	color: #1f0909;
+	line-height: 1.5em;
+}
+
+/*#write {
+	overflow-x: auto;
+    max-width: initial;
+	padding-left: calc(50% - 17em);
+    padding-right: calc(50% - 17em);
+}
+
+@media (max-width: 36em) {
+ 	#write {
+ 		padding-left: 1em;
+    	padding-right: 1em;
+ 	}
+}*/
+
+#write {
+	max-width: 40em;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+			max-width: 914px;
+	}
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+ul li {
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* styles */
+
+/* ====== */
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.875em;
+	/*30 / 16*/
+	line-height: 1.6em;
+	/* 48 / 30*/
+	margin-top: 2em;
+}
+h2,
+h3 {
+	font-size: 1.3125em;
+	/*21 / 16*/
+	line-height: 1.15;
+	/*24 / 21*/
+	margin-top: 2.285714em;
+	/*48 / 21*/
+	margin-bottom: 1.15em;
+	/*24 / 21*/
+}
+h3 {
+	font-weight: normal;
+}
+h4 {
+	font-size: 1.125em;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
+h5,
+h6 {
+	font-size: 1em;
+	/*16*/
+}
+h1 {
+	border-bottom: 1px solid;
+	margin-bottom: 1.875em;
+	padding-bottom: 0.8125em;
+}
+/* links */
+
+a {
+	text-decoration: none;
+	color: #065588;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+/* block spacing */
+
+p,
+blockquote,
+.md-fences {
+	margin-bottom: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 1.5em;
+}
+/* blockquote */
+
+blockquote {
+	font-style: italic;
+	border-left: 5px solid;
+	margin-left: 2em;
+	padding-left: 1em;
+}
+/* lists */
+
+ul,
+ol {
+	margin: 0 0 1.5em 1.5em;
+}
+/* tables */
+.md-meta,.md-before, .md-after {
+	color:#999;
+}
+
+table {
+	margin-bottom: 1.5em;
+	/*24 / 16*/
+	font-size: 1em;
+	/* width: 100%; */
+}
+thead th,
+tfoot th {
+	padding: .25em .25em .25em .4em;
+	text-transform: uppercase;
+}
+th {
+	text-align: left;
+}
+td {
+	vertical-align: top;
+	padding: .25em .25em .25em .4em;
+}
+
+code,
+.md-fences {
+	background-color: #dadada;
+}
+
+code {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.md-fences {
+	margin-left: 2em;
+	margin-bottom: 3em;
+	padding-left: 1ch;
+	padding-right: 1ch;
+}
+
+pre,
+code,
+tt {
+	font-size: .875em;
+	line-height: 1.714285em;
+}
+/* some fixes */
+
+h1 {
+	line-height: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+p + ul,
+p + ol{
+	margin-top: .5em;
+}
+
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul,
+h3 + ol,
+h4 + ol,
+h5 + ol,
+h6 + ol {
+	margin-top: .5em;
+}
+
+li > ul,
+li > ol {
+	margin-top: inherit;
+	margin-bottom: 0;
+}
+
+li ol>li {
+	list-style-type: lower-alpha;
+}
+
+li li ol>li{
+	list-style-type: lower-roman;
+}
+
+h2,
+h3 {
+	margin-bottom: .75em;
+}
+hr {
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid;
+	border-left: none;
+}
+h1 {
+	border-color: #c5c5c5;
+}
+blockquote {
+	border-color: #bababa;
+	color: #656565;
+}
+
+blockquote ul,
+blockquote ol {
+	margin-left:0;
+}
+
+.ty-table-edit {
+	background-color: transparent;
+}
+thead {
+	background-color: #dadada;
+}
+tr:nth-child(even) {
+	background: #e8e7e7;
+}
+hr {
+	border-color: #c5c5c5;
+}
+.task-list{
+	padding-left: 1rem;
+}
+
+.md-task-list-item {
+	padding-left: 1.5rem;
+	list-style-type: none;
+}
+
+.md-task-list-item > input:before {
+	content: '\221A';
+	display: inline-block;
+	width: 1.25rem;
+  	height: 1.6rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #ddd;
+	background-color: #F3F2EE;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	color: inherit;
+}
+
+#write pre.md-meta-block {
+	min-height: 1.875rem;
+	color: #555;
+	border: 0px;
+	background: transparent;
+	margin-top: -4px;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.md-image>.md-meta {
+	color: #9B5146;
+}
+
+.md-image>.md-meta{
+	font-family: Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
+}
+
+
+#write>h3.md-focus:before{
+	left: -1.5rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h4.md-focus:before{
+	left: -1.5rem;
+	top: .25rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h5.md-focus:before{
+	left: -1.5rem;
+	top: .0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h6.md-focus:before{
+	left: -1.5rem;
+	top: 0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+
+.md-toc:focus .md-toc-content{
+	margin-top: 19px;
+}
+
+.md-toc-content:empty:before{
+	color: #065588;
+}
+.md-toc-item {
+	color: #065588;
+}
+#write div.md-toc-tooltip {
+	background-color: #f3f2ee;
+}
+
+#typora-sidebar {
+	background-color: #f3f2ee;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+  	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+}
+
+.pin-outline #typora-sidebar {
+	background: inherit;
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+.pin-outline #typora-sidebar:hover .outline-title-wrapper {
+	border-left:1px dashed;
+}
+
+.outline-item:hover {
+  background-color: #dadada;
+  border-left: 28px solid #dadada;
+  border-right: 18px solid #dadada;
+}
+
+.typora-node .outline-item:hover {
+  	border-right: 28px solid #dadada;
+}
+
+.outline-expander:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  font-size:14px;
+  top: 1px;
+}
+
+.outline-expander:hover:before,
+.outline-item-open>.outline-item>.outline-expander:before {
+  content: "\f0d7";
+}
+
+.modal-content {
+	background-color: #f3f2ee;
+}
+
+.auto-suggest-container ul li {
+	list-style-type: none;
+}
+
+/** UI for electron */
+
+.megamenu-menu,
+#top-titlebar, #top-titlebar *,
+.megamenu-content {
+	background: #f3f2ee;
+	color: #1f0909;
+}
+
+.megamenu-menu-header {
+	border-bottom: 1px dashed #202B33;
+}
+
+.megamenu-menu {
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+header, .context-menu, .megamenu-content, footer {
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+    color: #1f0909;
+}
+
+#megamenu-back-btn {
+	color: #1f0909;
+	border-color: #1f0909;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title:before {
+	color: #1f0909;
+}
+
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active {
+	color: inherit;
+	background-color: #e8e7df;
+}
+
+.long-btn:hover {
+	background-color: #e8e7df;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent !important;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
+    color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+	background-color: #D2D1D1;
+}
+
+.btn-default {
+	background-color: transparent;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn,
+.ty-show-word-count #footer-word-count {
+	background: #c7c5c5;
+}
+
+#typora-quick-open {
+    background-color: inherit;
+}
+
+.md-diagram-panel {
+	margin-top: 8px;
+}
+
+.file-list-item-file-name {
+	font-weight: initial;
+}
+
+.file-list-item-summary {
+	opacity: 1;
+}
+
+.file-list-item {
+	color: #777;
+}
+
+.file-list-item.active {
+	background-color: inherit;
+	color: black;
+}
+
+.ty-side-sort-btn.active {
+	background-color: inherit;
+}
+
+.file-list-item.active .file-list-item-file-name  {
+	font-weight: bold;
+}
+
+.file-list-item{
+    opacity:1 !important;
+}
+
+.file-library-node.active>.file-node-background{
+	background-color: rgba(32, 43, 51, 0.63);
+	background-color: var(--active-file-bg-color);
+}
+
+.file-tree-node.active>.file-node-content{
+	color: white;
+	color: var(--active-file-text-color);
+}
+
+.md-task-list-item>input {
+	margin-left: -1.7em;
+	margin-top: calc(1rem - 12px);
+}
+
+input {
+	border: 1px solid #aaa;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title,
+.megamenu-menu-header:hover, 
+.megamenu-menu-header:focus {
+	color: inherit;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+/* https://github.com/typora/typora-issues/issues/2046 */
+.os-windows-7 strong,
+.os-windows-7 strong  {
+	font-weight: 760;
+}
+
+.ty-preferences .btn-default {
+	background: transparent;
+}
+
+.ty-preferences .window-header {
+	border-bottom: 1px dashed #202B33;
+	box-shadow: none;
+}
+
+#sidebar-loading-template, #sidebar-loading-template.file-list-item {
+	color: #777;
+}
+
+.searchpanel-search-option-btn.active {
+	background: #777;
+	color: white;
+}
+
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="welcome-to-loïc-nazaries-data-science-portfolio" class="md-header-anchor"></a><span>Welcome to Loïc Nazaries&#39; Data Science Portfolio</span></h1><!-- ![photo_id](./images/photo_id.jpg "Le BG") --><hr /><hr /><h2><a name="mon-elevator-pitch" class="md-header-anchor"></a><span>Mon </span><em><span>Elevator Pitch</span></em></h2><p><span>Doué d&#39;une grande appétence pour les </span><strong><span>statistiques</span></strong><span>, l&#39;analyse exploratoire de données et l&#39;</span><strong><span>apprentissage automatique</span></strong><span> (« </span><strong><em><span>machine learning</span></em></strong><span> »),  le cycle de vie entier de la </span><em><span>data</span></em><span> me passionne, depuis la modélisation d&#39;une base de données à son utilisation dans le domaine de l&#39;</span><strong><span>informatique décisionnelle</span></strong><span> (« </span><strong><em><span>Business Intelligence</span></em></strong><span> ») en passant par la création de supports visuels simples et impactant comme les </span><strong><span>tableaux de bord</span></strong><span> (« </span><strong><em><span>Dashboards</span></em></strong><span> »).</span></p><p><span>Je consulte fréquemment les sites spécialisés pour découvrir de nouvelles technologies pour les appliquer plus tard dans mes projets de « </span><strong><em><span>Data Science</span></em></strong><span> ».</span></p><p><span>Je crois en l’apprentissage par la pratique et, dans un futur proche, je souhaite me spécialiser en </span><a href='https://fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle' title='Recherche Opérationnelle - Wikipedia.org'><strong><span>Recherche Opérationnelle</span></strong></a><span> et </span><a href='https://medium.com/data-ops/dataops-in-7-steps-f72ff2b37812' title='DataOps - Medium.com'><strong><em><span>DataOps</span></em></strong></a><span>.</span></p><p><span>Pensez-vous que nous avons des objectifs communs ?</span></p><p><span>Jetez un coup d&#39;œil à ma biographie </span><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md' title='Ma biographie'><span>ici</span></a><span>.</span></p><hr /><hr /><p><img src="https://img.shields.io/github/license/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub license" title="GitHub License">
+<img src="https://img.shields.io/github/v/release/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub release (latest by date)" title="GitHub Release (latest by date)">
+<img src="https://img.shields.io/github/languages/count/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="Languages" title="Markdown">
+<a href='https://daringfireball.net/projects/markdown/' title='Markdown Syntax'><img src="https://img.shields.io/badge/markdown-syntax-orange" referrerpolicy="no-referrer" alt="Markdown Syntax"></a></p><p><img src="https://img.shields.io/github/languages/code-size/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub code size in bytes">
+<img src="https://img.shields.io/github/repo-size/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub repo size">
+<img src="https://img.shields.io/github/commit-activity/w/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub commit activity">
+<img src="https://img.shields.io/github/last-commit/loic-nazaries/loic-nazaries.github.io" referrerpolicy="no-referrer" alt="GitHub last commit"></p><p>&nbsp;</p><p><span>&lt;!-- Étape 1</span></p><script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async="" defer=""></script><p><span>Étape 2</span></p><div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="loic-nazaries"><a class="LI-simple-link" href="https://fr.linkedin.com/in/loic-nazaries/fr-fr?trk=profile-badge">Loïc Nazaries</a></div> --&gt;<h2><a name="quelques-exemples-de-mon-travail-danalyse-de-données" class="md-header-anchor"></a><span>Quelques exemples de mon travail d&#39;</span><strong><span>analyse de données</span></strong></h2><hr /><p><span>Table des matières</span></p><ul><li><p><a href='#welcome-to-loïc-nazaries-data-science-portfolio'><span>Welcome to Loïc Nazaries&#39; Data Science Portfolio</span></a></p><ul><li><p><a href='#mon-elevator-pitch'><span>Mon </span><em><span>Elevator Pitch</span></em></a></p></li><li><p><a href='#quelques-exemples-de-mon-travail-danalyse-de-données'><span>Quelques exemples de mon travail d&#39;</span><strong><span>analyse de données</span></strong></a></p></li><li><p><a href='#mes-compétences-en-science-des-données'><span>Mes compétences en science des données</span></a></p></li><li><p><a href='#mes-projets-actuels'><span>Mes projets actuels</span></a></p><ul><li><a href='#pipeline-dintégration-de-nettoyage-et-de-validation-de-données'><span>Pipeline d&#39;intégration, de nettoyage et de validation de données</span></a></li><li><a href='#tableau-de-bord'><span>Tableau de bord</span></a></li></ul></li><li><p><a href='#mes-projets-passés'><span>Mes projets passés</span></a></p><ul><li><p><a href='#modélisation-dune-base-de-données'><span>Modélisation d&#39;une base de données</span></a></p><ul><li><a href='#modèle-conceptuel-des-données-mcd'><span>Modèle conceptuel des données (MCD)</span></a></li><li><a href='#modèle-physique-des-données-mpd'><span>Modèle physique des données (MPD)</span></a></li></ul></li><li><p><a href='#modélisation-des-émissions-des-gaz-à-effet-de-serre'><span>Modélisation des émissions des gaz à effet de serre</span></a></p></li><li><p><a href='#élaboration-dun-indicateur-clé-de-performance-kpi'><span>Élaboration d&#39;un indicateur clé de performance (KPI)</span></a></p></li><li><p><a href='#modélisation-géographique'><span>Modélisation géographique</span></a></p></li><li><p><a href='#coopération-internationale'><span>Coopération internationale</span></a></p></li></ul></li><li><p><a href='#autres-exemples-de-data-viz'><span>Autres exemples de </span><em><span>Data Viz</span></em></a></p><ul><li><a href='#google-bigquery--google-data-studio'><span>Google BigQuery &amp; Google Data Studio</span></a></li><li><a href='#tableau-visuals--dashboard'><span>Tableau Visuals &amp; Dashboard</span></a></li><li><a href='#alteryx-designer-workflow'><span>Alteryx Designer Workflow</span></a></li></ul></li><li><p><a href='#mes-scriptsgists'><span>Mes </span><em><span>Scripts/Gists</span></em></a></p><ul><li><a href='#créer-un-environnement-virtuel-avec-python'><span>Créer un environnement virtuel avec Python</span></a></li><li><a href='#créer-un-environnement-virtuel-avec-conda'><span>Créer un environnement virtuel avec Conda</span></a></li><li><a href='#créer-un-dépôt-de-projet-avec-github'><span>Créer un dépôt de projet avec GitHub</span></a></li><li><a href='#déployer-une-application-web-avec-heroku'><span>Déployer une application web avec Heroku</span></a></li><li><a href='#pipeline-dun-projet-de-data-science'><span>Pipeline d&#39;un projet de </span><em><span>Data Science</span></em></a></li><li><a href='#préparer-un-dashboard-avec-google-bigquery-et-google-data-studio'><span>Préparer un </span><em><span>dashboard</span></em><span> avec Google BigQuery et Google Data Studio</span></a></li></ul></li><li><p><a href='#mes-jeux-et-bases-de-données'><span>Mes jeux et bases de données</span></a></p></li><li><p><a href='#autres-réalisations-professionnelles'><span>Autres réalisations professionnelles</span></a></p><ul><li><a href='#maître-de-thèse'><span>Maître de thèse</span></a></li><li><a href='#revue-littéraire'><span>Revue littéraire</span></a></li><li><a href='#optimisation-de-procédés-quantitatifs'><span>Optimisation de procédés quantitatifs</span></a></li><li><a href='#exploration-de-lécosse'><span>Exploration de l’Écosse</span></a></li><li><a href='#écrire-une-thèse-doctorale'><span>Écrire une thèse doctorale</span></a></li><li><a href='#mes-publications-scientifiques'><span>Mes publications scientifiques</span></a></li></ul></li></ul></li></ul><hr /><hr /><h2><a name="mes-compétences-en-science-des-données" class="md-header-anchor"></a><span>Mes compétences en science des données</span></h2><p><span>La </span><a href='#figure-0'><strong><span>Figure 0</span></strong></a><span> est le « </span><strong><span>Plan de Métro</span></strong><span> » de mes compétences en </span><em><span>Data Science</span></em><span> appliqué au métier de </span><strong><span>Data Analyst/Data Scientist</span></strong><span>.</span></p><p><span>Les « </span><strong><span>lignes</span></strong><span> » en circulation sont:</span></p><ul><li><em><span>Data Preparation</span></em></li><li><em><span>Data Mining - Descriptive &amp; Exploratory Data Analysis</span></em></li><li><em><span>Forecasting</span></em></li><li><em><span>Analysis of Variance</span></em></li><li><em><span>Database Management System - Business Intelligence</span></em></li><li><em><span>Machine Learning</span></em></li><li><em><span>Data Visualisation - Dashboarding</span></em></li></ul><p><span>More to come!</span></p><p><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/metro_map.md' title='Metro Map Data Science'><img src="/images/MetroMap_Data_Analyst.png" referrerpolicy="no-referrer" alt="Metro Map Data Science" title="Click Me!"></a></p><p><strong><span>Figure 0</span></strong><span>: Metro Map of my </span><strong><span>Data Analyst/Data Scientist</span></strong><span> skills in the field of </span><strong><span>Data Science</span></strong><span>.</span></p><p><a href='https://docs.conda.io/en/latest/' title='conda.io'><img src="https://img.shields.io/badge/conda-4.9.2-orange" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://www.python.org/' title='python.org'><img src="https://img.shields.io/badge/python-3.9.1-orange" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://www.dummies.com/programming/sql/what-is-sql/' title='SQL Syntax'><img src="https://img.shields.io/badge/sql-syntax-orange" referrerpolicy="no-referrer" alt="SQL Syntax"></a>
+<a href='https://yaml.org/' title='YAML Syntax'><img src="https://img.shields.io/badge/yaml-0.2.5-orange" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://yaml.org/' title='Git'><img src="https://img.shields.io/badge/git-2.30.0-orange" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://chocolatey.org/' title='chocolatey.org'><img src="https://img.shields.io/badge/chocolatey-0.10.15-orange" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://daringfireball.net/projects/markdown/' title='Markdown Syntax'><img src="https://img.shields.io/badge/markdown-syntax-orange" referrerpolicy="no-referrer" alt="Markdown Syntax"></a></p><p><a href='https://dashboard.heroku.com/apps' title='heroku.com'><img src="https://img.shields.io/badge/heroku-7.47.7-green" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://docs.streamlit.io/en/stable/' title='streamlit.io'><img src="https://img.shields.io/badge/streamlit-0.73.1-green" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://jupyterlab.readthedocs.io/en/stable/' title='jupyterlab.io'><img src="https://img.shields.io/badge/jupyterlab-3.0-green" referrerpolicy="no-referrer" alt="Version"></a>
+<a href='https://www.postgresql.org/' title='postgresql.org'><img src="https://img.shields.io/badge/postgresql-12.5-green" referrerpolicy="no-referrer" alt="Version"></a></p><!--
+To be added: Talend / Alteryx / SAS / Tableau / Snowflake / MongoDB  / voila / binder 
+--><!--
+Python libs: sqlite 3..33.0 / seaborn 0..11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git
+--><p><a href='https://code.visualstudio.com/'><img src="https://img.shields.io/badge/microsoft--visual--studio--code-1.52.1-yellow" referrerpolicy="no-referrer" alt="Version" title="Version"></a>
+<img src="https://img.shields.io/badge/microsoft--office--professional--plus-2019-yellow" referrerpolicy="no-referrer" alt="Version" title="Version"></p><p><a href='https://github.com/loic-nazaries?tab=repositories' title='GitHub Repositories'><img src="https://img.shields.io/badge/github-repositories%20-blue" referrerpolicy="no-referrer" alt="GitHub Repositories"></a>
+<a href='https://www.linkedin.com/in/loic-nazaries/' title='LinkedIn Profile'><img src="https://img.shields.io/badge/linkedin-profile-blue" referrerpolicy="no-referrer" alt="LinkedIn Profile"></a></p><p><span>Mon </span><em><a href='/documents/CV_Nazaries.L_consultant_data_fr.pdf'><span>Curriculum Vitae</span></a></em><span>.</span></p><hr /><hr /><h2><a name="mes-projets-actuels" class="md-header-anchor"></a><span>Mes projets actuels</span></h2><hr /><h3><a name="pipeline-dintégration-de-nettoyage-et-de-validation-de-données" class="md-header-anchor"></a><span>Pipeline d&#39;intégration, de nettoyage et de validation de données</span></h3><p><span>Une </span><strong><span>base de données relationnelle</span></strong><span> de type  « </span><strong><span>flocon de neige</span></strong><span> » a été modélisée à partir de fichiers de type et d&#39;origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, </span><em><span>etc.</span></em><span>). Grâce aux fonctionnalités Python, ces données ont été uniformisées et &quot;nettoyées&quot; tout en respectant les bonnes pratiques statistiques (par exemple, pas de &quot;</span><em><span>cherry-picking</span></em><span>&quot;, ni de &quot;</span><em><span>data dredging</span></em><span>&quot;, </span><em><span>etc.</span></em><span> - </span><em><span>cf.</span></em>
+<a href='/documents/data-fallacies-to-avoid.pdf' title='Data Fallacies to avoid'><em><span>Data Fallacies to avoid</span></em></a><span>).</span></p><p><span>En particulier, les trois étapes suivantes sont importantes dans tout projet de « </span><strong><em><span>Data Science</span></em></strong><span> » :</span></p><ol start='' ><li><p><strong><span>Typage des variables</span></strong><span> (</span><em><span>category</span></em><span>, </span><em><span>integers</span></em><span>/</span><em><span>floats</span></em><span>, </span><em><span>strings</span></em><span>, </span><em><span>booleans</span></em><span>, </span><em><span>dates</span></em><span>). Très important, en particulier, pour diminuer l&#39;utilisation de la mémoire vive d&#39;un ordinateur ou serveur</span></p></li><li><p><strong><span>Remplacement</span></strong><span> (ou </span><strong><em><span>imputation</span></em></strong><span>) des </span><strong><span>valeurs manquantes</span></strong><span> (</span><a href='#figure-1'><strong><span>Figure 1</span></strong></a><span>). C&#39;est une étape importante qui permet de préserver la puissance statistique d&#39;un jeux de données</span></p><figure><table><thead><tr><th><span>Before Imputation</span></th><th><span>After Imputation</span></th></tr></thead><tbody><tr><td><img src="/images/ghg_flux_data_missing_data_raw_heatmap.png" referrerpolicy="no-referrer" alt="Missing Values BEFORE Imputation" title="Missing Values BEFORE Imputation"></td><td><img src="/images/ghg_flux_data_missing_data_clean_heatmap.png" referrerpolicy="no-referrer" alt="Missing Values BEFORE Imputation" title="Missing Values AFTER Imputation"></td></tr></tbody></table></figure><p><strong><span>Figure 1</span></strong><span>:  The replacement (or </span><strong><span>imputation</span></strong><span>) of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (</span><em><span>left panel</span></em><span>), it was replaced by the </span><strong><span>&quot;mean&quot; value</span></strong><span> of the other replicated samples. The remaining missing values (</span><em><span>right panel</span></em><span>) represent non-replicated data which can be imputed using more powerful machine learning approaches (not detailed here).</span></p></li><li><p><span>Transformation des variables pour obtenir une distribution dite « </span><strong><span>normale</span></strong><span> » (</span><a href='#figure-2'><strong><span>Figure 2</span></strong></a><span>). Le but est donc de diminuer le nombre de </span><strong><span>valeurs « extrêmes »</span></strong><span>, c&#39;est-à-dire des valeurs </span><em><span>très</span></em><span> éloignées de la valeur moyenne.</span></p><p><img src="/images/n2o_flux_distrib_violinplots.png" referrerpolicy="no-referrer" alt="N2O Data Transformations" title="N2O Data Transformations"></p><p><strong><span>Figure 2</span></strong><span>: Mathematical transformation of nitrous oxide (N</span><sub><span>2</span></sub><span>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « </span><strong><span>normal distribution</span></strong><span> » </span><em><span>(e.g.</span></em><span> standardised transformation, square-root transformation, </span><em><span>etc.</span></em><span>). The aim is to reach a </span><strong><span>symmetrical distribution</span></strong><span> and thus avoid (left- or right-handed) tails.</span></p></li></ol><p><span>De manière plus générale, il s&#39;agit de préparer les jeux de données pour les étapes d&#39;analyses statistiques et de modélisation (« </span><em><span>machine learning</span></em><span> »)</span></p><hr /><h3><a name="tableau-de-bord" class="md-header-anchor"></a><span>Tableau de bord</span></h3><p><span>Un tableau de bord (« </span><em><span>dashboard</span></em><span> ») interactif a été construit pour observer et tester les émissions des gaz à effet de serre sous différentes conditions. Cette </span><strong><span>application web</span></strong><span> appelée « </span><strong><em><span>Greenhouse Gas Estimation Portal</span></em></strong><span> » a été codé avec la librairie Python </span><a href='https://www.streamlit.io/' title='Streamlit.io'><span>Streamlit</span></a><span> et déployée sur </span><a href='https://www.heroku.com/' title='Heroku.com'><span>Heroku.com</span></a><span>. L&#39;application peut être accédée par le </span><a href='https://exam-piscine-heroku-redone.herokuapp.com/' title='Greenhouse Gas Estimation Portal App'><span>lien suivant</span></a><span>.</span></p><p><span>Il s&#39;agit d&#39;une application entièrement réglable une fois que l&#39;utilisateur a créé un compte. Voici une liste (non-exhaustive) des options disponibles:</span></p><ul><li><span>téléchargement du fichier de données (format .csv ou .pkl)</span></li><li><span>sélection des variables à inclure dans l&#39;analyse</span></li><li><span>typage des variables</span></li><li><span>choix des variables dépendantes et indépendantes</span></li><li><span>« </span><em><span>dummification</span></em><span> » possible des variables</span></li><li><span>génération d&#39;un résumé statistique (moyenne, écart-type, kurtosis/skewness, pourcentage des valeurs manquantes, </span><em><span>etc.</span></em><span>)</span></li><li><span>agrégation des données par groupe (date, traitement, année, </span><em><span>etc.</span></em><span>)</span></li><li><span>analyses univariées et bivariées</span></li><li><span>analyses de corrélation</span></li><li><span>analyses statistiques de type « REML » (</span><em><span>restriction likelihood</span></em><span>)</span></li><li><span>envoie des résultats à l&#39;utilisateur par </span><em><span>email</span></em></li></ul><p><span>Des captures d&#39;écran sont disponibles dans la (</span><a href='#figure-3'><strong><span>Figure 3</span></strong></a><span>).</span>
+<span>Elles reflètent certaines des options disponibles à l&#39;utilisateur.</span></p><figure><table><thead><tr><th><span>Login to GHG Estimation Portal</span></th><th><span>Variable Selection</span></th></tr></thead><tbody><tr><td><img src="/images/streamlit_login_screenshot.png" referrerpolicy="no-referrer" alt="Login Screenshot" title="Login Screenshot"></td><td><img src="/images/streamlit_vars_selection_screenshot.png" referrerpolicy="no-referrer" alt="Variable Selection Screenshot" title="Variable Selection Screenshot"></td></tr><tr><td><span>Time-Series Analysis</span></td><td><span>Email Option</span></td></tr><tr><td><img src="/images/streamlit_time_series_screenshot.png" referrerpolicy="no-referrer" alt="Time-Series Analysis Screenshot" title="Time-Series Analysis Screenshot"></td><td><img src="/images/streamlit_email_screenshot.png" referrerpolicy="no-referrer" alt="Email Option Screenshot" title="Email Option Screenshot"></td></tr></tbody></table></figure><p><strong><span>Figure 3</span></strong><span>: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».</span></p><p><span>Note: Dans l&#39;avenir, une section de </span><em><span>machine learning</span></em><span> sera disponible. Il sera en autre possible de procéder à une modélisation temporelle des émissions des gaz à effet de serre.</span></p><p><strong><span>EDIT</span></strong><span>: application non disponible au moment de la préparation de cette page (10/01/2021).</span></p><hr /><hr /><h2><a name="mes-projets-passés" class="md-header-anchor"></a><span>Mes projets passés</span></h2><hr /><h3><a name="modélisation-dune-base-de-données" class="md-header-anchor"></a><span>Modélisation d&#39;une base de données</span></h3><p><span>Un </span><strong><span>système de gestion de base de données relationnelle</span></strong><span> (SGBDR) a été construit pour le projet « </span><strong><em><span>EucFACE</span></em></strong><span> ». La base de données a été implémentée avec le logiciel </span><strong><a href='https://www.postgresql.org/' title='PostgreSQL'><span>PostgreSQL</span></a></strong><span> (version 12.5) et </span><strong><span>pgAdmin4</span></strong><span>.</span></p><p><span>Note: le projet </span><em><span>EucFACE</span></em><span> est présenté brièvement </span><a href='#modélisation-des-émissions-des-gaz-à-effet-de-serre' title='EucFACE project'><span>ici</span></a><span>.</span></p><p><span>Cliquer </span><a href='/documents/RDBMS_UML.html' title='RDBMS UML - EucFACE'><span>ici</span></a><span> pour ouvrir la structure UML de l&#39;application </span><strong><em><span>Greenhouse Gas Estimation Portal</span></em></strong><span> (voir la section précédente &quot;</span><a href='#tableau-de-bord' title='Tableau de bord'><span>Tableau de bord</span></a><span>&quot;). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d&#39;utilisation et d&#39;activité de la base de données EucFACE.</span></p><p><span>Les </span><a href='#figure-4'><strong><span>Figure 4</span></strong></a><span> et </span><a href='#figure-5'><strong><span>Figure 5</span></strong></a><span> montrent, respectivement, le </span><strong><span>modèle conceptuel des données</span></strong><span> (</span><strong><span>MCD</span></strong><span>) et le </span><strong><span>modèle physique des données</span></strong><span> (</span><strong><span>MPD</span></strong><span>) de la base de données relationnelle EucFACE. Sa structure est de type  « </span><strong><span>flocon de neige</span></strong><span> ».</span></p><h4><a name="modèle-conceptuel-des-données-mcd" class="md-header-anchor"></a><span>Modèle conceptuel des données (MCD)</span></h4><p><img src="/images/EucFACE_MCD.png" referrerpolicy="no-referrer" alt="MCD_EucFACE" title="Modèle conceptuel des données - EucFACE"></p><p><strong><span>Figure 4</span></strong><span>: Modèle conceptuel des données (</span><strong><span>MCD</span></strong><span>) de la base de données relationnelle du projet &quot;</span><a href='#modélisation-des-émissions-des-gaz-à-effet-de-serre' title='Modelling Greenhouse Gas Emissions'><span>EucFACE</span></a><span>&quot;.</span></p><h4><a name="modèle-physique-des-données-mpd" class="md-header-anchor"></a><span>Modèle physique des données (MPD)</span></h4><p><img src="/images/RDBMS_model.png" referrerpolicy="no-referrer" alt="MPD_EucFACEl" title="Modèle physique des données - EucFACE"></p><p><strong><span>Figure 5</span></strong><span>: Diagramme du système de gestion de base de données relationnelle (</span><strong><span>SGBDR</span></strong><span>) du projet &quot;</span><a href='#modélisation-des-émissions-des-gaz-à-effet-de-serre' title='Modelling Greenhouse Gas Emissions'><span>EucFACE</span></a><span>&quot;.</span></p><hr /><h3><a name="modélisation-des-émissions-des-gaz-à-effet-de-serre" class="md-header-anchor"></a><span>Modélisation des émissions des gaz à effet de serre</span></h3><p><span>Analyse des émissions de </span><strong><span>gaz à effet de serre</span></strong><span> dans des conditions de concentrations atmosphériques en CO</span><sub><span>2</span></sub><span> élevées. En résumé, cela mimique les conditions de </span><strong><span>changement climatique</span></strong><span> prévues pour l&#39;année 2100.</span></p><p><span>Voir la section </span><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/eucface_site_presentation.md' title='EucFACE Site Presentation'><span>EucFACE Site Presentation</span></a><span> pour une description détaillée du projet, incluant l&#39;hypothèse scientifique testée, matériel et méthodes et les références bibliographiques principales.</span></p><p><a href='http://www.youtube.com/watch?v=K8RTVdijc0o' title='EucFACE Crane Shot - YouTube.com'><img src="http://img.youtube.com/vi/K8RTVdijc0o/0.jpg" referrerpolicy="no-referrer" alt="Inside a ring at the EucFACE site"></a></p><p><strong><span>Vidéo 1</span></strong><span>: Moving up a ring at the EucFACE site.</span></p><p><img src="/images/Completed_EucFace_Rings.jpg" referrerpolicy="no-referrer" alt="EucFACE site Canopy View" title="EucFACE site Canopy View"></p><p><strong><span>Photo 1</span></strong><span>: Canopy view from Ring 1 at the EucFACE Site.</span></p><p><span>Une analyse temporelle (</span><em><span>time-series analysis</span></em><span>) a été appliquée (</span><a href='#figure-6'><strong><span>Figure 6</span></strong></a><span>) pour tester l&#39;</span><strong><span>hypothèse scientifique</span></strong><span> de départ:</span></p><blockquote><p><span>« Quel est l&#39;effet de l&#39;augmentation du dioxide de carbone (CO</span><sub><span>2</span></sub><span>) dans l&#39;atmosphère sur les émissions des gaz à effet de serre? »</span></p></blockquote><p><img src="/images/GHG_fluxes_time_series.png" referrerpolicy="no-referrer" alt="Monthly GHG Emissions" title="Monthly GHG Emissions"></p><p><strong><span>Figure 6</span></strong><span>: Greenhouse gas (GHG) emissions for méthane (CH</span><sub><span>4</span></sub><span> flux - panel a), nitrous oxide (N</span><sub><span>2</span></sub><span>O flux - panel b) and carbon dioxide (CO</span><sub><span>2</span></sub><span> flux - panel c). Ambient (blue line) and elevated (red line) atmosphérique CO</span><sub><span>2</span></sub><span> concentrations represent the « treatment » applied to test the scientific hypothesis investigated.</span></p><p><span>There is a strong visible link between the intensity of GHG emissions and the intensity of the rainfall events (panel d).</span></p><p><span>Ces travaux ont été publiés par </span><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md' title='[Martins, Nazaries et al., 2021 - Functional Ecology - In Review'><span>Martins, Nazaries </span><em><span>et al.</span></em><span>, 2021</span></a><span>.</span></p><hr /><h3><a name="élaboration-dun-indicateur-clé-de-performance-kpi" class="md-header-anchor"></a><span>Élaboration d&#39;un indicateur clé de performance (KPI)</span></h3><p><span>Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle j’ai été chargé d’identifier les facteurs biologiques et environnementaux qui sont susceptible d’améliorer les rendements de blé en lien avec les pratiques d’agricultures communes en Australie (chaume brûlé, fertilisation, pâturage, labourage, </span><em><span>etc.</span></em><span>). Cette expérience était constituée de sites dans plusieurs régions/états de l’Australie. Un ample effort de coordination a été primordial au bon déroulement de cette étude, ainsi qu’une bonne communication avec les propriétaires des terres et les gouvernements locaux. J’ai aussi eu la charge de tenir notre base de données à jour et disponible auprès de mes collaborateurs.</span></p><p><span>Au terme de mes analyses, j’ai défini un </span><strong><span>indicateur clé de performance</span></strong><span> (« </span><strong><span>KPI</span></strong><span> » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication </span><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md' title='Nazaries et al., 2021 - Agriculture, Ecosystems and Environment - In Print'><span>Nazaries </span><em><span>et al.</span></em><span>, 2021</span></a><span>.</span></p><blockquote><p><span>The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. </span><em><span>Agriculture, Ecosystems &amp; Environment</span></em><span> 307, 107206. doi:</span><a href='https://doi.org/10.1016/j.agee.2020.107206' target='_blank' class='url'>https://doi.org/10.1016/j.agee.2020.107206</a><span>.</span></p></blockquote><p><img src="/images/KPI_all_sites.png" referrerpolicy="no-referrer" alt="KPI Visualisation" title="KPI Visualisation">
+<img src="images/Modelling_KPI.png" referrerpolicy="no-referrer" alt="Modelling KPI" title="Modelling KPI"></p><p><strong><span>Figure 7</span></strong><span>: The effect of agricultural practices on the </span><strong><span>KPI</span></strong><span> (or Multifunctionality (MF) Index) at three locations (sites a, b and c - top panel). The bottom panel shows the </span><strong><span>modelling</span></strong><span> of the KPI and indicates which variables had the highest influence on the KPI. The modelling approach was </span><strong><span>Information theory and multi-model inference</span></strong><span> (MMI) and used the </span><strong><span>Akaike’s Information Criterion</span></strong><span> (corrected for sample size, or </span><strong><span>AIC</span><sub><span>C</span></sub></strong><span>) to compare the model strengths with each other.</span></p><hr /><h3><a name="modélisation-géographique" class="md-header-anchor"></a><span>Modélisation géographique</span></h3><p><span>J’ai complété une étude décrivant les étapes de modélisation nécessaire pour </span><strong><span>prédire la répartition géographique</span></strong><span> de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.</span>
+<span>Grâce au sponsor du gouvernement écossais, une grande base de données a été construite après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, </span><em><span>etc.</span></em><span>) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des </span><strong><span>méthodes statistiques</span></strong><span> pointues. Voir la publication </span><a href='/documents/scientific_publications/Nazaries_et_al_2018.pdf' title='Nazaries et al., 2018 - Soil Biology and Biochemistry'><span>Nazaries </span><em><span>et al.</span></em><span>, 2018</span></a><span>.</span></p><blockquote><p><span>Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. </span><em><span>Soil Biology and Biochemistry</span></em><span>. doi:</span><a href='https://doi.org/10.1016/J.SOILBIO.2018.08.014' target='_blank' class='url'>https://doi.org/10.1016/J.SOILBIO.2018.08.014</a><span>.</span></p></blockquote><figure><table><thead><tr><th><span>Geographical Modelling</span></th><th><span>Microbial Community Clusters</span></th></tr></thead><tbody><tr><td><img src="/images/pmoA-33_T-RF_map.jpg" referrerpolicy="no-referrer" alt="pmoA-33 T-RF Map" title="pmoA-33 T-RF Map"></td><td><img src="/images/pmoA_MTRFLP_CVA.jpg" referrerpolicy="no-referrer" alt="pmoA MT-RFLP CVA" title="pmoA-33 T-RF Map"></td></tr></tbody></table></figure><p><strong><span>Figure 8</span></strong><span>: </span><strong><span>Geographical modelling</span></strong><span> of microbes involved in the uptake of atmospheric methane and its storage in soil (left panel). The right panel shows how microbes </span><strong><span>cluster</span></strong><span> with each other within different ecosystems.</span></p><p><span>J’ai rendu publique (</span><strong><em><span>open source</span></em></strong><span>) ma base de données sur le site </span><a href='https://figshare.com' title='figshare.com'><span>figshare.com</span></a><span> pour permettre à d’autres équipes d’utiliser mes données pour leurs propres études.</span></p><hr /><h3><a name="coopération-internationale" class="md-header-anchor"></a><span>Coopération internationale</span></h3><p><span>Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et États-Unis, j’ai mis en place une série de </span><strong><span>protocoles</span></strong><span> afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu à charge la </span><strong><span>formation</span></strong><span> des collaborateurs et la </span><strong><span>coordination</span></strong><span> des équipes pour garantir les délivrables.</span>
+<span>Une fois les données générées, je les ai soumis à une </span><strong><span>analyse descriptive</span></strong><span> complète qui inclue: </span><strong><span>agrégation et préparation ; enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration</span></strong><span>. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un </span><strong><span>rapport de mission</span></strong><span>. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. </span><strong><span>Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des *</span></strong><span>challenges</span><strong><span>* administratifs, techniques et humains</span></strong><span>. Un des articles issus de cette collaboration est </span><a href='/documents/scientific_publications/Martins_et_al_2017.pdf' title='Martins, Nazaries et al. 2017 - Functional Ecology'><span>Martins, Nazaries </span><em><span>et al.</span></em><span>, 2017</span></a><span>.</span></p><blockquote><p><span>Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. </span><em><span>Functional Ecology</span></em><span> 31, 2356–2368. doi:</span><a href='https://doi.org/10.1111/1365-2435.12928' target='_blank' class='url'>https://doi.org/10.1111/1365-2435.12928</a><span>.</span></p></blockquote><hr /><hr /><h2><a name="autres-exemples-de-data-viz" class="md-header-anchor"></a><span>Autres exemples de </span><em><span>Data Viz</span></em></h2><hr /><h3><a name="google-bigquery--google-data-studio" class="md-header-anchor"></a><span>Google BigQuery &amp; Google Data Studio</span></h3><p><span>Dans ce projet, le </span><strong><em><span>dashboard</span></em></strong><span> décrit le coût des budgets investis dans la production de films dans chaque pays.</span></p><p><span>Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. Par contre, les USA est le pays avec le plus gros budget pour le cinéma.</span></p><p><strong><span>NOTE</span></strong><span>: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:</span>
+<a href='https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset'><span>IMDB 5000 Movie Dataset</span></a><span>.</span></p><p><img src="/images/IMDB-project.png" referrerpolicy="no-referrer" alt="IMDB Dashboard" title="IMDB Budget Project"></p><p><span>Méthodologie:</span></p><ul><li><span>Créer une instance d&#39;ETL avec </span><strong><span>Google BigQuery</span></strong><span> depuis la console de </span><strong><a href='https://console.cloud.google.com'><span>Google Cloud Platform</span></a></strong><span>.</span></li><li><span>Importer le fichier .csv depuis Kaggle.com.</span></li><li><span>Connecter la source de données à l&#39;instance d&#39;ETL en utilisant le </span><strong><span>data connector</span></strong><span> BigQuery.</span></li><li><span>Formuler une requête SQL.</span></li><li><span>Créer un rapport (</span><em><span>dashboard</span></em><span>) avec </span><strong><span>Data Studio</span></strong><span>.</span></li></ul><p><span>Le gist de ce projet est disponible dans la section </span><a href='#mes-scriptsgists'><span>Mes </span><em><span>Scripts/Gists</span></em></a><span>.</span></p><hr /><h3><a name="tableau-visuals--dashboard" class="md-header-anchor"></a><span>Tableau Visuals &amp; Dashboard</span></h3><p><span>Il s&#39;agit là d&#39;une collection de graphiques mettant en avant les conséquences (ou plutôt le manque de conséquences) d&#39;une élévation de la concentration atmosphérique en CO</span><sub><span>2</span></sub><span> sur les émissions des gaz à effet de serre méthane (CH</span><sub><span>4</span></sub><span>), dioxide de carbone (CO</span><sub><span>2</span></sub><span>) et N</span><sub><span>2</span></sub><span>O. Ces émissions ont une origine microbiennes et ont un impact majeur sur la balance du réchauffement climatique.  </span></p><p><span>Les correlations de ces gaz avec la température de l&#39;air, l&#39;humidité du sol et la température du soil sont aussi explorées car ces variables environnementales jouent un rôle crucial sur les émissions des gaz à effet de serre. Les variations saisonnières et annuelles de ces émissions sont aussi observées.</span></p><p><span>Les résultats sont rassemblés dans le fichier Microsoft PowerPoint </span><a href='/documents/tableau_visuals.pptx' title='Tableau Visuals'><span>suivant</span></a><span>. Ci-dessous se trouve un aperçu de ces graphes avec, en particulier, un </span><strong><span>tableau de bord</span></strong><span> créé avec le logiciel </span><strong><span>Tableau</span></strong><span>.</span></p><p><img src="./images/tableau_dashboard.png" referrerpolicy="no-referrer" alt="Tableau Dashboard" title="Tableau Dashboard"></p><p><span>Le fichier sous le format &quot;Tableau Packaged Workbook&quot; (lecture du fichier avec Tableau Reader) est disponible </span><a href='/documents/tableau_visuals.twbx' title='Tableau File'><span>ici</span></a><span>.</span></p><hr /><h3><a name="alteryx-designer-workflow" class="md-header-anchor"></a><span>Alteryx Designer Workflow</span></h3><p><span>Bientôt !</span></p><hr /><hr /><h2><a name="mes-scriptsgists" class="md-header-anchor"></a><span>Mes </span><em><span>Scripts/Gists</span></em></h2><hr /><h3><a name="créer-un-environnement-virtuel-avec-python" class="md-header-anchor"></a><span>Créer un environnement virtuel avec Python</span></h3><p><span>Dans tout </span><strong><span>projet data</span></strong><span>, il est important de pouvoir créer un </span><strong><span>environnement technique</span></strong><span> reproductible par une autre personne ou sur un autre ordinateur. Ceci signifie que le langage de programmation (Python, par exemple) et la version des librairies utilisées lors de l&#39;écriture d&#39;un script doivent être établis dès le début du projet.</span></p><p><span>Pour cette raison, il est courant de créer un </span><strong><span>environnement virtuel</span></strong><span> qui va contenir toutes ces données ainsi que la structure des dossiers contenant les fichiers essentiels au projet.</span></p><p><span>Voici donc un </span><strong><span>script</span></strong><span>, ou </span><strong><em><span>gist</span></em></strong><span>, qui détaille les différents étapes de la création d&#39;un </span><strong><span>environnement virtuel</span></strong><span> avec le module &quot;</span><strong><span>venv</span></strong><span>&quot; de </span><strong><span>Python</span></strong><span>.</span></p><p><span>Le </span><em><span>gist</span></em><span> est disponible </span><a href='/documents/scripts_gists/create_a_virtual_environment_with_python.html' title='Create a Virtual Environment with Python - HTML Version'><span>ici</span></a><span> ainsi que sur </span><a href='https://gist.github.com/loic-nazaries' title='Create a Virtual Environment with Python - Markdown Version'><span>GitHub Gist</span></a><span>.</span></p><hr /><h3><a name="créer-un-environnement-virtuel-avec-conda" class="md-header-anchor"></a><span>Créer un environnement virtuel avec Conda</span></h3><p><span>Ici, contrairement au module standard de Python (</span><em><span>venv</span></em><span>), la gestion des </span><strong><span>librairies Python</span></strong><span> nécessaires au </span><strong><span>projet data</span></strong><span> sont gérées grâce à </span><a href='https://docs.conda.io' title='Conda documentation'><strong><span>Conda</span></strong></a><span>. Il s&#39;agit du même principe de création d&#39;un </span><strong><span>environment virtuel</span></strong><span>.</span></p><p><span>La différence avec un le module &quot;venv&quot; de Python est que la version de Python (par exemple version 2.7 </span><em><span>vs.</span></em><span> 3.9.1) est aussi installée.</span></p><p><span>Le </span><em><span>gist</span></em><span> est disponible </span><a href='/documents/scripts_gists/create_a_virtual_environment_with_conda.html' title='Create a Virtual Environment with Conda - HTML Version'><span>ici</span></a><span> ainsi que sur </span><a href='https://gist.github.com/loic-nazaries' title='Create a Virtual Environment with Conda - Markdown Version'><span>GitHub Gist</span></a><span>.</span></p><hr /><h3><a name="créer-un-dépôt-de-projet-avec-github" class="md-header-anchor"></a><span>Créer un dépôt de projet avec GitHub</span></h3><p><span>Bientôt !</span></p><p><span>[//]: &lt;Le gist est disponible </span><a href='/documents/scripts_gists/create_a_repository_with_git.html' title='Create a repository with Git - HTML Version'><span>ici</span></a><span> ainsi que sur </span><a href='https://gist.github.com/loic-nazaries' title='Create a repository with Git - Markdown Version'><span>GitHub Gist</span></a><span>.&gt;</span></p><hr /><h3><a name="déployer-une-application-web-avec-heroku" class="md-header-anchor"></a><span>Déployer une application web avec Heroku</span></h3><p><span>Bientôt !</span></p><hr /><h3><a name="pipeline-dun-projet-de-data-science" class="md-header-anchor"></a><span>Pipeline d&#39;un projet de </span><em><span>Data Science</span></em></h3><p><span>Bientôt!</span></p><hr /><h3><a name="préparer-un-dashboard-avec-google-bigquery-et-google-data-studio" class="md-header-anchor"></a><span>Préparer un </span><em><span>dashboard</span></em><span> avec Google BigQuery et Google Data Studio</span></h3><p><span>Google a mis à disposition un outil de procession de données de type </span><strong><span>Big Data</span></strong><span> appelé </span><strong><span>Google BigQuery</span></strong><span>. Grâce à leur plateforme </span><strong><span>Google Cloud Platform</span></strong><span>, il est possible de mettre en place un pipeline de gestion et d&#39;utilisation de données. De plus, il est possible d&#39;utiliser </span><strong><span>Google Data Studio</span></strong><span> </span><strong><em><span>gratuitement(!)</span></em></strong><span> pour préparer des </span><em><span>dashboard</span></em><span> interactif ainsi que de le partager avec d&#39;autres collaborateurs.</span></p><p><span>Voici donc un script, ou gist, qui détaille les différents étapes de la création d&#39;un tel </span><em><span>workflow</span></em><span>.</span></p><p><span>NOTE: le script présenté a besoin d&#39;être édité pour bien organiser les différents étapes. Cela sera bientôt fait.</span></p><p><span>Le </span><em><span>gist</span></em><span> est disponible </span><a href='/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html' title='Create an ETL process with Google BigQuery and Google Data Studio - HTML Version'><span>ici</span></a><span> ainsi que sur mon </span><a href='https://gist.github.com/loic-nazaries' title='Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version'><span>GitHub Gist</span></a><span> (bientôt!).</span></p><hr /><hr /><h2><a name="mes-jeux-et-bases-de-données" class="md-header-anchor"></a><span>Mes jeux et bases de données</span></h2><p><span>Bientôt !</span></p><!-- Links to GitHub repositories --><hr /><hr /><h2><a name="autres-réalisations-professionnelles" class="md-header-anchor"></a><span>Autres réalisations professionnelles</span></h2><hr /><h3><a name="maître-de-thèse" class="md-header-anchor"></a><span>Maître de thèse</span></h3><p><span>J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues dans la définition et la construction de leur projet de recherche : identification des lacunes scientifiques ; mise en place des protocoles ; formation technique et littéraire ; analyse des données et écriture de leur manuscrit de thèse. </span><strong><span>Le plus gratifiant a été quand j’ai assisté à leur cérémonie de remise des diplômes</span></strong><span>.</span></p><hr /><h3><a name="revue-littéraire" class="md-header-anchor"></a><span>Revue littéraire</span></h3><p><span>J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane (CH</span><sub><span>4</span></sub><span>) qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO</span><sub><span>2</span></sub><span>). J’ai décrit les bactéries responsables du </span><strong><span>cycle du CH</span><sub><span>4</span></sub><span> entre l’atmosphère et le sol</span></strong><span> ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique (voir </span><a href='/documents/scientific_publications/Nazaries_et_al_2013b.pdf' title='Nazaries et al. 2013 - Environmental Microbiology'><span>Nazaries </span><em><span>et al.</span></em><span>, 2013</span></a><span>).</span></p><blockquote><p><span>Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. </span><em><span>Journal of Environmental Microbiology</span></em><span>. doi:</span><a href='https://doi.org/10.1111/1462-2920.12149' target='_blank' class='url'>https://doi.org/10.1111/1462-2920.12149</a><span>.</span></p></blockquote><hr /><h3><a name="optimisation-de-procédés-quantitatifs" class="md-header-anchor"></a><span>Optimisation de procédés quantitatifs</span></h3><p><span>Ou, Surmonter une difficulté.</span></p><p><span>J’ai été confronté à une </span><strong><span>situation frustrante</span></strong><span> au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle appartenant aux méthodes </span><a href='https://en.wikipedia.org/wiki/Taguchi_methods' title='Taguchi Methods'><strong><em><span>Taguchi</span></em></strong></a><span>. L&#39;utilisation d&#39;une </span><strong><em><span>loss function</span></em></strong><span> spécifique m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie pour améliorer la qualité des produits de confection ; mais j’ai su l’adapté à ma technologie génétique.</span></p><p><span>Les méthodes Taguchi sont applicables à tout procédés quantitatifs. Si vous cherchez à optimiser une méthode de détection génétique appelée </span><em><span>qPCR</span></em><span>, j&#39;ai préparé une </span><a href='/documents/taguchi_optimisation_qpcr.ppsx' title='qPCR Optimisation with the Taguchi Methods'><span>présentation</span></a><span> qui pourrait vous intéresser.</span></p><hr /><h3><a name="exploration-de-lécosse" class="md-header-anchor"></a><span>Exploration de l’Écosse</span></h3><p><span>Mon projet d’étude nécessitait la sélection de plusieurs sites écologiques pour la mesure de flux de méthane dans l’atmosphère. J’ai dû sélectionner des sites aux quatre coins de l’Écosse afin d’avoir des conditions variées. J’avais aussi la charge de préparer toute la logistique, trouver des collaborateurs disponibles sur plusieurs jours, et ce, durant les quatre saisons de l’année, et pendant trois ans. </span><strong><span>C’était un projet très difficile et demandant qui m’a permis d’apprendre beaucoup, autant au niveau technique et professionnel qu’au niveau personnel et humain</span></strong><span>.</span></p><hr /><h3><a name="écrire-une-thèse-doctorale" class="md-header-anchor"></a><span>Écrire une thèse doctorale</span></h3><p><span>C’était une épreuve très demandant et difficile. On m’a donné un thème de recherche et j’ai dû faire tout le reste : recherche littéraire ; planification des expériences ; génération des données ; analyses statistiques ; et surtout, écriture de ma thèse de fin d’étude. J’ai retranscrit tout ce que j’avais fait pendant plus de trois ans. Finalement, j’ai publié cette thèse dont je suis très fier. </span><strong><span>Cela m’a beaucoup appris : indépendance, autonomie, adaptabilité, organisation, rigueur</span></strong><span>.</span></p><blockquote><p><span>Nazaries, L., 2011. Impact of land-use changes on the methanotrophic community structure. Thesis University of Warwick.</span></p></blockquote><hr /><h3><a name="mes-publications-scientifiques" class="md-header-anchor"></a><span>Mes publications scientifiques</span></h3><p><span>Cliqué </span><a href='https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md' title='Mes publications scientifiques'><span>ici</span></a><span> pour accéder à la liste des publications.</span></p></div>
+</body>
+</html>

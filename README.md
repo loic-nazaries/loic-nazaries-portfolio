@@ -101,7 +101,7 @@ Les « **lignes** » en circulation sont:
 
 More to come!
 
-[![Metro Map Data Science](/images/MetroMap_Data_Analyst.png "Click Me!")](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/metro_map.md "Metro Map Data Science")
+![Metro Map Data Science](./images/MetroMap_Data_Analyst.png "Metro Map Data Science")
 
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
 
@@ -123,7 +123,7 @@ To be added: Talend / Alteryx / SAS / Tableau / Snowflake / MongoDB  / voila / b
 -->
 
 <!--
-Python libs: sqlite 3..33.0 / seaborn 0..11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git
+Python libs: sqlite 3..33.0 / seaborn 0.11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git
 -->
 
 [![Version](https://img.shields.io/badge/microsoft--visual--studio--code-1.52.1-yellow "Version")](https://code.visualstudio.com/)
@@ -315,7 +315,7 @@ Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. 
 **NOTE**: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:
 [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
 
-![IMDB Dashboard](/images/IMDB-project.png "IMDB Budget Project")
+![IMDB Dashboard](./images/IMDB-project.png "IMDB Budget Project")
 
 Méthodologie:
 
