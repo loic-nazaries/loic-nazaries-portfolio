@@ -1,6 +1,6 @@
 # Welcome to Loïc Nazaries' Data Science Portfolio
 
-<!-- ![photo_id](./images/photo_id.jpg "Le BG") -->
+<img src="./images/photo_id.jpg" alt="photo_id" width="100" align="right">
 
 ---
 
@@ -153,15 +153,15 @@ En particulier, les trois étapes suivantes sont importantes dans tout projet de
 
 2. **Remplacement** (ou ***imputation***) des **valeurs manquantes** ([**Figure 1**](#figure-1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-    | Before Imputation                                                                                                          | After Imputation                                                                                                            |
-    | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-    | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
+    | Before Imputation                                                                                                           | After Imputation                                                                                                             |
+    | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+    | ![Missing Values BEFORE Imputation](./images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](./images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
     **Figure 1**:  The replacement (or **imputation**) of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the **"mean" value** of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerful machine learning approaches (not detailed here).
 
 3. Transformation des variables pour obtenir une distribution dite « **normale** » ([**Figure 2**](#figure-2)). Le but est donc de diminuer le nombre de **valeurs « extrêmes »**, c'est-à-dire des valeurs *très* éloignées de la valeur moyenne.
 
-    ![N2O Data Transformations](/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
+    ![N2O Data Transformations](./images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
     **Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « **normal distribution** » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a **symmetrical distribution** and thus avoid (left- or right-handed) tails.
 
@@ -190,11 +190,11 @@ Il s'agit d'une application entièrement réglable une fois que l'utilisateur a 
 Des captures d'écran sont disponibles dans la ([**Figure 3**](#figure-3)).
 Elles reflètent certaines des options disponibles à l'utilisateur.
 
-| Login to GHG Estimation Portal                                                                                     | Variable Selection                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| ![Login Screenshot](/images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
-| Time-Series Analysis                                                                                               | Email Option                                                                                                      |
-| ![Time-Series Analysis Screenshot](/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](/images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
+| Login to GHG Estimation Portal                                                                                      | Variable Selection                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ![Login Screenshot](./images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](./images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
+| Time-Series Analysis                                                                                                | Email Option                                                                                                       |
+| ![Time-Series Analysis Screenshot](./images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](./images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
@@ -222,13 +222,13 @@ Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivem
 
 #### Modèle conceptuel des données (MCD)
 
-![MCD_EucFACE](/images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
+![MCD_EucFACE](./images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
 
 **Figure 4**: Modèle conceptuel des données (**MCD**) de la base de données relationnelle du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
 #### Modèle physique des données (MPD)
 
-![MPD_EucFACEl](/images/RDBMS_model.png "Modèle physique des données - EucFACE")
+![MPD_EucFACEl](./images/RDBMS_model.png "Modèle physique des données - EucFACE")
 
 **Figure 5**: Diagramme du système de gestion de base de données relationnelle (**SGBDR**) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
@@ -244,7 +244,7 @@ Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loi
 
 **Vidéo 1**: Moving up a ring at the EucFACE site.
 
-![EucFACE site Canopy View](/images/Completed_EucFace_Rings.jpg "EucFACE site Canopy View")
+![EucFACE site Canopy View](./images/Completed_EucFace_Rings.jpg "EucFACE site Canopy View")
 
 **Photo 1**: Canopy view from Ring 1 at the EucFACE Site.
 
@@ -252,7 +252,7 @@ Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 6*
 
 > « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
-![Monthly GHG Emissions](/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
+![Monthly GHG Emissions](./images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
 **Figure 6**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmosphérique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated.
 
@@ -269,8 +269,8 @@ Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle
 Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (« **KPI** » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "Nazaries et al., 2021 - Agriculture, Ecosystems and Environment - In Print").
 > The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206>.
 
-![KPI Visualisation](/images/KPI_all_sites.png "KPI Visualisation")
-![Modelling KPI](images/Modelling_KPI.png "Modelling KPI")
+![KPI Visualisation](./images/KPI_all_sites.png "KPI Visualisation")
+![Modelling KPI](./images/Modelling_KPI.png "Modelling KPI")
 
 **Figure 7**: The effect of agricultural practices on the **KPI** (or Multifunctionality (MF) Index) at three locations (sites a, b and c - top panel). The bottom panel shows the **modelling** of the KPI and indicates which variables had the highest influence on the KPI. The modelling approach was **Information theory and multi-model inference** (MMI) and used the **Akaike’s Information Criterion** (corrected for sample size, or **AIC<sub>C</sub>**) to compare the model strengths with each other.
 
@@ -282,9 +282,9 @@ J’ai complété une étude décrivant les étapes de modélisation nécessaire
 Grâce au sponsor du gouvernement écossais, une grande base de données a été construite après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, *etc.*) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des **méthodes statistiques** pointues. Voir la publication [Nazaries *et al.*, 2018](/documents/scientific_publications/Nazaries_et_al_2018.pdf "Nazaries et al., 2018 - Soil Biology and Biochemistry").
 > Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. *Soil Biology and Biochemistry*. doi:<https://doi.org/10.1016/J.SOILBIO.2018.08.014>.
 
-| Geographical Modelling                                               | Microbial Community Clusters                                        |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| ![pmoA-33 T-RF Map](/images/pmoA-33_T-RF_map.jpg "pmoA-33 T-RF Map") | ![pmoA MT-RFLP CVA](/images/pmoA_MTRFLP_CVA.jpg "pmoA-33 T-RF Map") |
+| Geographical Modelling                                                | Microbial Community Clusters                                         |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![pmoA-33 T-RF Map](./images/pmoA-33_T-RF_map.jpg "pmoA-33 T-RF Map") | ![pmoA MT-RFLP CVA](./images/pmoA_MTRFLP_CVA.jpg "pmoA-33 T-RF Map") |
 
 **Figure 8**: **Geographical modelling** of microbes involved in the uptake of atmospheric methane and its storage in soil (left panel). The right panel shows how microbes **cluster** with each other within different ecosystems.
 
