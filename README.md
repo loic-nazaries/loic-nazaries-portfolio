@@ -1,6 +1,6 @@
 # Welcome to Loïc Nazaries' Data Science Portfolio
 
-<img src="./images/photo_id.jpg" alt="photo_id" width="100" align="right">
+<img src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/images/photo_id.jpg" alt="photo_id" width="100" align="right">
 
 ---
 
