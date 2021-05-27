@@ -1,12 +1,10 @@
 # Welcome to Loïc Nazaries' Data Science Portfolio
 
-<img src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/images/photo_id.jpg" alt="photo_id" width="100" align="right">
-
----
-
 ---
 
 ## Mon *Elevator Pitch*
+
+<img src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/photo_id.jpg" alt="photo_id" width="100" align="right">
 
 Doué d'une grande appétence pour les **statistiques**, l'analyse exploratoire de données et l'**apprentissage automatique** (« ***machine learning*** »),  le cycle de vie entier de la *data* me passionne, depuis la modélisation d'une base de données à son utilisation dans le domaine de l'**informatique décisionnelle** (« ***Business Intelligence*** ») en passant par la création de supports visuels simples et impactant comme les **tableaux de bord** (« ***Dashboards*** »).
 
@@ -17,8 +15,6 @@ Je crois en l’apprentissage par la pratique et, dans un futur proche, je souha
 Pensez-vous que nous avons des objectifs communs ?
 
 Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/ma_biographie.md "Ma biographie").
-
----
 
 ---
 
@@ -42,14 +38,13 @@ Jetez un coup d'œil à ma biographie [ici](https://github.com/loic-nazaries/loi
 
 ## Quelques exemples de mon travail d'**analyse de données**
 
----
-
 Table des matières
 
 - [Welcome to Loïc Nazaries' Data Science Portfolio](#welcome-to-loïc-nazaries-data-science-portfolio)
   - [Mon *Elevator Pitch*](#mon-elevator-pitch)
   - [Quelques exemples de mon travail d'**analyse de données**](#quelques-exemples-de-mon-travail-danalyse-de-données)
   - [Mes compétences en science des données](#mes-compétences-en-science-des-données)
+    - [Les technologies que j'utilise](#les-technologies-que-jutilise)
   - [Mes projets actuels](#mes-projets-actuels)
     - [Pipeline d'intégration, de nettoyage et de validation de données](#pipeline-dintégration-de-nettoyage-et-de-validation-de-données)
     - [Tableau de bord](#tableau-de-bord)
@@ -83,8 +78,6 @@ Table des matières
 
 ---
 
----
-
 ## Mes compétences en science des données
 
 La [**Figure 0**](#figure-0) est le « **Plan de Métro** » de mes compétences en *Data Science* appliqué au métier de **Data Analyst/Data Scientist**.
@@ -101,51 +94,51 @@ Les « **lignes** » en circulation sont:
 
 More to come!
 
-![Metro Map Data Science](./images/MetroMap_Data_Analyst.png "Metro Map Data Science")
+![Metro Map Data Science](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/MetroMap_Data_Analyst.png "Metro Map Data Science")
 
 **Figure 0**: Metro Map of my **Data Analyst/Data Scientist** skills in the field of **Data Science**.
 
-[![Version](https://img.shields.io/badge/conda-4.9.2-orange)](https://docs.conda.io/en/latest/ "conda.io")
-[![Version](https://img.shields.io/badge/python-3.9.1-orange)](https://www.python.org/ "python.org")
-[![SQL Syntax](https://img.shields.io/badge/sql-syntax-orange)](https://www.dummies.com/programming/sql/what-is-sql/ "SQL Syntax")
-[![Version](https://img.shields.io/badge/yaml-0.2.5-orange)](https://yaml.org/ "YAML Syntax")
-[![Version](https://img.shields.io/badge/git-2.30.0-orange)](https://yaml.org/ "Git")
-[![Version](https://img.shields.io/badge/chocolatey-0.10.15-orange)](https://chocolatey.org/ "chocolatey.org")
-[![Markdown Syntax](https://img.shields.io/badge/markdown-syntax-orange)](https://daringfireball.net/projects/markdown/ "Markdown Syntax")
+### Les technologies que j'utilise
 
-[![Version](https://img.shields.io/badge/heroku-7.47.7-green)](https://dashboard.heroku.com/apps "heroku.com")
-[![Version](https://img.shields.io/badge/streamlit-0.73.1-green)](https://docs.streamlit.io/en/stable/ "streamlit.io")
-[![Version](https://img.shields.io/badge/jupyterlab-3.0-green)](https://jupyterlab.readthedocs.io/en/stable/ "jupyterlab.io")
-[![Version](https://img.shields.io/badge/postgresql-12.5-green)](https://www.postgresql.org/ "postgresql.org")
+<img alt="Python" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" />
+<img alt="SAS" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/sas-6.svg" />
+<img alt="SQL" align="left" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
+<img alt="PostgreSQL" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" />
+<img alt="Google BigQuery" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" />
+<img alt="Google Data Studio" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-data-studio.svg" />
+<img alt="Tableau" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" />
+<img alt="Jupyter" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/jupyter.svg" />
+<img alt="Alteryx" align="left" width="30" src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/alteryx_logo.jpg" />
+<img alt="Talend" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/talend.svg" />
+<img alt="Snowflake" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/snowflake.svg" />
+<img alt="Conda" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/conda.svg" />
+<img alt="Git" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/git.svg" />
+<img alt="GitHub" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" />
+<img alt="Visual Studio Code" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" />
+<img alt="Heroku" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" />
+<img alt="Streamlit" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/streamlit.svg" />
+<img alt="Hugo" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/hugo.svg" />
+<img alt="Markdown" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/markdown.svg" />
+<img alt="YAML" align="left" width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png" />
+<img alt="Microsoft Office" height="30" src="https://cdn.worldvectorlogo.com/logos/microsoft-office-2013.svg" />
+<!-- <img alt="Chocolatey" align="left" width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/chocolatey/chocolatey.png" /> -->
 
-<!--
-To be added: Talend / Alteryx / SAS / Tableau / Snowflake / MongoDB  / voila / binder 
--->
+<!-- <img alt="Google" align="left" width="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/google.svg" /> -->
 
-<!--
-Python libs: sqlite 3..33.0 / seaborn 0.11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git
--->
+<!-- Python libs: sqlite 3..33.0 / seaborn 0.11.1 / scipy 1.5.2 / pandas 1.1.5 / numpy 1.19.4 / matplotlib 3.3.2 / click 7.1.2 / pickle / jupyterlab-git -->
 
-[![Version](https://img.shields.io/badge/microsoft--visual--studio--code-1.52.1-yellow "Version")](https://code.visualstudio.com/)
-![Version](https://img.shields.io/badge/microsoft--office--professional--plus-2019-yellow "Version")
+&nbsp;
 
-[![GitHub Repositories](https://img.shields.io/badge/github-repositories%20-blue)](https://github.com/loic-nazaries?tab=repositories "GitHub Repositories")
-[![LinkedIn Profile](https://img.shields.io/badge/linkedin-profile-blue)](https://www.linkedin.com/in/loic-nazaries/ "LinkedIn Profile")
-
-Mon *[Curriculum Vitae](/documents/CV_Nazaries.L_consultant_data_fr.pdf)*.
-
----
+Télécharger mon *[Curriculum Vitae](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/CV_Nazaries.L_consultant_data_fr.pdf)*.
 
 ---
 
 ## Mes projets actuels
 
----
-
 ### Pipeline d'intégration, de nettoyage et de validation de données
 
 Une **base de données relationnelle** de type  « **flocon de neige** » a été modélisée à partir de fichiers de type et d'origine multiples (enregistreurs automatiques, mesures manuelles, fichiers au formats variés - .csv, .txt, tableur, *etc.*). Grâce aux fonctionnalités Python, ces données ont été uniformisées et "nettoyées" tout en respectant les bonnes pratiques statistiques (par exemple, pas de "*cherry-picking*", ni de "*data dredging*", *etc.* - *cf.*
-[*Data Fallacies to avoid*](/documents/data-fallacies-to-avoid.pdf "Data Fallacies to avoid")).
+[*Data Fallacies to avoid*](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/data-fallacies-to-avoid.pdf "Data Fallacies to avoid")).
 
 En particulier, les trois étapes suivantes sont importantes dans tout projet de « ***Data Science*** » :
 
@@ -153,15 +146,15 @@ En particulier, les trois étapes suivantes sont importantes dans tout projet de
 
 2. **Remplacement** (ou ***imputation***) des **valeurs manquantes** ([**Figure 1**](#figure-1)). C'est une étape importante qui permet de préserver la puissance statistique d'un jeux de données
 
-    | Before Imputation                                                                                                           | After Imputation                                                                                                             |
-    | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-    | ![Missing Values BEFORE Imputation](./images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](./images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
+    | Before Imputation                                                                                                                                                                                      | After Imputation                                                                                                                                                                                        |
+    | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | ![Missing Values BEFORE Imputation](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/ghg_flux_data_missing_data_raw_heatmap.png "Missing Values BEFORE Imputation") | ![Missing Values BEFORE Imputation](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/ghg_flux_data_missing_data_clean_heatmap.png "Missing Values AFTER Imputation") |
 
     **Figure 1**:  The replacement (or **imputation**) of missing values by mathematical approach. Here, when the value of a replicated measurement (usually seven (7) replicates) was missing (*left panel*), it was replaced by the **"mean" value** of the other replicated samples. The remaining missing values (*right panel*) represent non-replicated data which can be imputed using more powerful machine learning approaches (not detailed here).
 
 3. Transformation des variables pour obtenir une distribution dite « **normale** » ([**Figure 2**](#figure-2)). Le but est donc de diminuer le nombre de **valeurs « extrêmes »**, c'est-à-dire des valeurs *très* éloignées de la valeur moyenne.
 
-    ![N2O Data Transformations](./images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
+    ![N2O Data Transformations](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/n2o_flux_distrib_violinplots.png "N2O Data Transformations")
 
     **Figure 2**: Mathematical transformation of nitrous oxide (N<sub>2</sub>O) emissions. The various « violin plots » represent different transformation of the raw data in order to seek « **normal distribution** » *(e.g.* standardised transformation, square-root transformation, *etc.*). The aim is to reach a **symmetrical distribution** and thus avoid (left- or right-handed) tails.
 
@@ -190,11 +183,11 @@ Il s'agit d'une application entièrement réglable une fois que l'utilisateur a 
 Des captures d'écran sont disponibles dans la ([**Figure 3**](#figure-3)).
 Elles reflètent certaines des options disponibles à l'utilisateur.
 
-| Login to GHG Estimation Portal                                                                                      | Variable Selection                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ![Login Screenshot](./images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](./images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
-| Time-Series Analysis                                                                                                | Email Option                                                                                                       |
-| ![Time-Series Analysis Screenshot](./images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](./images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
+| Login to GHG Estimation Portal                                                                                                                                                                 | Variable Selection                                                                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Login Screenshot](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/streamlit_login_screenshot.png "Login Screenshot")                                     | ![Variable Selection Screenshot](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/streamlit_vars_selection_screenshot.png "Variable Selection Screenshot") |
+| Time-Series Analysis                                                                                                                                                                           | Email Option                                                                                                                                                                                  |
+| ![Time-Series Analysis Screenshot](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/streamlit_time_series_screenshot.png "Time-Series Analysis Screenshot") | ![Email Option Screenshot](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/streamlit_email_screenshot.png "Email Option Screenshot")                      |
 
 **Figure 3**: Screenshots of various steps and options available to the user on the web application « Greenhouse Gas Estimation Portal ».
 
@@ -204,11 +197,7 @@ Note: Dans l'avenir, une section de *machine learning* sera disponible. Il sera 
 
 ---
 
----
-
 ## Mes projets passés
-
----
 
 ### Modélisation d'une base de données
 
@@ -216,19 +205,19 @@ Un **système de gestion de base de données relationnelle** (SGBDR) a été con
 
 Note: le projet *EucFACE* est présenté brièvement [ici](#modélisation-des-émissions-des-gaz-à-effet-de-serre "EucFACE project").
 
-Cliquer [ici](/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[Tableau de bord](#tableau-de-bord "Tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
+Cliquer [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/RDBMS_UML.html "RDBMS UML - EucFACE") pour ouvrir la structure UML de l'application ***Greenhouse Gas Estimation Portal*** (voir la section précédente "[Tableau de bord](#tableau-de-bord "Tableau de bord")"). Y sont contenus les diagrammes de contexte, de fonctionnalités, de cas d'utilisation et d'activité de la base de données EucFACE.
 
 Les [**Figure 4**](#figure-4) et [**Figure 5**](#figure-5) montrent, respectivement, le **modèle conceptuel des données** (**MCD**) et le **modèle physique des données** (**MPD**) de la base de données relationnelle EucFACE. Sa structure est de type  « **flocon de neige** ».
 
 #### Modèle conceptuel des données (MCD)
 
-![MCD_EucFACE](./images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
+![MCD_EucFACE](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/EucFACE_MCD.png "Modèle conceptuel des données - EucFACE")
 
 **Figure 4**: Modèle conceptuel des données (**MCD**) de la base de données relationnelle du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
 #### Modèle physique des données (MPD)
 
-![MPD_EucFACEl](./images/RDBMS_model.png "Modèle physique des données - EucFACE")
+![MPD_EucFACEl](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/RDBMS_model.png "Modèle physique des données - EucFACE")
 
 **Figure 5**: Diagramme du système de gestion de base de données relationnelle (**SGBDR**) du projet "[EucFACE](#modélisation-des-émissions-des-gaz-à-effet-de-serre "Modelling Greenhouse Gas Emissions")".
 
@@ -244,7 +233,7 @@ Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loi
 
 **Vidéo 1**: Moving up a ring at the EucFACE site.
 
-![EucFACE site Canopy View](./images/Completed_EucFace_Rings.jpg "EucFACE site Canopy View")
+![EucFACE site Canopy View](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/Completed_EucFace_Rings.jpg "EucFACE site Canopy View")
 
 **Photo 1**: Canopy view from Ring 1 at the EucFACE Site.
 
@@ -252,7 +241,7 @@ Une analyse temporelle (*time-series analysis*) a été appliquée ([**Figure 6*
 
 > « Quel est l'effet de l'augmentation du dioxide de carbone (CO<sub>2</sub>) dans l'atmosphère sur les émissions des gaz à effet de serre? »
 
-![Monthly GHG Emissions](./images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
+![Monthly GHG Emissions](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/GHG_fluxes_time_series.png "Monthly GHG Emissions")
 
 **Figure 6**: Greenhouse gas (GHG) emissions for méthane (CH<sub>4</sub> flux - panel a), nitrous oxide (N<sub>2</sub>O flux - panel b) and carbon dioxide (CO<sub>2</sub> flux - panel c). Ambient (blue line) and elevated (red line) atmosphérique CO<sub>2</sub> concentrations represent the « treatment » applied to test the scientific hypothesis investigated.
 
@@ -269,8 +258,8 @@ Un conglomérat d’agriculteurs australiens a financé une étude dans laquelle
 Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (« **KPI** » en anglais) qui révèle comment chaque pratique agricole impacte le recyclage des nutriments dans le sol, en d’autres termes, la qualité et la quantité des récoltes de blé. Durant ce projet, j’ai appris à ajuster mon discours de manière à le rendre plus compréhensible (travail de vulgarisation) auprès de non-spécialistes, c’est-à-dire les agriculteurs et les acteurs locaux. Voir la publication [Nazaries *et al.*, 2021](https://github.com/loic-nazaries/loic-nazaries.github.io/blob/main/scientific_publications.md "Nazaries et al., 2021 - Agriculture, Ecosystems and Environment - In Print").
 > The response of soil multi-functionality to agricultural management practices can be predicted by key soil abiotic and biotic properties. *Agriculture, Ecosystems & Environment* 307, 107206. doi:<https://doi.org/10.1016/j.agee.2020.107206>.
 
-![KPI Visualisation](./images/KPI_all_sites.png "KPI Visualisation")
-![Modelling KPI](./images/Modelling_KPI.png "Modelling KPI")
+![KPI Visualisation](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/KPI_all_sites.png "KPI Visualisation")
+![Modelling KPI](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/Modelling_KPI.png "Modelling KPI")
 
 **Figure 7**: The effect of agricultural practices on the **KPI** (or Multifunctionality (MF) Index) at three locations (sites a, b and c - top panel). The bottom panel shows the **modelling** of the KPI and indicates which variables had the highest influence on the KPI. The modelling approach was **Information theory and multi-model inference** (MMI) and used the **Akaike’s Information Criterion** (corrected for sample size, or **AIC<sub>C</sub>**) to compare the model strengths with each other.
 
@@ -279,12 +268,12 @@ Au terme de mes analyses, j’ai défini un **indicateur clé de performance** (
 ### Modélisation géographique
 
 J’ai complété une étude décrivant les étapes de modélisation nécessaire pour **prédire la répartition géographique** de microbes dans le sol responsables de la réduction des concentrations de méthane (un puissant gaz effet de serre) dans l’atmosphère.
-Grâce au sponsor du gouvernement écossais, une grande base de données a été construite après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, *etc.*) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des **méthodes statistiques** pointues. Voir la publication [Nazaries *et al.*, 2018](/documents/scientific_publications/Nazaries_et_al_2018.pdf "Nazaries et al., 2018 - Soil Biology and Biochemistry").
+Grâce au sponsor du gouvernement écossais, une grande base de données a été construite après un sondage du sol dans toute l’Écosse. L’objectif a été de collecter plusieurs données environnementales (température, pluies, humidité, nutriments, fertilité, composition minérale, *etc.*) pour mieux décrire les procédés biologiques dans le sol. J’ai réparti les tâches de modélisation entre mes collaborateurs pour faire avancer le processus intellectuel. Une fois les analyses terminées, j’ai écrit un article scientifique pour présenter nos résultats. Cela a été une occasion fantastique pour apprendre à manier des **méthodes statistiques** pointues. Voir la publication [Nazaries *et al.*, 2018](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scientific_publications/Nazaries_et_al_2018.pdf "Nazaries et al., 2018 - Soil Biology and Biochemistry").
 > Environmental drivers of the geographical distribution of methanotrophs: Insights from a national survey. *Soil Biology and Biochemistry*. doi:<https://doi.org/10.1016/J.SOILBIO.2018.08.014>.
 
-| Geographical Modelling                                                | Microbial Community Clusters                                         |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| ![pmoA-33 T-RF Map](./images/pmoA-33_T-RF_map.jpg "pmoA-33 T-RF Map") | ![pmoA MT-RFLP CVA](./images/pmoA_MTRFLP_CVA.jpg "pmoA-33 T-RF Map") |
+| Geographical Modelling                                                                                                                           | Microbial Community Clusters                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![pmoA-33 T-RF Map](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/pmoA-33_T-RF_map.jpg "pmoA-33 T-RF Map") | ![pmoA MT-RFLP CVA](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/pmoA_MTRFLP_CVA.jpg "pmoA-33 T-RF Map") |
 
 **Figure 8**: **Geographical modelling** of microbes involved in the uptake of atmospheric methane and its storage in soil (left panel). The right panel shows how microbes **cluster** with each other within different ecosystems.
 
@@ -295,16 +284,12 @@ J’ai rendu publique (***open source***) ma base de données sur le site [figsh
 ### Coopération internationale
 
 Après avoir établi une collaboration avec des chercheurs d’Australie, Angleterre, Écosse et États-Unis, j’ai mis en place une série de **protocoles** afin d’organiser les tâches administratives et techniques nécessaire pour remplir l’objectif de la mission (mesure des gaz à effet de serre). J’ai aussi eu à charge la **formation** des collaborateurs et la **coordination** des équipes pour garantir les délivrables.
-Une fois les données générées, je les ai soumis à une **analyse descriptive** complète qui inclue: **agrégation et préparation ; enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration**. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un **rapport de mission**. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. **Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des ***challenges*** administratifs, techniques et humains**. Un des articles issus de cette collaboration est [Martins, Nazaries *et al.*, 2017](/documents/scientific_publications/Martins_et_al_2017.pdf "Martins, Nazaries et al. 2017 - Functional Ecology").
+Une fois les données générées, je les ai soumis à une **analyse descriptive** complète qui inclue: **agrégation et préparation ; enregistrement dans une base de données ; nettoyage ; détection de données aberrantes et de données manquantes ; transformation/normalisation ; exploration**. Enfin, j’ai conduit toutes les analyses statistiques, j’ai préparé les résultats (tables et graphes) et j’ai décrit les conclusions dans un **rapport de mission**. Particulièrement, j’ai présenté les conclusions de cette étude devant les « clients », c’est-à-dire les organismes privés et publiques qui ont financés ma recherche. **Grâce à cette expérience, j’ai réussi à gérer des projets de bout-en-bout ainsi qu’à faire face à des ***challenges*** administratifs, techniques et humains**. Un des articles issus de cette collaboration est [Martins, Nazaries *et al.*, 2017](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scientific_publications/Martins_et_al_2017.pdf "Martins, Nazaries et al. 2017 - Functional Ecology").
 > Identifying environmental drivers of greenhouse gas emissions under warming and reduced rainfall in boreal-temperate forests. *Functional Ecology* 31, 2356–2368. doi:<https://doi.org/10.1111/1365-2435.12928>.
 
 ---
 
----
-
 ## Autres exemples de *Data Viz*
-
----
 
 ### Google BigQuery & Google Data Studio
 
@@ -315,7 +300,7 @@ Par example, le film le plus coûteux a été produit en 2006 en Corée du Sud. 
 **NOTE**: les sommes indiquées ne sont pas réelles. Le jeux de données a été téléchargé depuis le site Kaggle.com en utilisant le lien suivant:
 [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
 
-![IMDB Dashboard](./images/IMDB-project.png "IMDB Budget Project")
+![IMDB Dashboard](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/IMDB-project.png "IMDB Budget Project")
 
 Méthodologie:
 
@@ -335,11 +320,11 @@ Il s'agit là d'une collection de graphiques mettant en avant les conséquences 
 
 Les correlations de ces gaz avec la température de l'air, l'humidité du sol et la température du soil sont aussi explorées car ces variables environnementales jouent un rôle crucial sur les émissions des gaz à effet de serre. Les variations saisonnières et annuelles de ces émissions sont aussi observées.
 
-Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](/documents/tableau_visuals.pptx "Tableau Visuals"). Ci-dessous se trouve un aperçu de ces graphes avec, en particulier, un **tableau de bord** créé avec le logiciel **Tableau**.
+Les résultats sont rassemblés dans le fichier Microsoft PowerPoint [suivant](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/tableau_visuals.pptx "Tableau Visuals"). Ci-dessous se trouve un aperçu de ces graphes avec, en particulier, un **tableau de bord** créé avec le logiciel **Tableau**.
 
-![Tableau Dashboard](./images/tableau_dashboard.png "Tableau Dashboard")
+![Tableau Dashboard](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/tableau_dashboard.png "Tableau Dashboard")
 
-Le fichier sous le format "Tableau Packaged Workbook" (lecture du fichier avec Tableau Reader) est disponible [ici](/documents/tableau_visuals.twbx "Tableau File").
+Le fichier sous le format "Tableau Packaged Workbook" (lecture du fichier avec Tableau Reader) est disponible [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/tableau_visuals.twbx "Tableau File").
 
 ---
 
@@ -349,11 +334,7 @@ Bientôt !
 
 ---
 
----
-
 ## Mes *Scripts/Gists*
-
----
 
 ### Créer un environnement virtuel avec Python
 
@@ -363,7 +344,7 @@ Pour cette raison, il est courant de créer un **environnement virtuel** qui va 
 
 Voici donc un **script**, ou ***gist***, qui détaille les différents étapes de la création d'un **environnement virtuel** avec le module "**venv**" de **Python**.
 
-Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_python.html "Create a Virtual Environment with Python - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - Markdown Version").
+Le *gist* est disponible [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scripts_gists/create_a_virtual_environment_with_python.html "Create a Virtual Environment with Python - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Python - Markdown Version").
 
 ---
 
@@ -373,7 +354,7 @@ Ici, contrairement au module standard de Python (*venv*), la gestion des **libra
 
 La différence avec un le module "venv" de Python est que la version de Python (par exemple version 2.7 *vs.* 3.9.1) est aussi installée.
 
-Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environment_with_conda.html "Create a Virtual Environment with Conda - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - Markdown Version").
+Le *gist* est disponible [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scripts_gists/create_a_virtual_environment_with_conda.html "Create a Virtual Environment with Conda - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a Virtual Environment with Conda - Markdown Version").
 
 ---
 
@@ -381,7 +362,7 @@ Le *gist* est disponible [ici](/documents/scripts_gists/create_a_virtual_environ
 
 Bientôt !
 
-[//]: <Le gist est disponible [ici](/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a repository with Git - Markdown Version").>
+[//]: <Le gist est disponible [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scripts_gists/create_a_repository_with_git.html "Create a repository with Git - HTML Version") ainsi que sur [GitHub Gist](https://gist.github.com/loic-nazaries "Create a repository with Git - Markdown Version").>
 
 ---
 
@@ -405,9 +386,7 @@ Voici donc un script, ou gist, qui détaille les différents étapes de la créa
 
 NOTE: le script présenté a besoin d'être édité pour bien organiser les différents étapes. Cela sera bientôt fait.
 
-Le *gist* est disponible [ici](/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html "Create an ETL process with Google BigQuery and Google Data Studio - HTML Version") ainsi que sur mon [GitHub Gist](https://gist.github.com/loic-nazaries "Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version") (bientôt!).
-
----
+Le *gist* est disponible [ici](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scripts_gists/create_etl_process_with_bigquery_and_data_studio.html "Create an ETL process with Google BigQuery and Google Data Studio - HTML Version") ainsi que sur mon [GitHub Gist](https://gist.github.com/loic-nazaries "Create an ETL process with Google BigQuery and Google Data Studio - Markdown Version") (bientôt!).
 
 ---
 
@@ -419,11 +398,7 @@ Bientôt !
 
 ---
 
----
-
 ## Autres réalisations professionnelles
-
----
 
 ### Maître de thèse
 
@@ -433,7 +408,7 @@ J’ai eu la responsabilité de superviser deux étudiantes. Je les ai soutenues
 
 ### Revue littéraire
 
-J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane (CH<sub>4</sub>) qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai décrit les bactéries responsables du **cycle du CH<sub>4</sub> entre l’atmosphère et le sol** ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique (voir [Nazaries *et al.*, 2013](/documents/scientific_publications/Nazaries_et_al_2013b.pdf "Nazaries et al. 2013 - Environmental Microbiology")).
+J’ai recherché sur internet des centaines d’études et d’articles en rapport avec mon thème de recherche : les émissions biologiques du gaz méthane (CH<sub>4</sub>) qui produit un effet de serre 31 fois plus puissant que the dioxide de carbone (CO<sub>2</sub>). J’ai décrit les bactéries responsables du **cycle du CH<sub>4</sub> entre l’atmosphère et le sol** ainsi que leurs propriétés génétiques et biochimiques. J’ai concentré mes trouvailles en une large revue publiée dans un journal scientifique (voir [Nazaries *et al.*, 2013](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/scientific_publications/Nazaries_et_al_2013b.pdf "Nazaries et al. 2013 - Environmental Microbiology")).
 > Methane, microbes and models: fundamental understanding of the soil methane cycle for future predictions. *Journal of Environmental Microbiology*. doi:<https://doi.org/10.1111/1462-2920.12149>.
 
 ---
@@ -444,7 +419,7 @@ Ou, Surmonter une difficulté.
 
 J’ai été confronté à une **situation frustrante** au cours de laquelle un system de détection génétique était défectueux. J’ai opéré une recherche bibliographique au cours de laquelle j’ai trouvé un algorithme d’optimisation opérationnelle appartenant aux méthodes [***Taguchi***](https://en.wikipedia.org/wiki/Taguchi_methods "Taguchi Methods"). L'utilisation d'une ***loss function*** spécifique m’a aidé à franchir cet obstacle. Cette approche est beaucoup utilisée dans l’industrie pour améliorer la qualité des produits de confection ; mais j’ai su l’adapté à ma technologie génétique.
 
-Les méthodes Taguchi sont applicables à tout procédés quantitatifs. Si vous cherchez à optimiser une méthode de détection génétique appelée *qPCR*, j'ai préparé une [présentation](/documents/taguchi_optimisation_qpcr.ppsx "qPCR Optimisation with the Taguchi Methods") qui pourrait vous intéresser.
+Les méthodes Taguchi sont applicables à tout procédés quantitatifs. Si vous cherchez à optimiser une méthode de détection génétique appelée *qPCR*, j'ai préparé une [présentation](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/documents/taguchi_optimisation_qpcr.ppsx "qPCR Optimisation with the Taguchi Methods") qui pourrait vous intéresser.
 
 ---
 
