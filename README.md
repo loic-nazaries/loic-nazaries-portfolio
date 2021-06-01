@@ -100,27 +100,27 @@ More to come!
 
 ### Les technologies que j'utilise
 
-<img alt="Python" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" />
-<img alt="SAS" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/sas-6.svg" />
-<img alt="SQL" align="left" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
-<img alt="PostgreSQL" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" />
-<img alt="Google BigQuery" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" />
-<img alt="Google Data Studio" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-data-studio.svg" />
-<img alt="Tableau" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" />
-<img alt="Jupyter" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/jupyter.svg" />
-<img alt="Alteryx" align="left" width="30" src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/alteryx_logo.jpg" />
-<img alt="Talend" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/talend.svg" />
-<img alt="Snowflake" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/snowflake.svg" />
-<img alt="Conda" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/conda.svg" />
-<img alt="Git" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/git.svg" />
-<img alt="GitHub" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" />
-<img alt="Visual Studio Code" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" />
-<img alt="Heroku" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" />
-<img alt="Streamlit" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/streamlit.svg" />
-<img alt="Hugo" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/hugo.svg" />
-<img alt="Markdown" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/markdown.svg" />
-<img alt="YAML" align="left" width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png" />
-<img alt="Microsoft Office" height="30" src="https://cdn.worldvectorlogo.com/logos/microsoft-office-2013.svg" />
+<img alt="Python" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/python-5.svg" />&nbsp;
+<img alt="SAS" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/sas-6.svg" />&nbsp;
+<img alt="SQL" align="left" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />&nbsp;
+<img alt="PostgreSQL" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" />&nbsp;
+<img alt="Google BigQuery" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg" />&nbsp;
+<img alt="Google Data Studio" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/google-data-studio.svg" />&nbsp;
+<img alt="Tableau" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" />&nbsp;
+<img alt="Jupyter" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/jupyter.svg" />&nbsp;
+<img alt="Alteryx" align="left" width="30" src="https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/alteryx_logo.jpg" />&nbsp;
+<img alt="Talend" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/talend.svg" />&nbsp;
+<img alt="Snowflake" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/snowflake.svg" />&nbsp;
+<img alt="Conda" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/conda.svg" />&nbsp;
+<img alt="Git" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/git.svg" />&nbsp;
+<img alt="GitHub" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" />&nbsp;
+<img alt="Visual Studio Code" align="left" width="30" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" />&nbsp;
+<img alt="Heroku" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" />&nbsp;
+<img alt="Streamlit" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/streamlit.svg" />&nbsp;
+<img alt="Hugo" align="left" width="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/hugo.svg" />&nbsp;
+<img alt="Markdown" align="left" height="30" src="https://cdn.worldvectorlogo.com/logos/markdown.svg" />&nbsp;
+<img alt="YAML" align="left" width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png" />&nbsp;
+<img alt="Microsoft Office" height="30" src="https://cdn.worldvectorlogo.com/logos/microsoft-office-2013.svg" />&nbsp;
 <!-- <img alt="Chocolatey" align="left" width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/chocolatey/chocolatey.png" /> -->
 
 <!-- <img alt="Google" align="left" width="26" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/google.svg" /> -->
