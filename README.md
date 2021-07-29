@@ -233,6 +233,7 @@ Voir la section [EucFACE Site Presentation](https://github.com/loic-nazaries/loi
 
 **Vidéo 1**: Moving up a ring at the EucFACE site.
 
+&nbsp;
 
 ![EucFACE site Canopy View](https://raw.githubusercontent.com/loic-nazaries/loic-nazaries-portfolio/main/images/Completed_EucFace_Rings.jpg "EucFACE site Canopy View")
 
